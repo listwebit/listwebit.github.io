@@ -7,13 +7,16 @@
   
   <title>PageRank的前世今生 | 帅的掉渣的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
+  <meta name="description" content="####一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于19">
+<meta property="og:type" content="article">
 <meta property="og:title" content="PageRank的前世今生">
 <meta property="og:url" content="http://yoursite.com/2018/08/08/PageRank的前世今生/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
-<meta property="og:updated_time" content="2018-08-08T08:56:19.307Z">
+<meta property="og:description" content="####一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于19">
+<meta property="og:updated_time" content="2018-08-08T12:21:47.483Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PageRank的前世今生">
+<meta name="twitter:description" content="####一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于19">
   
     <link rel="alternate" href="/atom.xml" title="帅的掉渣的博客" type="application/atom+xml">
   
@@ -51,9 +54,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Buscar"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -84,11 +87,23 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>####一、算法定义<br>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p>
+<p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
+<h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p>
+<p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p>
+<p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p>
+<h4 id="三、搜索引擎"><a href="#三、搜索引擎" class="headerlink" title="三、搜索引擎"></a>三、搜索引擎</h4><p>搜索引擎的功能主要是：根据用户输入的关键字，返回文档的链接结果。<br>搜索引擎主要解决的三大问题：(1)如何获取文档资料  (2)如何根据关键词检索到相关文档  (3)如何对文档进行排序，返回给用户满意的页面。</p>
+<h6 id="1-获取文档资料"><a href="#1-获取文档资料" class="headerlink" title="1.获取文档资料"></a>1.获取文档资料</h6><p>利用爬虫程序，获取互联网的页面资料。爬虫技术先从一个网页出发，将该网页的内容记录下来，保存到资料库，接着分析页面中的超链接，分别递归得去获取超链接页面。</p>
+<h6 id="2-如何根据关键词检索到相关文档"><a href="#2-如何根据关键词检索到相关文档" class="headerlink" title="2.如何根据关键词检索到相关文档"></a>2.如何根据关键词检索到相关文档</h6><p>采用倒排索引算法。简单的说，倒排索引是一对key-value对，key代表关键词，value代表拥有这些关键词的文档编号或者url。</p>
+<h6 id="3-文档排序"><a href="#3-文档排序" class="headerlink" title="3.文档排序"></a>3.文档排序</h6><p>这是搜索引擎最核心的问题，也是google发家致富的法宝 – PageRank算法。</p>
+<h4 id="四、算法原理"><a href="#四、算法原理" class="headerlink" title="四、算法原理"></a>四、算法原理</h4><p>PageRank算法总的来说就是预先给每个网页一个PR值（下面用PR值指代PageRank值），由于PR值物理意义上为一个网页被访问概率，所以一般是1/N，其中N为网页总数。</p>
+<p>预先给定PR值后，通过下面的算法不断迭代，直至达到平稳分布为止。</p>
+<p><strong><em>PageRank值主要是的是节点的入链值。</em></strong></p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/08/08/PageRank的前世今生/" data-id="cjkl3d3u10000xklcfzajc0gi" class="article-share-link">Compartir</a>
+      <a data-url="http://yoursite.com/2018/08/08/PageRank的前世今生/" data-id="cjkl3d3u10000xklcfzajc0gi" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -99,7 +114,7 @@
   
   
     <a href="/2018/01/09/回归的分类/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Viejo</strong>
+      <strong class="article-nav-caption">Älter</strong>
       <div class="article-nav-title">回归的分类</div>
     </a>
   
@@ -114,7 +129,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Categorías</h3>
+    <h3 class="widget-title">Kategorien</h3>
     <div class="widget">
       <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/机器学习/">机器学习</a></li></ul>
     </div>
@@ -134,7 +149,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Nube de Tags</h3>
+    <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
       <a href="/tags/机器学习/" style="font-size: 10px;">机器学习</a>
     </div>
@@ -143,7 +158,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archivos</h3>
+    <h3 class="widget-title">Archiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li></ul>
     </div>
@@ -153,7 +168,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Posts recientes</h3>
+    <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
         
@@ -190,7 +205,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2018 listwebit<br>
-      Construido por <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
