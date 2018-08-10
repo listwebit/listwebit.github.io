@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://yoursite.com/2018/08/08/PageRank的前世今生/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
 <meta property="og:description" content="####一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于19">
-<meta property="og:updated_time" content="2018-08-08T12:35:16.938Z">
+<meta property="og:updated_time" content="2018-08-10T02:29:45.748Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PageRank的前世今生">
 <meta name="twitter:description" content="####一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于19">
@@ -87,8 +87,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>####一、算法定义<br>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p>
-<p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
+        <p>####一、算法定义<br>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。<br><a id="more"></a><br>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
 <h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p>
 <p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p>
 <p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p>

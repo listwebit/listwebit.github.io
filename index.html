@@ -85,123 +85,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="一、人工智能学习算法分类"><a href="#一、人工智能学习算法分类" class="headerlink" title="一、人工智能学习算法分类"></a>一、人工智能学习算法分类</h2><p> 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法(Machine Learning)和深度学习算法(Deep Learning)</p>
-<h4 id="总的来说，在sklearn中机器学习算法大概的分类如下："><a href="#总的来说，在sklearn中机器学习算法大概的分类如下：" class="headerlink" title="总的来说，在sklearn中机器学习算法大概的分类如下："></a>总的来说，在sklearn中机器学习算法大概的分类如下：</h4><p>#####1. 纯算法类</p>
-<ul>
-<li>(1).回归算法</li>
-<li>(2).分类算法</li>
-<li>(3).聚类算法</li>
-<li>(4)降维算法</li>
-<li>(5)概率图模型算法</li>
-<li>(6)文本挖掘算法</li>
-<li>(7)优化算法</li>
-<li>(8)深度学习算法<h5 id="2-建模方面"><a href="#2-建模方面" class="headerlink" title="2.建模方面"></a>2.建模方面</h5></li>
-<li>(1).模型优化</li>
-<li>(2).数据预处理</li>
-</ul>
-<h2 id="二、详细算法"><a href="#二、详细算法" class="headerlink" title="二、详细算法"></a>二、详细算法</h2><h4 id="1-分类算法"><a href="#1-分类算法" class="headerlink" title="1.分类算法"></a>1.分类算法</h4><ul>
-<li>(1).LR (Logistic Regression，逻辑回归又叫逻辑分类)</li>
-<li>(2).SVM (Support Vector Machine，支持向量机)</li>
-<li>(3).NB  (Naive Bayes，朴素贝叶斯)</li>
-<li>(4).DT  (Decision Tree，决策树)<ul>
-<li>1).C4.5</li>
-<li>2).ID3</li>
-<li>3).CART</li>
-</ul>
-</li>
-<li>(5).集成算法<ul>
-<li>1).Bagging</li>
-<li>2).Random Forest (随机森林)</li>
-<li>3).GB(梯度提升,Gradient boosting)</li>
-<li>4).GBDT (Gradient Boosting Decision Tree)</li>
-<li>5).AdaBoost  </li>
-<li>6).Xgboost</li>
-</ul>
-</li>
-<li><p>(6).最大熵模型</p>
-<h4 id="2-回归算法"><a href="#2-回归算法" class="headerlink" title="2.回归算法"></a>2.回归算法</h4><ul>
-<li>(1).LR (Linear Regression，线性回归)</li>
-<li>(2).SVR (支持向量机回归)</li>
-<li>(3). RR (Ridge Regression，岭回归)<h4 id="3-聚类算法"><a href="#3-聚类算法" class="headerlink" title="3.聚类算法"></a>3.聚类算法</h4></li>
-<li>(1).Knn </li>
-<li>(2).Kmeans 算法</li>
-<li>(3).层次聚类</li>
-<li>(4).密度聚类<h4 id="4-降维算法"><a href="#4-降维算法" class="headerlink" title="4.降维算法"></a>4.降维算法</h4></li>
-<li>(1).SGD  (随机梯度下降)</li>
-<li>(2). <h4 id="5-概率图模型算法"><a href="#5-概率图模型算法" class="headerlink" title="5.概率图模型算法"></a>5.概率图模型算法</h4><ul>
-<li>(1).贝叶斯网络</li>
-<li>(2).HMM</li>
-<li>(3).CRF (条件随机场)<h4 id="6-文本挖掘算法"><a href="#6-文本挖掘算法" class="headerlink" title="6.文本挖掘算法"></a>6.文本挖掘算法</h4></li>
-</ul>
-</li>
-<li>(1).模型<ul>
-<li>1).LDA (主题生成模型，Latent Dirichlet Allocation)</li>
-<li>4).最大熵模型</li>
-</ul>
-</li>
-<li>(2).关键词提取<ul>
-<li>1).tf-idf</li>
-<li>2).bm25</li>
-<li>3).textrank</li>
-<li>4).pagerank</li>
-<li>5).左右熵 :左右熵高的作为关键词</li>
-<li>6).互信息： </li>
-</ul>
-</li>
-<li>(3).词法分析<ul>
-<li>1).分词<ul>
-<li>①HMM (因马尔科夫)</li>
-<li>②CRF (条件随机场)</li>
-</ul>
-</li>
-<li>2).词性标注</li>
-<li>3).命名实体识别</li>
-</ul>
-</li>
-<li>(4).句法分析<ul>
-<li>1).句法结构分析</li>
-<li>2).依存句法分析</li>
-</ul>
-</li>
-<li>(5).文本向量化<ul>
-<li>1).tf-idf</li>
-<li>2).word2vec</li>
-<li>3).doc2vec</li>
-<li>4).cw2vec</li>
-</ul>
-</li>
-<li>(6).距离计算<ul>
-<li>1).欧氏距离</li>
-<li>2).相似度计算</li>
-</ul>
-</li>
-</ul>
-<h4 id="7-优化算法"><a href="#7-优化算法" class="headerlink" title="7.优化算法"></a>7.优化算法</h4><ul>
-<li>(1).正则化<ul>
-<li>1).L1正则化</li>
-<li>2).L2正则化<h4 id="8-深度学习算法"><a href="#8-深度学习算法" class="headerlink" title="8.深度学习算法"></a>8.深度学习算法</h4></li>
-</ul>
-</li>
-<li>(1).BP </li>
-<li>(2).CNN</li>
-<li>(3).DNN</li>
-<li>(3).RNN</li>
-<li>(4).LSTM</li>
-</ul>
-</li>
-</ul>
-<h2 id="三、建模方面"><a href="#三、建模方面" class="headerlink" title="三、建模方面"></a>三、建模方面</h2><h4 id="1-模型优化·"><a href="#1-模型优化·" class="headerlink" title="1.模型优化·"></a>1.模型优化·</h4><ul>
-<li>(1).特征选择</li>
-<li>(2).梯度下降</li>
-<li>(3).交叉验证</li>
-<li>(4).参数调优</li>
-<li>(5).模型评估：准确率、召回率、F1、AUC、ROC、损失函数 <h4 id="2-数据预处理"><a href="#2-数据预处理" class="headerlink" title="2.数据预处理"></a>2.数据预处理</h4></li>
-<li>(1).标准化</li>
-<li>(2).异常值处理</li>
-<li>(3).二值化</li>
-<li>(4).缺失值填充： 支持均值、中位数、特定值补差、多重插补</li>
-</ul>
-
+        <h2 id="一、人工智能学习算法分类"><a href="#一、人工智能学习算法分类" class="headerlink" title="一、人工智能学习算法分类"></a>一、人工智能学习算法分类</h2><p> 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法(Machine Learning)和深度学习算法(Deep Learning)<br>
+        
+          <p class="article-more-link">
+            <a href="/2018/08/10/人工智能机器学习NLP算法分类总结/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -237,19 +126,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>####一、算法定义<br>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p>
-<p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
-<h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p>
-<p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p>
-<p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p>
-<h4 id="三、搜索引擎"><a href="#三、搜索引擎" class="headerlink" title="三、搜索引擎"></a>三、搜索引擎</h4><p>搜索引擎的功能主要是：根据用户输入的关键字，返回文档的链接结果。<br>搜索引擎主要解决的三大问题：(1)如何获取文档资料  (2)如何根据关键词检索到相关文档  (3)如何对文档进行排序，返回给用户满意的页面。</p>
-<h6 id="1-获取文档资料"><a href="#1-获取文档资料" class="headerlink" title="1.获取文档资料"></a>1.获取文档资料</h6><p>利用爬虫程序，获取互联网的页面资料。爬虫技术先从一个网页出发，将该网页的内容记录下来，保存到资料库，接着分析页面中的超链接，分别递归得去获取超链接页面。</p>
-<h6 id="2-如何根据关键词检索到相关文档"><a href="#2-如何根据关键词检索到相关文档" class="headerlink" title="2.如何根据关键词检索到相关文档"></a>2.如何根据关键词检索到相关文档</h6><p>采用倒排索引算法。简单的说，倒排索引是一对key-value对，key代表关键词，value代表拥有这些关键词的文档编号或者url。</p>
-<h6 id="3-文档排序"><a href="#3-文档排序" class="headerlink" title="3.文档排序"></a>3.文档排序</h6><p>这是搜索引擎最核心的问题，也是google发家致富的法宝 – PageRank算法。</p>
-<h4 id="四、算法原理"><a href="#四、算法原理" class="headerlink" title="四、算法原理"></a>四、算法原理</h4><p>PageRank算法总的来说就是预先给每个网页一个PR值（下面用PR值指代PageRank值），由于PR值物理意义上为一个网页被访问概率，所以一般是1/N，其中N为网页总数。</p>
-<p>预先给定PR值后，通过下面的算法不断迭代，直至达到平稳分布为止。</p>
-<p><strong><em>PageRank值主要是的是节点的入链值。</em></strong></p>
-
+        <p>####一、算法定义<br>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。<br>
+        
+          <p class="article-more-link">
+            <a href="/2018/08/08/PageRank的前世今生/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
