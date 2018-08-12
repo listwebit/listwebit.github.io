@@ -147,8 +147,8 @@
   
   <entry>
     <title>这里是句法分析</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/Syntactic%20Parsing/%E8%BF%99%E9%87%8C%E6%98%AF%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/Syntactic Parsing/这里是句法分析/</id>
+    <link href="http://yoursite.com/2017/12/18/NLP/SyntacticParsing/%E8%BF%99%E9%87%8C%E6%98%AF%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/SyntacticParsing/这里是句法分析/</id>
     <published>2017-12-18T09:17:35.000Z</published>
     <updated>2018-08-12T08:48:45.815Z</updated>
     
@@ -158,15 +158,15 @@
     
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="Syntactic Parsing" scheme="http://yoursite.com/categories/NLP/Syntactic-Parsing/"/>
+      <category term="SyntacticParsing" scheme="http://yoursite.com/categories/NLP/SyntacticParsing/"/>
     
     
   </entry>
   
   <entry>
     <title>这里是词法分析</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/Lexical%20Analysis/%E8%BF%99%E9%87%8C%E6%98%AF%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/Lexical Analysis/这里是词法分析/</id>
+    <link href="http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/%E8%BF%99%E9%87%8C%E6%98%AF%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/这里是词法分析/</id>
     <published>2017-12-18T09:17:35.000Z</published>
     <updated>2018-08-12T08:48:26.854Z</updated>
     
@@ -176,7 +176,7 @@
     
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="Lexical Analysis" scheme="http://yoursite.com/categories/NLP/Lexical-Analysis/"/>
+      <category term="LexicalAnalysis" scheme="http://yoursite.com/categories/NLP/LexicalAnalysis/"/>
     
     
   </entry>
