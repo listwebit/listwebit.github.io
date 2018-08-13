@@ -75,7 +75,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -94,9 +94,9 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Articles',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
+            CATEGORIES: 'Catégories',
             TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
@@ -128,7 +128,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
     </div>
 
                 </td>
@@ -145,7 +145,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>categories</span>
+            <span>Catégories</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -193,7 +193,7 @@
                             &nbsp;
                             关键词提取
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取/">关键词提取</a></li>  <li class="file"><a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/">PageRank算法的前世今生</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/">PageRank算法的前世今生</a></li>  <li class="file"><a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取的分类/">关键词提取的分类</a></li>  </ul> 
                     </li> 
                      <li class="file"><a href="/2017/12/18/NLP/LexicalAnalysis/这里是词法分析/">这里是词法分析</a></li>  </ul> 
                     </li> 
@@ -206,7 +206,7 @@
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/SyntacticParsing/这里是句法分析/">这里是句法分析</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/2018/08/08/NLP/PageRank的前世今生/">PageRank的前世今生</a></li>  </ul> 
+                     </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -359,7 +359,7 @@
 
 
     
-        <article id="post-NLP/PageRank的前世今生" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-MachineLearning/回归" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -369,15 +369,15 @@
                         
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a>
+        <a class="article-category-link" href="/categories/MachineLearning/">MachineLearning</a>
     </div>
 
                         
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2018/08/08/NLP/PageRank的前世今生/">
-            <time datetime="2018-08-08T08:56:19.000Z" itemprop="datePublished">2018-08-08</time>
+        <a href="/2018/01/09/MachineLearning/回归/">
+            <time datetime="2018-01-09T08:02:27.000Z" itemprop="datePublished">2018-01-09</time>
         </a>
     </div>
 
@@ -388,13 +388,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/PageRank的前世今生.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/回归.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/PageRank的前世今生.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/回归.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/PageRank的前世今生.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/回归.md'> History </a>
                             </div>
                         
                     </div>
@@ -402,7 +402,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2018/08/08/NLP/PageRank的前世今生/">PageRank的前世今生</a>
+            <a class="article-title" href="/2018/01/09/MachineLearning/回归/">回归</a>
         </h1>
     
 
@@ -414,13 +414,14 @@
         
             
                 
-                <p><p>####一、算法定义<br>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。<br></p>
+                
+                    
+                    
+                
             
         
         
-            </div>   
-            <div class="article-more-link">
-                <a href="/2018/08/08/NLP/PageRank的前世今生/#more">Read More</a>
+            
             </div>
         
         <footer class="article-footer">
@@ -561,82 +562,6 @@
     
         <h1 itemprop="name">
             <a class="article-title" href="/2018/01/09/DeepLearning/deeplearning/">deeplearning</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-            
-        
-        
-            
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-MachineLearning/回归" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/MachineLearning/">MachineLearning</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2018/01/09/MachineLearning/回归/">
-            <time datetime="2018-01-09T08:02:27.000Z" itemprop="datePublished">2018-01-09</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/回归.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/回归.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/回归.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2018/01/09/MachineLearning/回归/">回归</a>
         </h1>
     
 
@@ -978,7 +903,7 @@
 
 
     
-        <article id="post-NLP/LexicalAnalysis/关键词提取/关键词提取" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-NLP/LexicalAnalysis/关键词提取/PageRank的前世今生" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -995,7 +920,7 @@
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取/">
+        <a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/">
             <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
         </a>
     </div>
@@ -1007,13 +932,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/关键词提取.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/关键词提取.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/关键词提取.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生.md'> History </a>
                             </div>
                         
                     </div>
@@ -1021,7 +946,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取/">关键词提取</a>
+            <a class="article-title" href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/">PageRank算法的前世今生</a>
         </h1>
     
 
@@ -1037,10 +962,33 @@
                     
                     
                 
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><h4 id="一、算法定义"><a href="#一、算法定义" class="headerlink" title="一、算法定义"></a>一、算法定义</h4><p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p>
+<p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
+<h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p>
+<p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p>
+<p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p>
+<p>
+                
             
         
         
-            
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/#more">Read More</a>
             </div>
         
         <footer class="article-footer">
@@ -1054,9 +1002,93 @@
 
 
     
-        <nav id="page-nav">
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-        </nav>
+        <article id="post-NLP/LexicalAnalysis/关键词提取/关键词提取的分类" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/LexicalAnalysis/">LexicalAnalysis</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/LexicalAnalysis/关键词提取/">关键词提取</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取的分类/">
+            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/关键词提取的分类.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/关键词提取的分类.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/LexicalAnalysis/关键词提取/关键词提取的分类.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取的分类/">关键词提取的分类</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        
+        
+            <h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p>
+<p>######1.使用外部的知识库<br>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p>
+<p>######2.不适用外部知识库<br>(1).TextRank<br>(2).PageRank</p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
     
 </section>
         </div>

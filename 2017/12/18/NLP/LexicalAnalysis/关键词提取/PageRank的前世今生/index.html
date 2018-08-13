@@ -9,16 +9,16 @@
         <meta name="keywords" content="PageRank算法的前世今生" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="####一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于19">
+    <meta name="description" content="一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PageRank算法的前世今生">
 <meta property="og:url" content="http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
-<meta property="og:description" content="####一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于19">
-<meta property="og:updated_time" content="2018-08-12T15:03:34.709Z">
+<meta property="og:description" content="一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在">
+<meta property="og:updated_time" content="2018-08-13T00:08:23.140Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PageRank算法的前世今生">
-<meta name="twitter:description" content="####一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于19">
+<meta name="twitter:description" content="一、算法定义PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在">
     
 
     
@@ -79,7 +79,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -98,9 +98,9 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Articles',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
+            CATEGORIES: 'Catégories',
             TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
@@ -132,7 +132,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
     </div>
 
                 </td>
@@ -149,7 +149,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>categories</span>
+            <span>Catégories</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -197,7 +197,7 @@
                             &nbsp;
                             关键词提取
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取/">关键词提取</a></li>  <li class="file active"><a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/">PageRank算法的前世今生</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/">PageRank算法的前世今生</a></li>  <li class="file"><a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取的分类/">关键词提取的分类</a></li>  </ul> 
                     </li> 
                      <li class="file"><a href="/2017/12/18/NLP/LexicalAnalysis/这里是词法分析/">这里是词法分析</a></li>  </ul> 
                     </li> 
@@ -210,7 +210,7 @@
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/SyntacticParsing/这里是句法分析/">这里是句法分析</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/2018/08/08/NLP/PageRank的前世今生/">PageRank的前世今生</a></li>  </ul> 
+                     </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -348,7 +348,7 @@
             
         
         
-            <p>####一、算法定义<br>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p>
+            <h4 id="一、算法定义"><a href="#一、算法定义" class="headerlink" title="一、算法定义"></a>一、算法定义</h4><p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p>
 <p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
 <h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p>
 <p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p>
@@ -374,15 +374,20 @@
     
 <nav id="article-nav">
     
-        <a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Newer</strong>
+        <a href="/2017/12/18/NLP/SyntacticParsing/这里是句法分析/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Plus récent</strong>
             <div class="article-nav-title">
                 
-                    关键词提取
+                    这里是句法分析
                 
             </div>
         </a>
     
+    
+        <a href="/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取的分类/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Plus ancien</strong>
+            <div class="article-nav-title">关键词提取的分类</div>
+        </a>
     
 </nav>
 
