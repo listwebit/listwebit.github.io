@@ -76,13 +76,20 @@
   </entry>
   
   <entry>
-    <title>deeplearning</title>
+    <title>deeplearning算法分类</title>
     <link href="http://yoursite.com/2018/01/09/DeepLearning/deeplearning/"/>
     <id>http://yoursite.com/2018/01/09/DeepLearning/deeplearning/</id>
     <published>2018-01-09T08:02:27.000Z</published>
-    <updated>2018-08-12T09:30:09.700Z</updated>
+    <updated>2018-09-12T05:13:33.101Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、常用神经网络分类"><a href="#一、常用神经网络分类" class="headerlink" title="一、常用神经网络分类"></a>一、常用神经网络分类</h4><h6 id="1-感知机-神经网络的前身"><a href="#1-感知机-神经网络的前身" class="headerlink" title="1.感知机(神经网络的前身)"></a>1.感知机(神经网络的前身)</h6><h6 id="2-前向传播算法"><a href="#2-前向传播算法" class="headerlink" title="2.前向传播算法"></a>2.前向传播算法</h6><h6 id="3-BP-反向传播算法"><a href="#3-BP-反向传播算法" class="headerlink" title="3.BP(反向传播算法)"></a>3.BP(反向传播算法)</h6><h6 id="4-DNN-深度神经网络"><a href="#4-DNN-深度神经网络" class="headerlink" title="4.DNN(深度神经网络)"></a>4.DNN(深度神经网络)</h6><h6 id="5-CNN-卷积神经网络"><a href="#5-CNN-卷积神经网络" class="headerlink" title="5.CNN(卷积神经网络)"></a>5.CNN(卷积神经网络)</h6><p>二、学习资料</p><ol><li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li></ol>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、常用神经网络分类&quot;&gt;&lt;a href=&quot;#一、常用神经网络分类&quot; class=&quot;headerlink&quot; title=&quot;一、常用神经网络分类&quot;&gt;&lt;/a&gt;一、常用神经网络分类&lt;/h4&gt;&lt;h6 id=&quot;1-感知机-神经网络的前身&quot;&gt;&lt;a href=&quot;#1-感知机-神经
+      
     
     </summary>
     
@@ -193,16 +200,16 @@
     <link href="http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/"/>
     <id>http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取的分类/</id>
     <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-08-13T00:09:19.998Z</updated>
+    <updated>2018-08-13T00:11:22.877Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p><p>######1.使用外部的知识库<br>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p><p>######2.不适用外部知识库<br>(1).TextRank<br>(2).PageRank</p>]]></content>
+    <content type="html"><![CDATA[<h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p><h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p><h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h4 id=&quot;一、关键词抽取分类&quot;&gt;&lt;a href=&quot;#一、关键词抽取分类&quot; class=&quot;headerlink&quot; title=&quot;一、关键词抽取分类&quot;&gt;&lt;/a&gt;一、关键词抽取分类&lt;/h4&gt;&lt;p&gt;关键词抽取算法可以分为两类&lt;/p&gt;
-&lt;p&gt;######1.使用外部的知识库&lt;br&gt;(
+&lt;h6 id=&quot;1-使用外部的知识库&quot;&gt;&lt;a h
       
     
     </summary>

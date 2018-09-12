@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/01/09/DeepLearning/deeplearning/</loc>
+    
+    <lastmod>2018-09-12T05:13:33.101Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/</loc>
     
-    <lastmod>2018-08-13T00:09:19.998Z</lastmod>
+    <lastmod>2018-08-13T00:11:22.877Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/</loc>
     
     <lastmod>2018-08-13T00:08:23.140Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2018/01/09/DeepLearning/deeplearning/</loc>
-    
-    <lastmod>2018-08-12T09:30:09.700Z</lastmod>
     
   </url>
   
