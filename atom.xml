@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-10T02:29:36.741Z</updated>
+  <updated>2018-01-09T08:02:27.288Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,24 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>人工智能机器学习NLP算法分类总结</title>
-    <link href="http://yoursite.com/2018/08/10/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0NLP%E7%AE%97%E6%B3%95%E5%88%86%E7%B1%BB%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2018/08/10/人工智能机器学习NLP算法分类总结/</id>
-    <published>2018-08-10T02:27:01.000Z</published>
-    <updated>2018-08-10T02:29:36.741Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一、人工智能学习算法分类"><a href="#一、人工智能学习算法分类" class="headerlink" title="一、人工智能学习算法分类"></a>一、人工智能学习算法分类</h2><p> 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法(Machine Learning)和深度学习算法(Deep Learning)<br> <a id="more"></a></p><h4 id="总的来说，在sklearn中机器学习算法大概的分类如下："><a href="#总的来说，在sklearn中机器学习算法大概的分类如下：" class="headerlink" title="总的来说，在sklearn中机器学习算法大概的分类如下："></a>总的来说，在sklearn中机器学习算法大概的分类如下：</h4><p>#####1. 纯算法类</p><ul><li>(1).回归算法</li><li>(2).分类算法</li><li>(3).聚类算法</li><li>(4)降维算法</li><li>(5)概率图模型算法</li><li>(6)文本挖掘算法</li><li>(7)优化算法</li><li>(8)深度学习算法<h5 id="2-建模方面"><a href="#2-建模方面" class="headerlink" title="2.建模方面"></a>2.建模方面</h5></li><li>(1).模型优化</li><li>(2).数据预处理</li></ul><h2 id="二、详细算法"><a href="#二、详细算法" class="headerlink" title="二、详细算法"></a>二、详细算法</h2><h4 id="1-分类算法"><a href="#1-分类算法" class="headerlink" title="1.分类算法"></a>1.分类算法</h4><ul><li>(1).LR (Logistic Regression，逻辑回归又叫逻辑分类)</li><li>(2).SVM (Support Vector Machine，支持向量机)</li><li>(3).NB  (Naive Bayes，朴素贝叶斯)</li><li>(4).DT  (Decision Tree，决策树)<ul><li>1).C4.5</li><li>2).ID3</li><li>3).CART</li></ul></li><li>(5).集成算法<ul><li>1).Bagging</li><li>2).Random Forest (随机森林)</li><li>3).GB(梯度提升,Gradient boosting)</li><li>4).GBDT (Gradient Boosting Decision Tree)</li><li>5).AdaBoost  </li><li>6).Xgboost</li></ul></li><li><p>(6).最大熵模型</p><h4 id="2-回归算法"><a href="#2-回归算法" class="headerlink" title="2.回归算法"></a>2.回归算法</h4><ul><li>(1).LR (Linear Regression，线性回归)</li><li>(2).SVR (支持向量机回归)</li><li>(3). RR (Ridge Regression，岭回归)<h4 id="3-聚类算法"><a href="#3-聚类算法" class="headerlink" title="3.聚类算法"></a>3.聚类算法</h4></li><li>(1).Knn </li><li>(2).Kmeans 算法</li><li>(3).层次聚类</li><li>(4).密度聚类<h4 id="4-降维算法"><a href="#4-降维算法" class="headerlink" title="4.降维算法"></a>4.降维算法</h4></li><li>(1).SGD  (随机梯度下降)</li><li>(2). <h4 id="5-概率图模型算法"><a href="#5-概率图模型算法" class="headerlink" title="5.概率图模型算法"></a>5.概率图模型算法</h4><ul><li>(1).贝叶斯网络</li><li>(2).HMM</li><li>(3).CRF (条件随机场)<h4 id="6-文本挖掘算法"><a href="#6-文本挖掘算法" class="headerlink" title="6.文本挖掘算法"></a>6.文本挖掘算法</h4></li></ul></li><li>(1).模型<ul><li>1).LDA (主题生成模型，Latent Dirichlet Allocation)</li><li>4).最大熵模型</li></ul></li><li>(2).关键词提取<ul><li>1).tf-idf</li><li>2).bm25</li><li>3).textrank</li><li>4).pagerank</li><li>5).左右熵 :左右熵高的作为关键词</li><li>6).互信息： </li></ul></li><li>(3).词法分析<ul><li>1).分词<ul><li>①HMM (因马尔科夫)</li><li>②CRF (条件随机场)</li></ul></li><li>2).词性标注</li><li>3).命名实体识别</li></ul></li><li>(4).句法分析<ul><li>1).句法结构分析</li><li>2).依存句法分析</li></ul></li><li>(5).文本向量化<ul><li>1).tf-idf</li><li>2).word2vec</li><li>3).doc2vec</li><li>4).cw2vec</li></ul></li><li>(6).距离计算<ul><li>1).欧氏距离</li><li>2).相似度计算</li></ul></li></ul><h4 id="7-优化算法"><a href="#7-优化算法" class="headerlink" title="7.优化算法"></a>7.优化算法</h4><ul><li>(1).正则化<ul><li>1).L1正则化</li><li>2).L2正则化<h4 id="8-深度学习算法"><a href="#8-深度学习算法" class="headerlink" title="8.深度学习算法"></a>8.深度学习算法</h4></li></ul></li><li>(1).BP </li><li>(2).CNN</li><li>(3).DNN</li><li>(3).RNN</li><li>(4).LSTM</li></ul></li></ul><h2 id="三、建模方面"><a href="#三、建模方面" class="headerlink" title="三、建模方面"></a>三、建模方面</h2><h4 id="1-模型优化·"><a href="#1-模型优化·" class="headerlink" title="1.模型优化·"></a>1.模型优化·</h4><ul><li>(1).特征选择</li><li>(2).梯度下降</li><li>(3).交叉验证</li><li>(4).参数调优</li><li>(5).模型评估：准确率、召回率、F1、AUC、ROC、损失函数 <h4 id="2-数据预处理"><a href="#2-数据预处理" class="headerlink" title="2.数据预处理"></a>2.数据预处理</h4></li><li>(1).标准化</li><li>(2).异常值处理</li><li>(3).二值化</li><li>(4).缺失值填充： 支持均值、中位数、特定值补差、多重插补</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;一、人工智能学习算法分类&quot;&gt;&lt;a href=&quot;#一、人工智能学习算法分类&quot; class=&quot;headerlink&quot; title=&quot;一、人工智能学习算法分类&quot;&gt;&lt;/a&gt;一、人工智能学习算法分类&lt;/h2&gt;&lt;p&gt; 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法(Machine Learning)和深度学习算法(Deep Learning)&lt;br&gt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>回归</title>
@@ -169,9 +151,37 @@
   </entry>
   
   <entry>
+    <title>关键词提取的分类</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/0.%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/关键词提取/0.关键词提取的分类/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-08-13T00:11:22.877Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p><h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p><h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、关键词抽取分类&quot;&gt;&lt;a href=&quot;#一、关键词抽取分类&quot; class=&quot;headerlink&quot; title=&quot;一、关键词抽取分类&quot;&gt;&lt;/a&gt;一、关键词抽取分类&lt;/h4&gt;&lt;p&gt;关键词抽取算法可以分为两类&lt;/p&gt;
+&lt;h6 id=&quot;1-使用外部的知识库&quot;&gt;&lt;a h
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="LexicalAnalysis" scheme="http://yoursite.com/categories/NLP/LexicalAnalysis/"/>
+    
+      <category term="关键词提取" scheme="http://yoursite.com/categories/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>PageRank算法的前世今生</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/关键词提取/PageRank的前世今生/</id>
+    <link href="http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/1.PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/关键词提取/1.PageRank的前世今生/</id>
     <published>2017-12-18T09:17:35.000Z</published>
     <updated>2018-08-13T00:08:23.140Z</updated>
     
@@ -196,29 +206,22 @@
   </entry>
   
   <entry>
-    <title>关键词提取的分类</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/LexicalAnalysis/关键词提取/关键词提取的分类/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-08-13T00:11:22.877Z</updated>
+    <title>人工智能机器学习NLP算法分类总结</title>
+    <link href="http://yoursite.com/2017/03/10/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0NLP%E7%AE%97%E6%B3%95%E5%88%86%E7%B1%BB%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2017/03/10/人工智能机器学习NLP算法分类总结/</id>
+    <published>2017-03-10T02:27:01.000Z</published>
+    <updated>2018-09-18T09:49:24.191Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p><h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p><h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="一、人工智能学习算法分类"><a href="#一、人工智能学习算法分类" class="headerlink" title="一、人工智能学习算法分类"></a>一、人工智能学习算法分类</h2><p> 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法(Machine Learning)和深度学习算法(Deep Learning)</p><h4 id="总的来说，在sklearn中机器学习算法大概的分类如下："><a href="#总的来说，在sklearn中机器学习算法大概的分类如下：" class="headerlink" title="总的来说，在sklearn中机器学习算法大概的分类如下："></a>总的来说，在sklearn中机器学习算法大概的分类如下：</h4><h5 id="1-纯算法类"><a href="#1-纯算法类" class="headerlink" title="1. 纯算法类"></a>1. 纯算法类</h5><ul><li>(1).回归算法</li><li>(2).分类算法</li><li>(3).聚类算法</li><li>(4)降维算法</li><li>(5)概率图模型算法</li><li>(6)文本挖掘算法</li><li>(7)优化算法</li><li>(8)深度学习算法<h5 id="2-建模方面"><a href="#2-建模方面" class="headerlink" title="2.建模方面"></a>2.建模方面</h5></li><li>(1).模型优化</li><li>(2).数据预处理</li></ul><h2 id="二、详细算法"><a href="#二、详细算法" class="headerlink" title="二、详细算法"></a>二、详细算法</h2><h4 id="1-分类算法"><a href="#1-分类算法" class="headerlink" title="1.分类算法"></a>1.分类算法</h4><ul><li>(1).LR (Logistic Regression，逻辑回归又叫逻辑分类)</li><li>(2).SVM (Support Vector Machine，支持向量机)</li><li>(3).NB  (Naive Bayes，朴素贝叶斯)</li><li>(4).DT  (Decision Tree，决策树)<ul><li>1).C4.5</li><li>2).ID3</li><li>3).CART</li></ul></li><li>(5).集成算法<ul><li>1).Bagging</li><li>2).Random Forest (随机森林)</li><li>3).GB(梯度提升,Gradient boosting)</li><li>4).GBDT (Gradient Boosting Decision Tree)</li><li>5).AdaBoost  </li><li>6).Xgboost</li></ul></li><li><p>(6).最大熵模型</p><h4 id="2-回归算法"><a href="#2-回归算法" class="headerlink" title="2.回归算法"></a>2.回归算法</h4><ul><li>(1).LR (Linear Regression，线性回归)</li><li>(2).SVR (支持向量机回归)</li><li>(3). RR (Ridge Regression，岭回归)<h4 id="3-聚类算法"><a href="#3-聚类算法" class="headerlink" title="3.聚类算法"></a>3.聚类算法</h4></li><li>(1).Knn </li><li>(2).Kmeans 算法</li><li>(3).层次聚类</li><li>(4).密度聚类<h4 id="4-降维算法"><a href="#4-降维算法" class="headerlink" title="4.降维算法"></a>4.降维算法</h4></li><li>(1).SGD  (随机梯度下降)</li><li>(2). <h4 id="5-概率图模型算法"><a href="#5-概率图模型算法" class="headerlink" title="5.概率图模型算法"></a>5.概率图模型算法</h4><ul><li>(1).贝叶斯网络</li><li>(2).HMM</li><li>(3).CRF (条件随机场)<h4 id="6-文本挖掘算法"><a href="#6-文本挖掘算法" class="headerlink" title="6.文本挖掘算法"></a>6.文本挖掘算法</h4><h6 id="1-模型"><a href="#1-模型" class="headerlink" title="(1).模型"></a>(1).模型</h6><ul><li>1).LDA (主题生成模型，Latent Dirichlet Allocation)</li><li>4).最大熵模型<h6 id="2-关键词提取"><a href="#2-关键词提取" class="headerlink" title="(2).关键词提取"></a>(2).关键词提取</h6></li></ul></li><li>1).tf-idf</li><li>2).bm25</li><li>3).textrank</li><li>4).pagerank</li><li>5).左右熵 :左右熵高的作为关键词</li><li>6).互信息： <h6 id="3-词法分析"><a href="#3-词法分析" class="headerlink" title="(3).词法分析"></a>(3).词法分析</h6><ul><li>1).分词<ul><li>①HMM (因马尔科夫)</li><li>②CRF (条件随机场)</li></ul></li><li>2).词性标注</li><li>3).命名实体识别<h6 id="4-句法分析"><a href="#4-句法分析" class="headerlink" title="(4).句法分析"></a>(4).句法分析</h6></li></ul></li><li>1).句法结构分析</li><li>2).依存句法分析<h6 id="5-文本向量化"><a href="#5-文本向量化" class="headerlink" title="(5).文本向量化"></a>(5).文本向量化</h6></li><li>1).tf-idf</li><li>2).word2vec</li><li>3).doc2vec</li><li>4).cw2vec<h6 id="6-距离计算"><a href="#6-距离计算" class="headerlink" title="(6).距离计算"></a>(6).距离计算</h6></li><li>1).欧氏距离</li><li>2).相似度计算</li></ul></li></ul><h4 id="7-优化算法"><a href="#7-优化算法" class="headerlink" title="7.优化算法"></a>7.优化算法</h4><ul><li>(1).正则化<ul><li>1).L1正则化</li><li>2).L2正则化<h4 id="8-深度学习算法"><a href="#8-深度学习算法" class="headerlink" title="8.深度学习算法"></a>8.深度学习算法</h4></li></ul></li><li>(1).BP </li><li>(2).CNN</li><li>(3).DNN</li><li>(3).RNN</li><li>(4).LSTM</li></ul></li></ul><h2 id="三、建模方面"><a href="#三、建模方面" class="headerlink" title="三、建模方面"></a>三、建模方面</h2><h4 id="1-模型优化·"><a href="#1-模型优化·" class="headerlink" title="1.模型优化·"></a>1.模型优化·</h4><ul><li>(1).特征选择</li><li>(2).梯度下降</li><li>(3).交叉验证</li><li>(4).参数调优</li><li>(5).模型评估：准确率、召回率、F1、AUC、ROC、损失函数 <h4 id="2-数据预处理"><a href="#2-数据预处理" class="headerlink" title="2.数据预处理"></a>2.数据预处理</h4></li><li>(1).标准化</li><li>(2).异常值处理</li><li>(3).二值化</li><li>(4).缺失值填充： 支持均值、中位数、特定值补差、多重插补</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;一、关键词抽取分类&quot;&gt;&lt;a href=&quot;#一、关键词抽取分类&quot; class=&quot;headerlink&quot; title=&quot;一、关键词抽取分类&quot;&gt;&lt;/a&gt;一、关键词抽取分类&lt;/h4&gt;&lt;p&gt;关键词抽取算法可以分为两类&lt;/p&gt;
-&lt;h6 id=&quot;1-使用外部的知识库&quot;&gt;&lt;a h
+        &lt;h2 id=&quot;一、人工智能学习算法分类&quot;&gt;&lt;a href=&quot;#一、人工智能学习算法分类&quot; class=&quot;headerlink&quot; title=&quot;一、人工智能学习算法分类&quot;&gt;&lt;/a&gt;一、人工智能学习算法分类&lt;/h2&gt;&lt;p&gt; 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法
       
     
     </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="LexicalAnalysis" scheme="http://yoursite.com/categories/NLP/LexicalAnalysis/"/>
-    
-      <category term="关键词提取" scheme="http://yoursite.com/categories/NLP/LexicalAnalysis/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/"/>
     
     
   </entry>
