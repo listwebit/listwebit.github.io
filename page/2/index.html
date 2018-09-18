@@ -3,19 +3,18 @@
 <head>
     <meta charset="utf-8">
     
-    <title>2017年 | 帅的掉渣的博客</title>
+    <title>帅的掉渣的博客</title>
     
     
-        <meta name="keywords" content="2017年" />
+        <meta name="keywords" content="帅的掉渣的博客" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="article">
-<meta property="og:title" content="2017年">
-<meta property="og:url" content="http://yoursite.com/2018/01/09/总结/2017年/index.html">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="帅的掉渣的博客">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
-<meta property="og:updated_time" content="2018-01-09T06:55:03.415Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2017年">
+<meta name="twitter:title" content="帅的掉渣的博客">
     
 
     
@@ -219,13 +218,13 @@
                      </ul> 
                     </li> 
                     
-                    <li class="directory open">
+                    <li class="directory">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder-open"></i>
+                            <i class="fa fa-folder"></i>
                             &nbsp;
                             总结
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/2018/01/09/总结/2017年/">2017年</a></li>  <li class="file"><a href="/2018/01/09/总结/2017年总结/">2017年总结</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/09/总结/2017年/">2017年</a></li>  <li class="file"><a href="/2018/01/09/总结/2017年总结/">2017年总结</a></li>  </ul> 
                     </li> 
                      <li class="file"><a href="/2017/03/10/人工智能机器学习NLP算法分类总结/">人工智能机器学习NLP算法分类总结</a></li>  </ul> 
     </div>
@@ -298,7 +297,8 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
-            <section id="main"><article id="post-总结/2017年" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main">
+        <article id="post-NLP/文本分类/1.朴素贝叶斯算法" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -308,15 +308,15 @@
                         
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/总结/">总结</a>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/文本分类/">文本分类</a>
     </div>
 
                         
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2018/01/09/总结/2017年/">
-            <time datetime="2018-01-09T06:55:03.000Z" itemprop="datePublished">2018-01-09</time>
+        <a href="/2017/12/18/NLP/文本分类/1.朴素贝叶斯算法/">
+            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
         </a>
     </div>
 
@@ -327,21 +327,21 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/总结/2017年.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/文本分类/1.朴素贝叶斯算法.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/总结/2017年.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/文本分类/1.朴素贝叶斯算法.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/总结/2017年.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/文本分类/1.朴素贝叶斯算法.md'> History </a>
                             </div>
                         
                     </div>
                 
                 
     
-        <h1 class="article-title" itemprop="name">
-            2017年
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/12/18/NLP/文本分类/1.朴素贝叶斯算法/">朴素贝叶斯算法</a>
         </h1>
     
 
@@ -352,9 +352,38 @@
         
         
             
-        
-        
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><p>####一、基本概念</p>
+<p>#####1.分类原理<br>通过某对象的先验概率，利用贝叶斯公式，计算出其后验概率。即该对象属于某一类的概率，选择具有最大后验概率的类作为该对象所属的类。</p>
+<h5 id="2-贝叶斯公式"><a href="#2-贝叶斯公式" class="headerlink" title="2.贝叶斯公式"></a>2.贝叶斯公式</h5><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p>
+<ul>
+<li>(1).其中P(A)为先验概率：先验概率（prior probability）是指根据以往经验和分析得到的概率，如全概率公式，它往往作为”由因求果”问题中的”因”出现的概率。；</li>
+<p>
+                
             
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/12/18/NLP/文本分类/1.朴素贝叶斯算法/#more">Read More</a>
             </div>
         
         <footer class="article-footer">
@@ -363,40 +392,109 @@
 </article>
 
 
+
+
+
+
     
-<nav id="article-nav">
+        <article id="post-人工智能机器学习NLP算法分类总结" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/03/10/人工智能机器学习NLP算法分类总结/">
+            <time datetime="2017-03-10T02:27:01.000Z" itemprop="datePublished">2017-03-10</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/人工智能机器学习NLP算法分类总结.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/人工智能机器学习NLP算法分类总结.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/人工智能机器学习NLP算法分类总结.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
     
-        <a href="/2018/01/09/总结/2017年总结/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Más nuevo</strong>
-            <div class="article-nav-title">
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/03/10/人工智能机器学习NLP算法分类总结/">人工智能机器学习NLP算法分类总结</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
                 
-                    2017年总结
                 
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><h2 id="一、人工智能学习算法分类"><a href="#一、人工智能学习算法分类" class="headerlink" title="一、人工智能学习算法分类"></a>一、人工智能学习算法分类</h2><p> 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法(Machine Learning)和深度学习算法(Deep Learning)</p>
+<h4 id="总的来说，在sklearn中机器学习算法大概的分类如下："><a href="#总的来说，在sklearn中机器学习算法大概的分类如下：" class="headerlink" title="总的来说，在sklearn中机器学习算法大概的分类如下："></a>总的来说，在sklearn中机器学习算法大概的分类如下：</h4><h5 id="1-纯算法类"><a href="#1-纯算法类" class="headerlink" title="1. 纯算法类"></a>1. 纯算法类</h5><ul>
+<li>(1).回归算法</li>
+<li>(2).分类算法</li>
+<li>(3).聚类算法</li>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/03/10/人工智能机器学习NLP算法分类总结/#more">Read More</a>
             </div>
-        </a>
-    
-    
-        <a href="/2017/12/18/NLP/LexicalAnalysis/这里是词法分析/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Más viejo</strong>
-            <div class="article-nav-title">这里是词法分析</div>
-        </a>
-    
-</nav>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
 
 
 
 
 
     
+        <nav id="page-nav">
+        <a class="extend prev" rel="prev" href="/">&laquo; Anterior</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+        </nav>
     
-
-
-
-
-<!-- baidu url auto push script -->
-<script type="text/javascript">
-    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
-</script>     
 </section>
         </div>
         <footer id="footer">
