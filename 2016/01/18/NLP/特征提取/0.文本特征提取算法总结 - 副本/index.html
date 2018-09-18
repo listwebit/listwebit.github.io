@@ -3,18 +3,22 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Category: SyntacticParsing | 帅的掉渣的博客</title>
+    <title>0.文本特征提取算法总结 | 帅的掉渣的博客</title>
     
     
-        <meta name="keywords" content="帅的掉渣的博客" />
+        <meta name="keywords" content="0.文本特征提取算法总结" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="帅的掉渣的博客">
-<meta property="og:url" content="http://yoursite.com/categories/NLP/SyntacticParsing/index.html">
+    <meta name="description" content="为分类文本作处理的特征提取算法也对最终效果有巨大影响，而特征提取算法又分为特征选择和特征抽取两大类，其中特征选择算法有互信息，文档频率，信息增益，开方检验等等十数种">
+<meta property="og:type" content="article">
+<meta property="og:title" content="0.文本特征提取算法总结">
+<meta property="og:url" content="http://yoursite.com/2016/01/18/NLP/特征提取/0.文本特征提取算法总结 - 副本/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
+<meta property="og:description" content="为分类文本作处理的特征提取算法也对最终效果有巨大影响，而特征提取算法又分为特征选择和特征抽取两大类，其中特征选择算法有互信息，文档频率，信息增益，开方检验等等十数种">
+<meta property="og:updated_time" content="2018-09-18T10:10:34.298Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="帅的掉渣的博客">
+<meta name="twitter:title" content="0.文本特征提取算法总结">
+<meta name="twitter:description" content="为分类文本作处理的特征提取算法也对最终效果有巨大影响，而特征提取算法又分为特征选择和特征抽取两大类，其中特征选择算法有互信息，文档频率，信息增益，开方检验等等十数种">
     
 
     
@@ -173,9 +177,9 @@
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/09/MachineLearning/回归/">回归</a></li>  <li class="file"><a href="/2018/01/09/MachineLearning/回归的分类/">回归的分类</a></li>  </ul> 
                     </li> 
                     
-                    <li class="directory">
+                    <li class="directory open">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder"></i>
+                            <i class="fa fa-folder-open"></i>
                             &nbsp;
                             NLP
                         </a>
@@ -216,13 +220,13 @@
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/文本分类/1.朴素贝叶斯算法/">1.朴素贝叶斯算法</a></li>  <li class="file"><a href="/2017/12/18/NLP/文本分类/0.文本分类算法总结/">0文本分类算法总结</a></li>  </ul> 
                     </li> 
                     
-                    <li class="directory">
+                    <li class="directory open">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder"></i>
+                            <i class="fa fa-folder-open"></i>
                             &nbsp;
                             特征提取
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/01/18/NLP/特征提取/1.TF-IDF/">1.TF-IDF算法</a></li>  <li class="file"><a href="/2016/01/18/NLP/特征提取/0.文本特征提取算法总结 - 副本/">0.文本特征提取算法总结</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/01/18/NLP/特征提取/1.TF-IDF/">1.TF-IDF算法</a></li>  <li class="file active"><a href="/2016/01/18/NLP/特征提取/0.文本特征提取算法总结 - 副本/">0.文本特征提取算法总结</a></li>  </ul> 
                     </li> 
                      </ul> 
                     </li> 
@@ -306,45 +310,101 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
-            <section id="main">
-<div class="timeline timeline-wrap">
-    <div class="timeline-row timeline-row-major">
-        <span class="node"><i class="fa fa-folder"></i></span>
-        <h1 class="title">SyntacticParsing</h1>
-    </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
+            <section id="main"><article id="post-NLP/特征提取/0.文本特征提取算法总结 - 副本" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
                 
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/2017/12/18/NLP/SyntacticParsing/这里是句法分析/">这里是句法分析</a>
-        </h1>
-    
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/特征提取/">特征提取</a>
+    </div>
 
-                <div class="article-meta">
-                    
+                        
+                        
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/12/18/NLP/SyntacticParsing/这里是句法分析/">
-            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        <a href="/2016/01/18/NLP/特征提取/0.文本特征提取算法总结 - 副本/">
+            <time datetime="2016-01-18T05:17:35.000Z" itemprop="datePublished">2016-01-18</time>
         </a>
     </div>
 
 
-                    
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/SyntacticParsing/">SyntacticParsing</a>
-    </div>
-
-                    
-                </div>
-            </div>
-        </div>
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/特征提取/0.文本特征提取算法总结 - 副本.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/特征提取/0.文本特征提取算法总结 - 副本.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/特征提取/0.文本特征提取算法总结 - 副本.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
     
-</div>
+        <h1 class="article-title" itemprop="name">
+            0.文本特征提取算法总结
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <p>为分类文本作处理的特征提取算法也对最终效果有巨大影响，而特征提取算法又分为特征选择和特征抽取两大类，其中特征选择算法有互信息，文档频率，信息增益，开方检验等等十数种</p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/2016/01/18/NLP/特征提取/1.TF-IDF/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    1.TF-IDF算法
+                
+            </div>
+        </a>
+    
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
 </section>
         </div>
         <footer id="footer">

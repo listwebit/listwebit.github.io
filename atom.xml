@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-09T08:31:26.000Z</updated>
+  <updated>2018-09-12T05:13:33.101Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>deeplearning算法分类</title>
+    <link href="http://yoursite.com/2018/01/09/DeepLearning/deeplearning/"/>
+    <id>http://yoursite.com/2018/01/09/DeepLearning/deeplearning/</id>
+    <published>2018-01-09T08:02:27.000Z</published>
+    <updated>2018-09-12T05:13:33.101Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、常用神经网络分类"><a href="#一、常用神经网络分类" class="headerlink" title="一、常用神经网络分类"></a>一、常用神经网络分类</h4><h6 id="1-感知机-神经网络的前身"><a href="#1-感知机-神经网络的前身" class="headerlink" title="1.感知机(神经网络的前身)"></a>1.感知机(神经网络的前身)</h6><h6 id="2-前向传播算法"><a href="#2-前向传播算法" class="headerlink" title="2.前向传播算法"></a>2.前向传播算法</h6><h6 id="3-BP-反向传播算法"><a href="#3-BP-反向传播算法" class="headerlink" title="3.BP(反向传播算法)"></a>3.BP(反向传播算法)</h6><h6 id="4-DNN-深度神经网络"><a href="#4-DNN-深度神经网络" class="headerlink" title="4.DNN(深度神经网络)"></a>4.DNN(深度神经网络)</h6><h6 id="5-CNN-卷积神经网络"><a href="#5-CNN-卷积神经网络" class="headerlink" title="5.CNN(卷积神经网络)"></a>5.CNN(卷积神经网络)</h6><p>二、学习资料</p><ol><li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、常用神经网络分类&quot;&gt;&lt;a href=&quot;#一、常用神经网络分类&quot; class=&quot;headerlink&quot; title=&quot;一、常用神经网络分类&quot;&gt;&lt;/a&gt;一、常用神经网络分类&lt;/h4&gt;&lt;h6 id=&quot;1-感知机-神经网络的前身&quot;&gt;&lt;a href=&quot;#1-感知机-神经
+      
+    
+    </summary>
+    
+      <category term="DeepLearning" scheme="http://yoursite.com/categories/DeepLearning/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>回归的分类</title>
@@ -38,29 +61,6 @@
     
     
       <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>deeplearning算法分类</title>
-    <link href="http://yoursite.com/2018/01/09/DeepLearning/deeplearning/"/>
-    <id>http://yoursite.com/2018/01/09/DeepLearning/deeplearning/</id>
-    <published>2018-01-09T08:02:27.000Z</published>
-    <updated>2018-09-12T05:13:33.101Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="一、常用神经网络分类"><a href="#一、常用神经网络分类" class="headerlink" title="一、常用神经网络分类"></a>一、常用神经网络分类</h4><h6 id="1-感知机-神经网络的前身"><a href="#1-感知机-神经网络的前身" class="headerlink" title="1.感知机(神经网络的前身)"></a>1.感知机(神经网络的前身)</h6><h6 id="2-前向传播算法"><a href="#2-前向传播算法" class="headerlink" title="2.前向传播算法"></a>2.前向传播算法</h6><h6 id="3-BP-反向传播算法"><a href="#3-BP-反向传播算法" class="headerlink" title="3.BP(反向传播算法)"></a>3.BP(反向传播算法)</h6><h6 id="4-DNN-深度神经网络"><a href="#4-DNN-深度神经网络" class="headerlink" title="4.DNN(深度神经网络)"></a>4.DNN(深度神经网络)</h6><h6 id="5-CNN-卷积神经网络"><a href="#5-CNN-卷积神经网络" class="headerlink" title="5.CNN(卷积神经网络)"></a>5.CNN(卷积神经网络)</h6><p>二、学习资料</p><ol><li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;一、常用神经网络分类&quot;&gt;&lt;a href=&quot;#一、常用神经网络分类&quot; class=&quot;headerlink&quot; title=&quot;一、常用神经网络分类&quot;&gt;&lt;/a&gt;一、常用神经网络分类&lt;/h4&gt;&lt;h6 id=&quot;1-感知机-神经网络的前身&quot;&gt;&lt;a href=&quot;#1-感知机-神经
-      
-    
-    </summary>
-    
-      <category term="DeepLearning" scheme="http://yoursite.com/categories/DeepLearning/"/>
-    
     
   </entry>
   
@@ -128,24 +128,6 @@
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
       <category term="LexicalAnalysis" scheme="http://yoursite.com/categories/NLP/LexicalAnalysis/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0文本分类算法总结</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/文本分类/0.文本分类算法总结/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-18T10:05:46.154Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="文本分类" scheme="http://yoursite.com/categories/NLP/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
@@ -249,6 +231,24 @@
   </entry>
   
   <entry>
+    <title>0文本分类算法总结</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/文本分类/0.文本分类算法总结/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-09-18T10:05:46.154Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="文本分类" scheme="http://yoursite.com/categories/NLP/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>人工智能机器学习NLP算法分类总结</title>
     <link href="http://yoursite.com/2017/03/10/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0NLP%E7%AE%97%E6%B3%95%E5%88%86%E7%B1%BB%E6%80%BB%E7%BB%93/"/>
     <id>http://yoursite.com/2017/03/10/人工智能机器学习NLP算法分类总结/</id>
@@ -265,6 +265,58 @@
       
     
     </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1.TF-IDF算法</title>
+    <link href="http://yoursite.com/2016/01/18/NLP/%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/1.TF-IDF/"/>
+    <id>http://yoursite.com/2016/01/18/NLP/特征提取/1.TF-IDF/</id>
+    <published>2016-01-18T05:17:35.000Z</published>
+    <updated>2018-09-18T10:11:34.114Z</updated>
+    
+    <content type="html"><![CDATA[<p>TF-IDF算法</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;TF-IDF算法&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="特征提取" scheme="http://yoursite.com/categories/NLP/%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0.文本特征提取算法总结</title>
+    <link href="http://yoursite.com/2016/01/18/NLP/%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/0.%E6%96%87%E6%9C%AC%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2016/01/18/NLP/特征提取/0.文本特征提取算法总结 - 副本/</id>
+    <published>2016-01-18T05:17:35.000Z</published>
+    <updated>2018-09-18T10:10:34.298Z</updated>
+    
+    <content type="html"><![CDATA[<p>为分类文本作处理的特征提取算法也对最终效果有巨大影响，而特征提取算法又分为特征选择和特征抽取两大类，其中特征选择算法有互信息，文档频率，信息增益，开方检验等等十数种</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;为分类文本作处理的特征提取算法也对最终效果有巨大影响，而特征提取算法又分为特征选择和特征抽取两大类，其中特征选择算法有互信息，文档频率，信息增益，开方检验等等十数种&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="特征提取" scheme="http://yoursite.com/categories/NLP/%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/"/>
     
     
   </entry>
