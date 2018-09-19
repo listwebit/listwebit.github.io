@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-09T08:02:27.288Z</updated>
+  <updated>2018-09-12T05:13:33.101Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,22 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>回归</title>
-    <link href="http://yoursite.com/2018/01/09/MachineLearning/%E5%9B%9E%E5%BD%92/"/>
-    <id>http://yoursite.com/2018/01/09/MachineLearning/回归/</id>
-    <published>2018-01-09T08:02:27.000Z</published>
-    <updated>2018-01-09T08:02:27.288Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>deeplearning算法分类</title>
@@ -81,6 +65,22 @@
   </entry>
   
   <entry>
+    <title>回归</title>
+    <link href="http://yoursite.com/2018/01/09/MachineLearning/%E5%9B%9E%E5%BD%92/"/>
+    <id>http://yoursite.com/2018/01/09/MachineLearning/回归/</id>
+    <published>2018-01-09T08:02:27.000Z</published>
+    <updated>2018-01-09T08:02:27.288Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>2017年总结</title>
     <link href="http://yoursite.com/2018/01/09/%E6%80%BB%E7%BB%93/2017%E5%B9%B4%E6%80%BB%E7%BB%93/"/>
     <id>http://yoursite.com/2018/01/09/总结/2017年总结/</id>
@@ -110,31 +110,6 @@
     </summary>
     
       <category term="总结" scheme="http://yoursite.com/categories/%E6%80%BB%E7%BB%93/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1.朴素贝叶斯算法</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/1.%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%AE%97%E6%B3%95/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/文本分类/1.朴素贝叶斯算法/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-18T10:06:14.531Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h4><h5 id="1-分类原理"><a href="#1-分类原理" class="headerlink" title="1.分类原理"></a>1.分类原理</h5><p>通过某对象的先验概率，利用贝叶斯公式，计算出其后验概率。即该对象属于某一类的概率，选择具有最大后验概率的类作为该对象所属的类。</p><h5 id="2-贝叶斯公式"><a href="#2-贝叶斯公式" class="headerlink" title="2.贝叶斯公式"></a>2.贝叶斯公式</h5><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p><ul><li>(1).其中P(A)为先验概率：先验概率（prior probability）是指根据以往经验和分析得到的概率，如全概率公式，它往往作为”由因求果”问题中的”因”出现的概率。；</li><li>(2).其中P(B|A)为似然概率(likelihood)：是先前统计的事件中，A事件发生情况下B事件发生的概率</li><li>(3).其中P(B)为边界似然概率；</li><li>(4).其中P(A|B)为后验概率；<h5 id="3-相关概念"><a href="#3-相关概念" class="headerlink" title="3.相关概念"></a>3.相关概念</h5></li><li>(1).先验概率</li><li>(2).—-<pre><code>- ①后验概率- ②.最大后验概率</code></pre></li><li>(3).—<ul><li>①.条件概率：指事件A在另外一个事件B已经发生条件下的发生概率。条件概率表示为：P(A|B)。若只有两个事件A，B，那么$P(A|B) = \frac{P(AB)}{P(B)}$</li><li>②.联合概率：表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）</li><li>③.全概率</li></ul></li><li>(4).似然概率 </li></ul><p>联合概率的乘法公式为：P(AB) = P(A|B)*P(B),变形后可得到$P(A|B) = \frac{P(AB)}{P(B)}$</p><h4 id="二、朴素贝叶斯分类器"><a href="#二、朴素贝叶斯分类器" class="headerlink" title="二、朴素贝叶斯分类器"></a>二、朴素贝叶斯分类器</h4><h5 id="1-朴素贝叶斯分类的定义"><a href="#1-朴素贝叶斯分类的定义" class="headerlink" title="1.朴素贝叶斯分类的定义"></a>1.朴素贝叶斯分类的定义</h5><p>朴素贝叶斯分类的正式定义如下：<br>(1).设 $x = \left{  f<em>{1},f</em>{2},f<em>{3},…,f</em>{m} \right}$为一个待分类项，而每个f为x的一个特征。<br>(2).有类别集合$C = \left{  y<em>{1},y</em>{2},y<em>{3},…,y</em>{n} \right}$<br>(3).计算$P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x)$<br>(4).如果$P(y</em>{k}|x) = max \left{ P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x) \right}，则x∈y</em>{k}$。<br>那么现在的关键就是如何计算第3步中的各个条件概率。我们可以这么做：<br>(1)、找到一个已知分类的待分类项集合，这个集合叫做训练样本集。<br>(2)、统计得到在各类别下各个特征属性的条件概率估计。即<br>$P(x<em>{1}|y</em>{1}),P(x<em>{2}|y</em>{1}),…,P(x<em>{3}|y</em>{1})$;<br>$P(x<em>{1}|y</em>{2}),P(x<em>{2}|y</em>{2}),…,P(x<em>{3}|y</em>{2})$;<br>……<br>$P(x<em>{1}|y</em>{3}),P(x<em>{2}|y</em>{3}),…,P(x<em>{3}|y</em>{3})$;<br>(3)、如果各个特征属性是条件独立的，则根据贝叶斯定理有如下推导：<br>$P(y<em>{i}|x) = \frac {P(x|y</em>{i})P(y<em>{i})}{P(x)}$<br> 因为分母对于所有类别为常数，因为我们只要将分子最大化皆可。又因为各特征属性是条件独立的，所以有：<br> $P(x|y</em>{i})P(y<em>{i}) = P(a</em>{1}|y<em>{i})P(a</em>{2}|y<em>{i})…P(a</em>{m}|y<em>{i})P(y</em>{i})=P(y<em>(i))\prod\limits</em>{j=1}^mP(a_j|yi)$</p><h5 id="2-朴素贝叶斯分类的举例"><a href="#2-朴素贝叶斯分类的举例" class="headerlink" title="2.朴素贝叶斯分类的举例"></a>2.朴素贝叶斯分类的举例</h5><p>我们知道朴素贝叶斯的公式为：<br>$P(C|f) = \frac{P(f|C)<em>P(C)}{P(f)}$<br>如果换个表达式就会明朗很多，如下：<br>$P(类别|特征) = \frac{P(特征|分类)</em>P(分类)}{P(特征)}$<br>其中P(分类)和P(特征)都是已知的，我们只需求P(特征|分类)即可。</p><h5 id="例题分析"><a href="#例题分析" class="headerlink" title="例题分析"></a>例题分析</h5><p>给定数据如下：<br>| 高否 | 富否 | 帅否 | 嫁否 |<br>| – | — | – | – |<br>| 高 | 富 | 帅 | 嫁 |<br>| 高 | 不富 | 帅 | 嫁 |<br>| 不高 | 富 | 不帅 | 嫁 |<br>| 高 | 富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 帅 | 不嫁 |<br>| 高 | 不富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 不帅 | 不嫁 |<br>那我们现在的问题是，一个男生向一个女生求婚，这个男生具有以下三个特点：不高、富、帅，请你判断以下该女孩是否会嫁？</p><p>这是一个典型的分类问题，转化为概率论问题就是$P(嫁|不高、富、帅)$ 与 $P(不嫁|不高、富、帅)那个概率更大？</p><p>这里我们就使用朴素贝叶斯公式来分别求以下两种情况下的概率：</p><ul><li>①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)*P(嫁)}{P(不高、富、帅)}$</li><li>②$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)*P(不嫁)}{P(不高、富、帅)}$<h6 id="对①求解"><a href="#对①求解" class="headerlink" title="对①求解"></a>对①求解</h6>我们先对要求①进行求解。要求$P(嫁|不高、富、帅)$的概率只需求$P(不高、富、帅|嫁)、P(嫁)、P(不高、富、帅)$即可。根据“朴素”一词也就是各个特征之间是独立的，可以得到如下<1>公式和<2>公式(只需求如下公式即可)：<br><1>$P(不高、富、帅|嫁) = P(不高|嫁)<em>P(富|嫁)</em>P(帅|嫁)$<br><2>$P(不高、富、帅) = P(不高)<em>P(富)</em>P(帅)$<br>同时只需要再求出公式<3>问题就得到解决<br><3>$P(嫁)$</3></3></2></1></2></1></li></ul><p>我们从表格中统计所有嫁的样本共有3条，其中不高的样本有1条，所以$P(不高|嫁) = 1/3$，同理可以得到$P(富|嫁) = 2/3$， $P(帅|嫁) = 2/3$。</p><p>我们从表格中统计所有样本共有7条，其中嫁的样本有3条，所以 $P(嫁) = 3/7$。</p><p>我们从表格中统计所有样本共有7条，其中不高的样本有3条，所以 $P(不高) = 3/7$，其中富的样本有3条所以$P(富) = 3/7$，其中帅的样本有3条所以$P(帅) = 3/7$。</p><p>综上①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)<em>P(嫁)}{ \; P(不高、富、帅) \; } $<br> 此公式 $= \frac {(\frac {1}{3} </em>\frac {2}{3}<em>\frac {2}{3})</em>\frac {3}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {196}{243}$</p><h6 id="对②求解"><a href="#对②求解" class="headerlink" title="对②求解"></a>对②求解</h6><p>$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)<em>P(不嫁)}{P(不高、富、帅)}$<br>此公式  $= \frac {(\frac {1}{2} </em>\frac {1}{4}<em>\frac {1}{4})</em>\frac {4}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {49}{216}$</p><p>所以最终的答案是“嫁”<br>参考：<br>1.<a href="https://blog.csdn.net/xueyingxue001/article/details/52396170" target="_blank" rel="noopener">https://blog.csdn.net/xueyingxue001/article/details/52396170</a><br>2.<a href="https://blog.csdn.net/amds123/article/details/70173402" target="_blank" rel="noopener">https://blog.csdn.net/amds123/article/details/70173402</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot; title=&quot;一、基本概念&quot;&gt;&lt;/a&gt;一、基本概念&lt;/h4&gt;&lt;h5 id=&quot;1-分类原理&quot;&gt;&lt;a href=&quot;#1-分类原理&quot; class=&quot;headerlink&quot; titl
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="文本分类" scheme="http://yoursite.com/categories/NLP/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
@@ -176,13 +151,45 @@
   </entry>
   
   <entry>
-    <title>1.划分聚类法之k-means</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/2.%E5%AF%86%E5%BA%A6%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8BDBSCAN/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/文本聚类/2.密度聚类法之DBSCAN/</id>
+    <title>1.朴素贝叶斯算法</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/1.%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/文本分类/1.朴素贝叶斯算法/</id>
     <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-19T11:39:37.437Z</updated>
+    <updated>2018-09-18T10:06:14.531Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h4><h5 id="1-分类原理"><a href="#1-分类原理" class="headerlink" title="1.分类原理"></a>1.分类原理</h5><p>通过某对象的先验概率，利用贝叶斯公式，计算出其后验概率。即该对象属于某一类的概率，选择具有最大后验概率的类作为该对象所属的类。</p><h5 id="2-贝叶斯公式"><a href="#2-贝叶斯公式" class="headerlink" title="2.贝叶斯公式"></a>2.贝叶斯公式</h5><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p><ul><li>(1).其中P(A)为先验概率：先验概率（prior probability）是指根据以往经验和分析得到的概率，如全概率公式，它往往作为”由因求果”问题中的”因”出现的概率。；</li><li>(2).其中P(B|A)为似然概率(likelihood)：是先前统计的事件中，A事件发生情况下B事件发生的概率</li><li>(3).其中P(B)为边界似然概率；</li><li>(4).其中P(A|B)为后验概率；<h5 id="3-相关概念"><a href="#3-相关概念" class="headerlink" title="3.相关概念"></a>3.相关概念</h5></li><li>(1).先验概率</li><li>(2).—-<pre><code>- ①后验概率- ②.最大后验概率</code></pre></li><li>(3).—<ul><li>①.条件概率：指事件A在另外一个事件B已经发生条件下的发生概率。条件概率表示为：P(A|B)。若只有两个事件A，B，那么$P(A|B) = \frac{P(AB)}{P(B)}$</li><li>②.联合概率：表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）</li><li>③.全概率</li></ul></li><li>(4).似然概率 </li></ul><p>联合概率的乘法公式为：P(AB) = P(A|B)*P(B),变形后可得到$P(A|B) = \frac{P(AB)}{P(B)}$</p><h4 id="二、朴素贝叶斯分类器"><a href="#二、朴素贝叶斯分类器" class="headerlink" title="二、朴素贝叶斯分类器"></a>二、朴素贝叶斯分类器</h4><h5 id="1-朴素贝叶斯分类的定义"><a href="#1-朴素贝叶斯分类的定义" class="headerlink" title="1.朴素贝叶斯分类的定义"></a>1.朴素贝叶斯分类的定义</h5><p>朴素贝叶斯分类的正式定义如下：<br>(1).设 $x = \left{  f<em>{1},f</em>{2},f<em>{3},…,f</em>{m} \right}$为一个待分类项，而每个f为x的一个特征。<br>(2).有类别集合$C = \left{  y<em>{1},y</em>{2},y<em>{3},…,y</em>{n} \right}$<br>(3).计算$P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x)$<br>(4).如果$P(y</em>{k}|x) = max \left{ P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x) \right}，则x∈y</em>{k}$。<br>那么现在的关键就是如何计算第3步中的各个条件概率。我们可以这么做：<br>(1)、找到一个已知分类的待分类项集合，这个集合叫做训练样本集。<br>(2)、统计得到在各类别下各个特征属性的条件概率估计。即<br>$P(x<em>{1}|y</em>{1}),P(x<em>{2}|y</em>{1}),…,P(x<em>{3}|y</em>{1})$;<br>$P(x<em>{1}|y</em>{2}),P(x<em>{2}|y</em>{2}),…,P(x<em>{3}|y</em>{2})$;<br>……<br>$P(x<em>{1}|y</em>{3}),P(x<em>{2}|y</em>{3}),…,P(x<em>{3}|y</em>{3})$;<br>(3)、如果各个特征属性是条件独立的，则根据贝叶斯定理有如下推导：<br>$P(y<em>{i}|x) = \frac {P(x|y</em>{i})P(y<em>{i})}{P(x)}$<br> 因为分母对于所有类别为常数，因为我们只要将分子最大化皆可。又因为各特征属性是条件独立的，所以有：<br> $P(x|y</em>{i})P(y<em>{i}) = P(a</em>{1}|y<em>{i})P(a</em>{2}|y<em>{i})…P(a</em>{m}|y<em>{i})P(y</em>{i})=P(y<em>(i))\prod\limits</em>{j=1}^mP(a_j|yi)$</p><h5 id="2-朴素贝叶斯分类的举例"><a href="#2-朴素贝叶斯分类的举例" class="headerlink" title="2.朴素贝叶斯分类的举例"></a>2.朴素贝叶斯分类的举例</h5><p>我们知道朴素贝叶斯的公式为：<br>$P(C|f) = \frac{P(f|C)<em>P(C)}{P(f)}$<br>如果换个表达式就会明朗很多，如下：<br>$P(类别|特征) = \frac{P(特征|分类)</em>P(分类)}{P(特征)}$<br>其中P(分类)和P(特征)都是已知的，我们只需求P(特征|分类)即可。</p><h5 id="例题分析"><a href="#例题分析" class="headerlink" title="例题分析"></a>例题分析</h5><p>给定数据如下：<br>| 高否 | 富否 | 帅否 | 嫁否 |<br>| – | — | – | – |<br>| 高 | 富 | 帅 | 嫁 |<br>| 高 | 不富 | 帅 | 嫁 |<br>| 不高 | 富 | 不帅 | 嫁 |<br>| 高 | 富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 帅 | 不嫁 |<br>| 高 | 不富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 不帅 | 不嫁 |<br>那我们现在的问题是，一个男生向一个女生求婚，这个男生具有以下三个特点：不高、富、帅，请你判断以下该女孩是否会嫁？</p><p>这是一个典型的分类问题，转化为概率论问题就是$P(嫁|不高、富、帅)$ 与 $P(不嫁|不高、富、帅)那个概率更大？</p><p>这里我们就使用朴素贝叶斯公式来分别求以下两种情况下的概率：</p><ul><li>①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)*P(嫁)}{P(不高、富、帅)}$</li><li>②$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)*P(不嫁)}{P(不高、富、帅)}$<h6 id="对①求解"><a href="#对①求解" class="headerlink" title="对①求解"></a>对①求解</h6>我们先对要求①进行求解。要求$P(嫁|不高、富、帅)$的概率只需求$P(不高、富、帅|嫁)、P(嫁)、P(不高、富、帅)$即可。根据“朴素”一词也就是各个特征之间是独立的，可以得到如下<1>公式和<2>公式(只需求如下公式即可)：<br><1>$P(不高、富、帅|嫁) = P(不高|嫁)<em>P(富|嫁)</em>P(帅|嫁)$<br><2>$P(不高、富、帅) = P(不高)<em>P(富)</em>P(帅)$<br>同时只需要再求出公式<3>问题就得到解决<br><3>$P(嫁)$</3></3></2></1></2></1></li></ul><p>我们从表格中统计所有嫁的样本共有3条，其中不高的样本有1条，所以$P(不高|嫁) = 1/3$，同理可以得到$P(富|嫁) = 2/3$， $P(帅|嫁) = 2/3$。</p><p>我们从表格中统计所有样本共有7条，其中嫁的样本有3条，所以 $P(嫁) = 3/7$。</p><p>我们从表格中统计所有样本共有7条，其中不高的样本有3条，所以 $P(不高) = 3/7$，其中富的样本有3条所以$P(富) = 3/7$，其中帅的样本有3条所以$P(帅) = 3/7$。</p><p>综上①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)<em>P(嫁)}{ \; P(不高、富、帅) \; } $<br> 此公式 $= \frac {(\frac {1}{3} </em>\frac {2}{3}<em>\frac {2}{3})</em>\frac {3}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {196}{243}$</p><h6 id="对②求解"><a href="#对②求解" class="headerlink" title="对②求解"></a>对②求解</h6><p>$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)<em>P(不嫁)}{P(不高、富、帅)}$<br>此公式  $= \frac {(\frac {1}{2} </em>\frac {1}{4}<em>\frac {1}{4})</em>\frac {4}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {49}{216}$</p><p>所以最终的答案是“嫁”<br>参考：<br>1.<a href="https://blog.csdn.net/xueyingxue001/article/details/52396170" target="_blank" rel="noopener">https://blog.csdn.net/xueyingxue001/article/details/52396170</a><br>2.<a href="https://blog.csdn.net/amds123/article/details/70173402" target="_blank" rel="noopener">https://blog.csdn.net/amds123/article/details/70173402</a></p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot; title=&quot;一、基本概念&quot;&gt;&lt;/a&gt;一、基本概念&lt;/h4&gt;&lt;h5 id=&quot;1-分类原理&quot;&gt;&lt;a href=&quot;#1-分类原理&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="文本分类" scheme="http://yoursite.com/categories/NLP/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>文本聚类算法总结</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/文本聚类/0.文本聚类算法总结 - 副本/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-09-19T09:16:29.300Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、文本聚类算法总结"><a href="#一、文本聚类算法总结" class="headerlink" title="一、文本聚类算法总结"></a>一、文本聚类算法总结</h4><h5 id="1-划分法"><a href="#1-划分法" class="headerlink" title="1.划分法"></a>1.划分法</h5><p>(partitioning methods)：给定一个有N个元组或者纪录的数据集，分裂法将构造K个分组，每一个分组就代表一个聚类，K&lt;N。而且这K个分组满足下列条件：（1） 每一个分组至少包含一个数据纪录；（2）每一个数据纪录属于且仅属于一个分组（注意：这个要求在某些模糊聚类算法中可以放宽）；对于给定的K，算法首先给出一个初始的分组方法，以后通过反复迭代的方法改变分组，使得每一次改进之后的分组方案都较前一次好，而所谓好的标准就是：同一分组中的记录越近越好，而不同分组中的纪录越远越好。使用这个基本思想的算法有：K-MEANS算法、K-MEDOIDS算法、CLARANS算法；</p><h5 id="2-层次法"><a href="#2-层次法" class="headerlink" title="2.层次法"></a>2.层次法</h5><p>(hierarchical methods)：这种方法对给定的数据集进行层次似的分解，直到某种条件满足为止。具体又可分为“自底向上”和“自顶向下”两种方案。例如在“自底向上”方案中，初始时每一个数据纪录都组成一个单独的组，在接下来的迭代中，它把那些相互邻近的组合并成一个组，直到所有的记录组成一个分组或者某个条件满足为止。代表算法有：BIRCH算法、CURE算法、CHAMELEON算法等；</p><h5 id="3-基于密度的方法"><a href="#3-基于密度的方法" class="headerlink" title="3.基于密度的方法"></a>3.基于密度的方法</h5><p>（density-based methods):基于密度的方法与其它方法的一个根本区别是：它不是基于各种各样的距离的，而是基于密度的。这样就能克服基于距离的算法只能发现“类圆形”的聚类的缺点。这个方法的指导思想就是，只要一个区域中的点的密度大过某个阀值，就把它加到与之相近的聚类中去。代表算法有：DBSCAN算法、OPTICS算法、DENCLUE算法等；</p><h5 id="4-基于网格的方法"><a href="#4-基于网格的方法" class="headerlink" title="4.基于网格的方法"></a>4.基于网格的方法</h5><p>(grid-based methods):这种方法首先将数据空间划分成为有限个单元（cell）的网格结构,所有的处理都是以单个的单元为对象的。这么处理的一个突出的优点就是处理速度很快，通常这是与目标数据库中记录的个数无关的，它只与把数据空间分为多少个单元有关。代表算法有：STING算法、CLIQUE算法、WAVE-CLUSTER算法；</p><h5 id="5-基于模型的方法"><a href="#5-基于模型的方法" class="headerlink" title="5.基于模型的方法"></a>5.基于模型的方法</h5><p>(model-based methods):基于模型的方法给每一个聚类假定一个模型，然后去寻找一个能很好的满足这个模型的数据集。这样一个模型可能是数据点在空间中的密度分布函数或者其它。它的一个潜在的假定就是：目标数据集是由一系列的概率分布所决定的。通常有两种尝试方向：统计的方案和神经网络的方案</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、文本聚类算法总结&quot;&gt;&lt;a href=&quot;#一、文本聚类算法总结&quot; class=&quot;headerlink&quot; title=&quot;一、文本聚类算法总结&quot;&gt;&lt;/a&gt;一、文本聚类算法总结&lt;/h4&gt;&lt;h5 id=&quot;1-划分法&quot;&gt;&lt;a href=&quot;#1-划分法&quot; class=&quot;he
+      
     
     </summary>
     
@@ -285,31 +292,6 @@
   </entry>
   
   <entry>
-    <title>文本聚类算法总结</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/文本聚类/0.文本聚类算法总结 - 副本/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-19T09:16:29.300Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="一、文本聚类算法总结"><a href="#一、文本聚类算法总结" class="headerlink" title="一、文本聚类算法总结"></a>一、文本聚类算法总结</h4><h5 id="1-划分法"><a href="#1-划分法" class="headerlink" title="1.划分法"></a>1.划分法</h5><p>(partitioning methods)：给定一个有N个元组或者纪录的数据集，分裂法将构造K个分组，每一个分组就代表一个聚类，K&lt;N。而且这K个分组满足下列条件：（1） 每一个分组至少包含一个数据纪录；（2）每一个数据纪录属于且仅属于一个分组（注意：这个要求在某些模糊聚类算法中可以放宽）；对于给定的K，算法首先给出一个初始的分组方法，以后通过反复迭代的方法改变分组，使得每一次改进之后的分组方案都较前一次好，而所谓好的标准就是：同一分组中的记录越近越好，而不同分组中的纪录越远越好。使用这个基本思想的算法有：K-MEANS算法、K-MEDOIDS算法、CLARANS算法；</p><h5 id="2-层次法"><a href="#2-层次法" class="headerlink" title="2.层次法"></a>2.层次法</h5><p>(hierarchical methods)：这种方法对给定的数据集进行层次似的分解，直到某种条件满足为止。具体又可分为“自底向上”和“自顶向下”两种方案。例如在“自底向上”方案中，初始时每一个数据纪录都组成一个单独的组，在接下来的迭代中，它把那些相互邻近的组合并成一个组，直到所有的记录组成一个分组或者某个条件满足为止。代表算法有：BIRCH算法、CURE算法、CHAMELEON算法等；</p><h5 id="3-基于密度的方法"><a href="#3-基于密度的方法" class="headerlink" title="3.基于密度的方法"></a>3.基于密度的方法</h5><p>（density-based methods):基于密度的方法与其它方法的一个根本区别是：它不是基于各种各样的距离的，而是基于密度的。这样就能克服基于距离的算法只能发现“类圆形”的聚类的缺点。这个方法的指导思想就是，只要一个区域中的点的密度大过某个阀值，就把它加到与之相近的聚类中去。代表算法有：DBSCAN算法、OPTICS算法、DENCLUE算法等；</p><h5 id="4-基于网格的方法"><a href="#4-基于网格的方法" class="headerlink" title="4.基于网格的方法"></a>4.基于网格的方法</h5><p>(grid-based methods):这种方法首先将数据空间划分成为有限个单元（cell）的网格结构,所有的处理都是以单个的单元为对象的。这么处理的一个突出的优点就是处理速度很快，通常这是与目标数据库中记录的个数无关的，它只与把数据空间分为多少个单元有关。代表算法有：STING算法、CLIQUE算法、WAVE-CLUSTER算法；</p><h5 id="5-基于模型的方法"><a href="#5-基于模型的方法" class="headerlink" title="5.基于模型的方法"></a>5.基于模型的方法</h5><p>(model-based methods):基于模型的方法给每一个聚类假定一个模型，然后去寻找一个能很好的满足这个模型的数据集。这样一个模型可能是数据点在空间中的密度分布函数或者其它。它的一个潜在的假定就是：目标数据集是由一系列的概率分布所决定的。通常有两种尝试方向：统计的方案和神经网络的方案</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;一、文本聚类算法总结&quot;&gt;&lt;a href=&quot;#一、文本聚类算法总结&quot; class=&quot;headerlink&quot; title=&quot;一、文本聚类算法总结&quot;&gt;&lt;/a&gt;一、文本聚类算法总结&lt;/h4&gt;&lt;h5 id=&quot;1-划分法&quot;&gt;&lt;a href=&quot;#1-划分法&quot; class=&quot;he
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="文本聚类" scheme="http://yoursite.com/categories/NLP/%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>人工智能机器学习NLP算法分类总结</title>
     <link href="http://yoursite.com/2017/03/10/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0NLP%E7%AE%97%E6%B3%95%E5%88%86%E7%B1%BB%E6%80%BB%E7%BB%93/"/>
     <id>http://yoursite.com/2017/03/10/人工智能机器学习NLP算法分类总结/</id>
@@ -326,6 +308,24 @@
       
     
     </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2.密度聚类法之DBSCAN</title>
+    <link href="http://yoursite.com/2017/01/18/NLP/%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/2.%E5%AF%86%E5%BA%A6%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8BDBSCAN/"/>
+    <id>http://yoursite.com/2017/01/18/NLP/文本聚类/2.密度聚类法之DBSCAN/</id>
+    <published>2017-01-18T09:17:35.000Z</published>
+    <updated>2018-09-19T12:03:50.772Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="文本聚类" scheme="http://yoursite.com/categories/NLP/%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/"/>
     
     
   </entry>
