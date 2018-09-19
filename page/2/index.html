@@ -204,7 +204,7 @@
                             &nbsp;
                             文本聚类
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/文本聚类/0.文本聚类算法总结 - 副本/">文本聚类算法总结</a></li>  <li class="file"><a href="/2017/01/18/NLP/文本聚类/2.密度聚类法之DBSCAN/">2.密度聚类法之DBSCAN</a></li>  <li class="file"><a href="/2017/12/18/NLP/文本聚类/1.划分聚类法之k-means/">1.划分聚类法之k-means</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/12/18/NLP/文本聚类/0.文本聚类算法总结 - 副本/">文本聚类算法总结</a></li>  <li class="file"><a href="/2017/03/18/NLP/文本聚类/2.密度聚类法之DBSCAN/">2.密度聚类法之DBSCAN</a></li>  <li class="file"><a href="/2017/01/18/NLP/文本聚类/1.划分聚类法之k-means/">1.划分聚类法之k-means</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -392,7 +392,7 @@
 
 
     
-        <article id="post-NLP/词法分析/关键词提取/0.关键词提取的分类" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-NLP/文本聚类/2.密度聚类法之DBSCAN" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -402,15 +402,15 @@
                         
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/词法分析/">词法分析</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/词法分析/关键词提取/">关键词提取</a>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/文本聚类/">文本聚类</a>
     </div>
 
                         
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/12/18/NLP/词法分析/关键词提取/0.关键词提取的分类/">
-            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        <a href="/2017/03/18/NLP/文本聚类/2.密度聚类法之DBSCAN/">
+            <time datetime="2017-03-18T09:17:35.000Z" itemprop="datePublished">2017-03-18</time>
         </a>
     </div>
 
@@ -421,13 +421,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/词法分析/关键词提取/0.关键词提取的分类.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/文本聚类/2.密度聚类法之DBSCAN.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/词法分析/关键词提取/0.关键词提取的分类.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/文本聚类/2.密度聚类法之DBSCAN.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/词法分析/关键词提取/0.关键词提取的分类.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/文本聚类/2.密度聚类法之DBSCAN.md'> History </a>
                             </div>
                         
                     </div>
@@ -435,7 +435,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/18/NLP/词法分析/关键词提取/0.关键词提取的分类/">关键词提取的分类</a>
+            <a class="article-title" href="/2017/03/18/NLP/文本聚类/2.密度聚类法之DBSCAN/">2.密度聚类法之DBSCAN</a>
         </h1>
     
 
@@ -451,121 +451,10 @@
                     
                     
                 
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
             
         
         
-            <h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p>
-<h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p>
-<h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>
-
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-NLP/词法分析/关键词提取/1.PageRank的前世今生" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/词法分析/">词法分析</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/词法分析/关键词提取/">关键词提取</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/12/18/NLP/词法分析/关键词提取/1.PageRank的前世今生/">
-            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/词法分析/关键词提取/1.PageRank的前世今生.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/词法分析/关键词提取/1.PageRank的前世今生.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/词法分析/关键词提取/1.PageRank的前世今生.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/18/NLP/词法分析/关键词提取/1.PageRank的前世今生/">PageRank算法的前世今生</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
             
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                
-                    
-                    <p><h4 id="一、算法定义"><a href="#一、算法定义" class="headerlink" title="一、算法定义"></a>一、算法定义</h4><p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p>
-<p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
-<h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p>
-<p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p>
-<p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p>
-<p>
-                
-            
-        
-        
-            </div>   
-            <div class="article-more-link">
-                <a href="/2017/12/18/NLP/词法分析/关键词提取/1.PageRank的前世今生/#more">Read More</a>
             </div>
         
         <footer class="article-footer">
@@ -673,7 +562,7 @@
 
 
     
-        <article id="post-NLP/文本聚类/2.密度聚类法之DBSCAN" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-NLP/文本聚类/1.划分聚类法之k-means" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -690,7 +579,7 @@
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/01/18/NLP/文本聚类/2.密度聚类法之DBSCAN/">
+        <a href="/2017/01/18/NLP/文本聚类/1.划分聚类法之k-means/">
             <time datetime="2017-01-18T09:17:35.000Z" itemprop="datePublished">2017-01-18</time>
         </a>
     </div>
@@ -702,13 +591,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/文本聚类/2.密度聚类法之DBSCAN.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/文本聚类/1.划分聚类法之k-means.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/文本聚类/2.密度聚类法之DBSCAN.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/文本聚类/1.划分聚类法之k-means.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/文本聚类/2.密度聚类法之DBSCAN.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/文本聚类/1.划分聚类法之k-means.md'> History </a>
                             </div>
                         
                     </div>
@@ -716,7 +605,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2017/01/18/NLP/文本聚类/2.密度聚类法之DBSCAN/">2.密度聚类法之DBSCAN</a>
+            <a class="article-title" href="/2017/01/18/NLP/文本聚类/1.划分聚类法之k-means/">1.划分聚类法之k-means</a>
         </h1>
     
 
@@ -736,6 +625,105 @@
         
         
             
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
+        <article id="post-NLP/文本聚类/0.文本聚类算法总结 - 副本" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/文本聚类/">文本聚类</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2016/12/18/NLP/文本聚类/0.文本聚类算法总结 - 副本/">
+            <time datetime="2016-12-18T09:17:35.000Z" itemprop="datePublished">2016-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/文本聚类/0.文本聚类算法总结 - 副本.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/文本聚类/0.文本聚类算法总结 - 副本.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/文本聚类/0.文本聚类算法总结 - 副本.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2016/12/18/NLP/文本聚类/0.文本聚类算法总结 - 副本/">文本聚类算法总结</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><h4 id="一、文本聚类算法总结"><a href="#一、文本聚类算法总结" class="headerlink" title="一、文本聚类算法总结"></a>一、文本聚类算法总结</h4><h5 id="1-划分法"><a href="#1-划分法" class="headerlink" title="1.划分法"></a>1.划分法</h5><p>(partitioning methods)：给定一个有N个元组或者纪录的数据集，分裂法将构造K个分组，每一个分组就代表一个聚类，K&lt;N。而且这K个分组满足下列条件：（1） 每一个分组至少包含一个数据纪录；（2）每一个数据纪录属于且仅属于一个分组（注意：这个要求在某些模糊聚类算法中可以放宽）；对于给定的K，算法首先给出一个初始的分组方法，以后通过反复迭代的方法改变分组，使得每一次改进之后的分组方案都较前一次好，而所谓好的标准就是：同一分组中的记录越近越好，而不同分组中的纪录越远越好。使用这个基本思想的算法有：K-MEANS算法、K-MEDOIDS算法、CLARANS算法；</p>
+<h5 id="2-层次法"><a href="#2-层次法" class="headerlink" title="2.层次法"></a>2.层次法</h5><p>(hierarchical methods)：这种方法对给定的数据集进行层次似的分解，直到某种条件满足为止。具体又可分为“自底向上”和“自顶向下”两种方案。例如在“自底向上”方案中，初始时每一个数据纪录都组成一个单独的组，在接下来的迭代中，它把那些相互邻近的组合并成一个组，直到所有的记录组成一个分组或者某个条件满足为止。代表算法有：BIRCH算法、CURE算法、CHAMELEON算法等；</p>
+<h5 id="3-基于密度的方法"><a href="#3-基于密度的方法" class="headerlink" title="3.基于密度的方法"></a>3.基于密度的方法</h5><p>（density-based methods):基于密度的方法与其它方法的一个根本区别是：它不是基于各种各样的距离的，而是基于密度的。这样就能克服基于距离的算法只能发现“类圆形”的聚类的缺点。这个方法的指导思想就是，只要一个区域中的点的密度大过某个阀值，就把它加到与之相近的聚类中去。代表算法有：DBSCAN算法、OPTICS算法、DENCLUE算法等；</p>
+<h5 id="4-基于网格的方法"><a href="#4-基于网格的方法" class="headerlink" title="4.基于网格的方法"></a>4.基于网格的方法</h5><p>(grid-based methods):这种方法首先将数据空间划分成为有限个单元（cell）的网格结构,所有的处理都是以单个的单元为对象的。这么处理的一个突出的优点就是处理速度很快，通常这是与目标数据库中记录的个数无关的，它只与把数据空间分为多少个单元有关。代表算法有：STING算法、CLIQUE算法、WAVE-CLUSTER算法；</p>
+<h5 id="5-基于模型的方法"><a href="#5-基于模型的方法" class="headerlink" title="5.基于模型的方法"></a>5.基于模型的方法</h5><p>(model-based methods):基于模型的方法给每一个聚类假定一个模型，然后去寻找一个能很好的满足这个模型的数据集。这样一个模型可能是数据点在空间中的密度分布函数或者其它。它的一个潜在的假定就是：目标数据集是由一系列的概率分布所决定的。通常有两种尝试方向：统计的方案和神经网络的方案</p>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2016/12/18/NLP/文本聚类/0.文本聚类算法总结 - 副本/#more">Read More</a>
             </div>
         
         <footer class="article-footer">
