@@ -75,7 +75,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -94,10 +94,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Entradas',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -128,7 +128,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
     </div>
 
                 </td>
@@ -145,7 +145,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>categories</span>
+            <span>Categorias</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -223,6 +223,42 @@
                             2-句法分析
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/2-句法分析/这里是句法分析/">这里是句法分析</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            3-短语分析
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            观点抽取
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            文章观点抽取
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/05/18/NLP/3-短语分析/观点抽取/文章观点抽取/文章观点抽取/">文章观点抽取.md</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            评论观点抽取
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/05/16/NLP/3-短语分析/观点抽取/评论观点抽取/评论观点抽取/">评论观点抽取</a></li>  </ul> 
+                    </li> 
+                     <li class="file"><a href="/2018/05/16/NLP/3-短语分析/观点抽取/观点抽取分类/">观点抽取分类</a></li>  </ul> 
+                    </li> 
+                     </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -334,6 +370,292 @@
 </aside>
             
             <section id="main">
+        <article id="post-NLP/7-文本分类/1.朴素贝叶斯算法" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/7-文本分类/">7-文本分类</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/">
+            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/7-文本分类/1.朴素贝叶斯算法.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/7-文本分类/1.朴素贝叶斯算法.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/7-文本分类/1.朴素贝叶斯算法.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/">1.朴素贝叶斯算法</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><h4 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h4><h5 id="1-分类原理"><a href="#1-分类原理" class="headerlink" title="1.分类原理"></a>1.分类原理</h5><p>通过某对象的先验概率，利用贝叶斯公式，计算出其后验概率。即该对象属于某一类的概率，选择具有最大后验概率的类作为该对象所属的类。</p>
+<h5 id="2-贝叶斯公式"><a href="#2-贝叶斯公式" class="headerlink" title="2.贝叶斯公式"></a>2.贝叶斯公式</h5><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p>
+<ul>
+<li>(1).其中P(A)为先验概率：先验概率（prior probability）是指根据以往经验和分析得到的概率，如全概率公式，它往往作为”由因求果”问题中的”因”出现的概率。；</li>
+<li>(2).其中P(B|A)为似然概率(likelihood)：是先前统计的事件中，A事件发生情况下B事件发生的概率</li>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/#more">Read More</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
+        <article id="post-NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/1-词法分析/">1-词法分析</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/1-词法分析/4-关键词提取/">4-关键词提取</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生/">
+            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/12/18/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生/">PageRank算法的前世今生</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><h4 id="一、算法定义"><a href="#一、算法定义" class="headerlink" title="一、算法定义"></a>一、算法定义</h4><p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p>
+<p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p>
+<h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p>
+<p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p>
+<p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生/#more">Read More</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
+        <article id="post-NLP/1-词法分析/4-关键词提取/0.关键词提取的分类" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/1-词法分析/">1-词法分析</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/1-词法分析/4-关键词提取/">4-关键词提取</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类/">
+            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/12/18/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类/">关键词提取的分类</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        
+        
+            <h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p>
+<h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p>
+<h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-NLP/8-文本聚类/3-层次聚类法之CANOPY" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -656,6 +978,98 @@
 
 
     
+        <article id="post-DeepLearning/CNN/CNN" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/DeepLearning/CNN/">CNN</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/01/09/DeepLearning/CNN/CNN/">
+            <time datetime="2017-01-09T08:02:27.000Z" itemprop="datePublished">2017-01-09</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/CNN/CNN.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/CNN/CNN.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/CNN/CNN.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/01/09/DeepLearning/CNN/CNN/">CNN算法</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        
+        
+            <p>二、学习资料</p>
+<ol>
+<li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li>
+</ol>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-DeepLearning/CNN/CNN算法之文本分类" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -840,371 +1254,8 @@
 
 
     
-        <article id="post-DeepLearning/deeplearning" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/01/09/DeepLearning/deeplearning/">
-            <time datetime="2017-01-09T08:02:27.000Z" itemprop="datePublished">2017-01-09</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/deeplearning.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/deeplearning.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/deeplearning.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/01/09/DeepLearning/deeplearning/">deeplearning算法分类</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        
-        
-            <h4 id="一、常用神经网络分类"><a href="#一、常用神经网络分类" class="headerlink" title="一、常用神经网络分类"></a>一、常用神经网络分类</h4><h6 id="1-Perceptron-感知机-神经网络的前身"><a href="#1-Perceptron-感知机-神经网络的前身" class="headerlink" title="1.Perceptron(感知机,神经网络的前身)"></a>1.Perceptron(感知机,神经网络的前身)</h6><h6 id="2-前向传播算法"><a href="#2-前向传播算法" class="headerlink" title="2.前向传播算法"></a>2.前向传播算法</h6><h6 id="3-BP-反向传播算法"><a href="#3-BP-反向传播算法" class="headerlink" title="3.BP(反向传播算法)"></a>3.BP(反向传播算法)</h6><h6 id="4-DNN-深度神经网络"><a href="#4-DNN-深度神经网络" class="headerlink" title="4.DNN(深度神经网络)"></a>4.DNN(深度神经网络)</h6><h6 id="5-CNN-卷积神经网络"><a href="#5-CNN-卷积神经网络" class="headerlink" title="5.CNN(卷积神经网络)"></a>5.CNN(卷积神经网络)</h6><h6 id="6-RNN-循环神经网络"><a href="#6-RNN-循环神经网络" class="headerlink" title="6.RNN(循环神经网络)"></a>6.RNN(循环神经网络)</h6><h6 id="7-LSTM-神经网络"><a href="#7-LSTM-神经网络" class="headerlink" title="7.LSTM(..神经网络)"></a>7.LSTM(..神经网络)</h6><p>二、学习资料</p>
-<ol>
-<li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li>
-</ol>
-
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-DeepLearning/CNN/CNN" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/DeepLearning/CNN/">CNN</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/01/09/DeepLearning/CNN/CNN/">
-            <time datetime="2017-01-09T08:02:27.000Z" itemprop="datePublished">2017-01-09</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/CNN/CNN.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/CNN/CNN.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/CNN/CNN.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/01/09/DeepLearning/CNN/CNN/">CNN算法</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        
-        
-            <p>二、学习资料</p>
-<ol>
-<li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li>
-</ol>
-
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-NLP/8-文本聚类/0-文本聚类算法总结 - 副本" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/8-文本聚类/">8-文本聚类</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/12/18/NLP/8-文本聚类/0-文本聚类算法总结 - 副本/">
-            <time datetime="2016-12-18T09:17:35.000Z" itemprop="datePublished">2016-12-18</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/8-文本聚类/0-文本聚类算法总结 - 副本.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/8-文本聚类/0-文本聚类算法总结 - 副本.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/8-文本聚类/0-文本聚类算法总结 - 副本.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/12/18/NLP/8-文本聚类/0-文本聚类算法总结 - 副本/">0-文本聚类算法总结</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                
-                    
-                    <p><h4 id="一、文本聚类算法总结"><a href="#一、文本聚类算法总结" class="headerlink" title="一、文本聚类算法总结"></a>一、文本聚类算法总结</h4><h5 id="1-划分法"><a href="#1-划分法" class="headerlink" title="1.划分法"></a>1.划分法</h5><p>(partitioning methods)：给定一个有N个元组或者纪录的数据集，分裂法将构造K个分组，每一个分组就代表一个聚类，K&lt;N。而且这K个分组满足下列条件：（1） 每一个分组至少包含一个数据纪录；（2）每一个数据纪录属于且仅属于一个分组（注意：这个要求在某些模糊聚类算法中可以放宽）；对于给定的K，算法首先给出一个初始的分组方法，以后通过反复迭代的方法改变分组，使得每一次改进之后的分组方案都较前一次好，而所谓好的标准就是：同一分组中的记录越近越好，而不同分组中的纪录越远越好。使用这个基本思想的算法有：K-MEANS算法、K-MEDOIDS算法、CLARANS算法；</p>
-<h5 id="2-层次法"><a href="#2-层次法" class="headerlink" title="2.层次法"></a>2.层次法</h5><h6 id="2-1层次发的总结"><a href="#2-1层次发的总结" class="headerlink" title="2.1层次发的总结"></a>2.1层次发的总结</h6><p>(hierarchical methods)：这种方法对给定的数据集进行层次似的分解，直到某种条件满足为止。具体又可分为“自底向上”和“自顶向下”两种方案。例如在“自底向上”方案中，初始时每一个数据纪录都组成一个单独的组，在接下来的迭代中，它把那些相互邻近的组合并成一个组，直到所有的记录组成一个分组或者某个条件满足为止。代表算法有：CANOPY算法、BIRCH算法、CURE算法、CHAMELEON算法等；</p>
-<h6 id="2-2层次法的优点"><a href="#2-2层次法的优点" class="headerlink" title="2.2层次法的优点"></a>2.2层次法的优点</h6><p>(1).距离和规则的相似度容易定义，限制少<br>(2).不需要预先定制聚类书<br>(3).可以发现类的层次关系<br>(4).可以聚类成其他形状</p>
-<h6 id="2-3层次法的缺点"><a href="#2-3层次法的缺点" class="headerlink" title="2.3层次法的缺点"></a>2.3层次法的缺点</h6><p>(1).计算复杂度太高<br>(2).奇异值也能产生很大影响<br>(3).算法可能聚成链状</p>
-<h5 id="3-基于密度的方法"><a href="#3-基于密度的方法" class="headerlink" title="3.基于密度的方法"></a>3.基于密度的方法</h5><p>（density-based methods):基于密度的方法与其它方法的一个根本区别是：它不是基于各种各样的距离的，而是基于密度的。这样就能克服基于距离的算法只能发现“类圆形”的聚类的缺点。这个方法的指导思想就是，只要一个区域中的点的密度大过某个阀值，就把它加到与之相近的聚类中去。代表算法有：DBSCAN算法、OPTICS算法、DENCLUE算法等；</p>
-<p>
-                
-            
-        
-        
-            </div>   
-            <div class="article-more-link">
-                <a href="/2016/12/18/NLP/8-文本聚类/0-文本聚类算法总结 - 副本/#more">Read More</a>
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-NLP/9-特征提取/0.文本特征提取算法总结 - 副本" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/9-特征提取/">9-特征提取</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/01/18/NLP/9-特征提取/0.文本特征提取算法总结 - 副本/">
-            <time datetime="2016-01-18T05:17:35.000Z" itemprop="datePublished">2016-01-18</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/9-特征提取/0.文本特征提取算法总结 - 副本.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/9-特征提取/0.文本特征提取算法总结 - 副本.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/9-特征提取/0.文本特征提取算法总结 - 副本.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/01/18/NLP/9-特征提取/0.文本特征提取算法总结 - 副本/">0.文本特征提取算法总结</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        
-        
-            <p>为分类文本作处理的特征提取算法也对最终效果有巨大影响，而特征提取算法又分为特征选择和特征抽取两大类，其中特征选择算法有互信息，文档频率，信息增益，开方检验等等十数种</p>
-
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
         <nav id="page-nav">
-        <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+        <a class="extend prev" rel="prev" href="/">&laquo; Anterior</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Siguiente  &raquo;</a>
         </nav>
     
 </section>
