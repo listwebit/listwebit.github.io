@@ -9,16 +9,16 @@
         <meta name="keywords" content="1.TF-IDF算法" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="TF-IDF算法">
+    <meta name="description" content="TF-IDF算法可以分解为两部分：TF和IDF 一、TF算法1.词频（term frequency，TF）2.公式：$TF =\frac {N{i,j}}{ \sum{k}N_{k,j}}$3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。 二、IDF算法1.逆向文件频率（inverse document frequency，IDF）2.公式：$IDF =">
 <meta property="og:type" content="article">
 <meta property="og:title" content="1.TF-IDF算法">
 <meta property="og:url" content="http://yoursite.com/2016/01/18/NLP/9-特征提取/1.TF-IDF/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
-<meta property="og:description" content="TF-IDF算法">
-<meta property="og:updated_time" content="2018-09-18T10:11:34.114Z">
+<meta property="og:description" content="TF-IDF算法可以分解为两部分：TF和IDF 一、TF算法1.词频（term frequency，TF）2.公式：$TF =\frac {N{i,j}}{ \sum{k}N_{k,j}}$3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。 二、IDF算法1.逆向文件频率（inverse document frequency，IDF）2.公式：$IDF =">
+<meta property="og:updated_time" content="2018-09-28T08:59:27.402Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="1.TF-IDF算法">
-<meta name="twitter:description" content="TF-IDF算法">
+<meta name="twitter:description" content="TF-IDF算法可以分解为两部分：TF和IDF 一、TF算法1.词频（term frequency，TF）2.公式：$TF =\frac {N{i,j}}{ \sum{k}N_{k,j}}$3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。 二、IDF算法1.逆向文件频率（inverse document frequency，IDF）2.公式：$IDF =">
     
 
     
@@ -79,7 +79,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -98,10 +98,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Entradas',
+            POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Categorias',
-            TAGS: 'Etiquetas',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -132,7 +132,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
     </div>
 
                 </td>
@@ -149,7 +149,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>Categorias</span>
+            <span>categories</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -429,7 +429,9 @@
             
         
         
-            <p>TF-IDF算法</p>
+            <p>TF-IDF算法可以分解为两部分：TF和IDF</p>
+<h4 id="一、TF算法"><a href="#一、TF算法" class="headerlink" title="一、TF算法"></a>一、TF算法</h4><p>1.词频（term frequency，TF）<br>2.公式：$TF =\frac {N<em>{i,j}}{ \sum</em>{k}N_{k,j}}$<br>3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。</p>
+<h4 id="二、IDF算法"><a href="#二、IDF算法" class="headerlink" title="二、IDF算法"></a>二、IDF算法</h4><p>1.逆向文件频率（inverse document frequency，IDF）<br>2.公式：$IDF =lg \frac {|D|}{|j:t_i ∈d_j|}$<br>3.解释：逆向文件频率（inverse document frequency，IDF）是一个词语普遍重要性的度量。某一特定词语的IDF，可以由总文件数目除以包含该词语之文件的数目，再将得到的商取以10为底的对数得到</p>
 
             </div>
         
@@ -443,7 +445,7 @@
 <nav id="article-nav">
     
         <a href="/2016/01/18/NLP/9-特征提取/0.文本特征提取算法总结 - 副本/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Más nuevo</strong>
+            <strong class="article-nav-caption">Newer</strong>
             <div class="article-nav-title">
                 
                     0.文本特征提取算法总结

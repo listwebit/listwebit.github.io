@@ -75,7 +75,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -94,10 +94,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Entradas',
+            POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Categorias',
-            TAGS: 'Etiquetas',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -128,7 +128,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
     </div>
 
                 </td>
@@ -145,7 +145,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>Categorias</span>
+            <span>categories</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -703,10 +703,18 @@
                     
                     
                 
+                    
+                    
+                
+                    
+                    
+                
             
         
         
-            <p>TF-IDF算法</p>
+            <p>TF-IDF算法可以分解为两部分：TF和IDF</p>
+<h4 id="一、TF算法"><a href="#一、TF算法" class="headerlink" title="一、TF算法"></a>一、TF算法</h4><p>1.词频（term frequency，TF）<br>2.公式：$TF =\frac {N<em>{i,j}}{ \sum</em>{k}N_{k,j}}$<br>3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。</p>
+<h4 id="二、IDF算法"><a href="#二、IDF算法" class="headerlink" title="二、IDF算法"></a>二、IDF算法</h4><p>1.逆向文件频率（inverse document frequency，IDF）<br>2.公式：$IDF =lg \frac {|D|}{|j:t_i ∈d_j|}$<br>3.解释：逆向文件频率（inverse document frequency，IDF）是一个词语普遍重要性的度量。某一特定词语的IDF，可以由总文件数目除以包含该词语之文件的数目，再将得到的商取以10为底的对数得到</p>
 
             </div>
         
@@ -722,7 +730,7 @@
 
     
         <nav id="page-nav">
-        <a class="extend prev" rel="prev" href="/page/2/">&laquo; Anterior</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+        <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
         </nav>
     
 </section>
