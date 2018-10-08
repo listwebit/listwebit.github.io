@@ -39,28 +39,6 @@
   </entry>
   
   <entry>
-    <title>评论观点抽取</title>
-    <link href="http://yoursite.com/2018/05/16/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
-    <id>http://yoursite.com/2018/05/16/NLP/3-短语分析/观点抽取/评论观点抽取/评论观点抽取/</id>
-    <published>2018-05-16T05:17:35.000Z</published>
-    <updated>2018-09-26T12:12:36.848Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="3-短语分析" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/"/>
-    
-      <category term="观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
-    
-      <category term="评论观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>观点抽取分类</title>
     <link href="http://yoursite.com/2018/05/16/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96%E5%88%86%E7%B1%BB/"/>
     <id>http://yoursite.com/2018/05/16/NLP/3-短语分析/观点抽取/观点抽取分类/</id>
@@ -83,6 +61,28 @@
       <category term="3-短语分析" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/"/>
     
       <category term="观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>评论观点抽取</title>
+    <link href="http://yoursite.com/2018/05/16/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
+    <id>http://yoursite.com/2018/05/16/NLP/3-短语分析/观点抽取/评论观点抽取/评论观点抽取/</id>
+    <published>2018-05-16T05:17:35.000Z</published>
+    <updated>2018-09-26T12:12:36.848Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="3-短语分析" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/"/>
+    
+      <category term="观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
+    
+      <category term="评论观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
     
     
   </entry>
@@ -163,6 +163,69 @@
   </entry>
   
   <entry>
+    <title>2-模型评估的指标</title>
+    <link href="http://yoursite.com/2017/12/19/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/2-%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E6%8C%87%E6%A0%87/"/>
+    <id>http://yoursite.com/2017/12/19/NLP/11-语言模型/2-模型评估的指标/</id>
+    <published>2017-12-19T09:17:35.000Z</published>
+    <updated>2018-10-08T06:03:43.875Z</updated>
+    
+    <content type="html"><![CDATA[<p>多模型评估的指标可以分为以下几个类别</p><h4 id="一-Accuracy，Precision，Recall"><a href="#一-Accuracy，Precision，Recall" class="headerlink" title="一.Accuracy，Precision，Recall"></a>一.Accuracy，Precision，Recall</h4><p>要计算这几个指标先要了解几个概念：<br>FN：False Negative,被判定为负样本，但事实上是正样本。<br>FP：False Positive,被判定为正样本，但事实上是负样本。<br>TN：True Negative,被判定为负样本，事实上也是负样本。<br>TP：True Positive,被判定为正样本，事实上也是证样本。<br>1.Accuracy (正确率)<br>$ac=\frac {TP+TN}{TP+TN+FP+FN}$</p><p>2.Precision精确率，准确率，查准率<br>$P = \frac {TP}{TP+FP}$<br>解释：正样本占分类器所分的正样本的比例</p><p>3.Recall(召回率，查全率)<br>$R = \frac {TP}{TP + FN}$<br>解释：正样本占真正的正样本的比例</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;多模型评估的指标可以分为以下几个类别&lt;/p&gt;
+&lt;h4 id=&quot;一-Accuracy，Precision，Recall&quot;&gt;&lt;a href=&quot;#一-Accuracy，Precision，Recall&quot; class=&quot;headerlink&quot; title=&quot;一.Accuracy，P
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="11-语言模型" scheme="http://yoursite.com/categories/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1-判别模型和生成模型.md</title>
+    <link href="http://yoursite.com/2017/12/19/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/1-%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B%E5%92%8C%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://yoursite.com/2017/12/19/NLP/11-语言模型/1-判别模型和生成模型/</id>
+    <published>2017-12-19T09:17:35.000Z</published>
+    <updated>2018-10-08T06:02:20.795Z</updated>
+    
+    <content type="html"><![CDATA[<table><thead><tr><th></th><th>判别模型</th><th>生成模型</th></tr></thead><tbody><tr><td>特点</td><td>寻找不同类别之间的最优分类面，反映的是异类数据之间的差异</td><td>对后验概率建模，从统计的角度表示数据的分布情况，能够反映同类数据本身的相似度</td></tr><tr><td>区别(假定输入x, 类别标签y)</td><td>估计的是条件概率分布(conditional distribution) : P(yx)</td><td>估计的是联合概率分布（joint probability distribution: P(x, y)</td></tr><tr><td>联系</td><td>由判别式模型得不到产生式模型</td><td>由产生式模型可以得到判别式模型</td></tr><tr><td>常见模型</td><td>– logistic regression  – SVMs  – traditional neural networks  – Nearest neighbor</td><td>–Gaussians, Naive Bayes –Mixtures of Gaussians, Mixtures of experts, HMMs–Sigmoidal belief networks, Bayesian networks– Markov random fields</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;判别模型&lt;/th&gt;
+&lt;th&gt;生成模型&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;特点&lt;/td&gt;
+&lt;td&gt;寻找不同类别之间的最优分类面，反映的是异类数据之间的差异&lt;/td&gt;
+&lt;td
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="11-语言模型" scheme="http://yoursite.com/categories/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>这里是词法分析</title>
     <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/%E8%BF%99%E9%87%8C%E6%98%AF%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
     <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/这里是词法分析/</id>
@@ -199,20 +262,19 @@
   </entry>
   
   <entry>
-    <title>关键词提取的分类</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/0.%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类/</id>
+    <title>PageRank算法的前世今生</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/1-PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/4-关键词提取/1-PageRank的前世今生/</id>
     <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-08-13T00:11:22.877Z</updated>
+    <updated>2018-08-13T00:08:23.140Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p><h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p><h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>]]></content>
+    <content type="html"><![CDATA[<h4 id="一、算法定义"><a href="#一、算法定义" class="headerlink" title="一、算法定义"></a>一、算法定义</h4><p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p><p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p><h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p><p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p><p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p><h4 id="三、搜索引擎"><a href="#三、搜索引擎" class="headerlink" title="三、搜索引擎"></a>三、搜索引擎</h4><p>搜索引擎的功能主要是：根据用户输入的关键字，返回文档的链接结果。<br>搜索引擎主要解决的三大问题：(1)如何获取文档资料  (2)如何根据关键词检索到相关文档  (3)如何对文档进行排序，返回给用户满意的页面。</p><h6 id="1-获取文档资料"><a href="#1-获取文档资料" class="headerlink" title="1.获取文档资料"></a>1.获取文档资料</h6><p>利用爬虫程序，获取互联网的页面资料。爬虫技术先从一个网页出发，将该网页的内容记录下来，保存到资料库，接着分析页面中的超链接，分别递归得去获取超链接页面。</p><h6 id="2-如何根据关键词检索到相关文档"><a href="#2-如何根据关键词检索到相关文档" class="headerlink" title="2.如何根据关键词检索到相关文档"></a>2.如何根据关键词检索到相关文档</h6><p>采用倒排索引算法。简单的说，倒排索引是一对key-value对，key代表关键词，value代表拥有这些关键词的文档编号或者url。</p><h6 id="3-文档排序"><a href="#3-文档排序" class="headerlink" title="3.文档排序"></a>3.文档排序</h6><p>这是搜索引擎最核心的问题，也是google发家致富的法宝 – PageRank算法。</p><h4 id="四、算法原理"><a href="#四、算法原理" class="headerlink" title="四、算法原理"></a>四、算法原理</h4><h6 id="4-1PageRank的两个假设"><a href="#4-1PageRank的两个假设" class="headerlink" title="4.1PageRank的两个假设"></a>4.1PageRank的两个假设</h6><blockquote><p>数量假设：1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高。<br>质量假设：2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高。</p></blockquote><h6 id="4-2PageRank的算法原理"><a href="#4-2PageRank的算法原理" class="headerlink" title="4.2PageRank的算法原理"></a>4.2PageRank的算法原理</h6><p>PageRank算法总的来说就是预先给每个网页一个PR值（下面用PR值指代PageRank值），由于PR值物理意义上为一个网页被访问概率，所以一般是1/N，其中N为网页总数。<br>预先给定PR值后，通过下面的算法不断迭代，直至达到平稳分布为止。</p><p><strong><em>PageRank值主要是的是节点的入链值。</em></strong></p><h6 id="4-3PageRank的简单计算"><a href="#4-3PageRank的简单计算" class="headerlink" title="4.3PageRank的简单计算"></a>4.3PageRank的简单计算</h6><h6 id="4-4PageRank的修正计算"><a href="#4-4PageRank的修正计算" class="headerlink" title="4.4PageRank的修正计算"></a>4.4PageRank的修正计算</h6>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;一、关键词抽取分类&quot;&gt;&lt;a href=&quot;#一、关键词抽取分类&quot; class=&quot;headerlink&quot; title=&quot;一、关键词抽取分类&quot;&gt;&lt;/a&gt;一、关键词抽取分类&lt;/h4&gt;&lt;p&gt;关键词抽取算法可以分为两类&lt;/p&gt;
-&lt;h6 id=&quot;1-使用外部的知识库&quot;&gt;&lt;a h
+        &lt;h4 id=&quot;一、算法定义&quot;&gt;&lt;a href=&quot;#一、算法定义&quot; class=&quot;headerlink&quot; title=&quot;一、算法定义&quot;&gt;&lt;/a&gt;一、算法定义&lt;/h4&gt;&lt;p&gt;PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相
       
     
     </summary>
@@ -227,19 +289,38 @@
   </entry>
   
   <entry>
-    <title>PageRank算法的前世今生</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/1.PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生/</id>
+    <title>0文本分类算法总结</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/</id>
     <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-08-13T00:08:23.140Z</updated>
+    <updated>2018-09-18T10:05:46.154Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="一、算法定义"><a href="#一、算法定义" class="headerlink" title="一、算法定义"></a>一、算法定义</h4><p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p><p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p><h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p><p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p><p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p><h4 id="三、搜索引擎"><a href="#三、搜索引擎" class="headerlink" title="三、搜索引擎"></a>三、搜索引擎</h4><p>搜索引擎的功能主要是：根据用户输入的关键字，返回文档的链接结果。<br>搜索引擎主要解决的三大问题：(1)如何获取文档资料  (2)如何根据关键词检索到相关文档  (3)如何对文档进行排序，返回给用户满意的页面。</p><h6 id="1-获取文档资料"><a href="#1-获取文档资料" class="headerlink" title="1.获取文档资料"></a>1.获取文档资料</h6><p>利用爬虫程序，获取互联网的页面资料。爬虫技术先从一个网页出发，将该网页的内容记录下来，保存到资料库，接着分析页面中的超链接，分别递归得去获取超链接页面。</p><h6 id="2-如何根据关键词检索到相关文档"><a href="#2-如何根据关键词检索到相关文档" class="headerlink" title="2.如何根据关键词检索到相关文档"></a>2.如何根据关键词检索到相关文档</h6><p>采用倒排索引算法。简单的说，倒排索引是一对key-value对，key代表关键词，value代表拥有这些关键词的文档编号或者url。</p><h6 id="3-文档排序"><a href="#3-文档排序" class="headerlink" title="3.文档排序"></a>3.文档排序</h6><p>这是搜索引擎最核心的问题，也是google发家致富的法宝 – PageRank算法。</p><h4 id="四、算法原理"><a href="#四、算法原理" class="headerlink" title="四、算法原理"></a>四、算法原理</h4><h6 id="4-1PageRank的两个假设"><a href="#4-1PageRank的两个假设" class="headerlink" title="4.1PageRank的两个假设"></a>4.1PageRank的两个假设</h6><blockquote><p>数量假设：1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高。<br>质量假设：2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高。</p></blockquote><h6 id="4-2PageRank的算法原理"><a href="#4-2PageRank的算法原理" class="headerlink" title="4.2PageRank的算法原理"></a>4.2PageRank的算法原理</h6><p>PageRank算法总的来说就是预先给每个网页一个PR值（下面用PR值指代PageRank值），由于PR值物理意义上为一个网页被访问概率，所以一般是1/N，其中N为网页总数。<br>预先给定PR值后，通过下面的算法不断迭代，直至达到平稳分布为止。</p><p><strong><em>PageRank值主要是的是节点的入链值。</em></strong></p><h6 id="4-3PageRank的简单计算"><a href="#4-3PageRank的简单计算" class="headerlink" title="4.3PageRank的简单计算"></a>4.3PageRank的简单计算</h6><h6 id="4-4PageRank的修正计算"><a href="#4-4PageRank的修正计算" class="headerlink" title="4.4PageRank的修正计算"></a>4.4PageRank的修正计算</h6>]]></content>
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关键词提取的分类</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/0-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/4-关键词提取/0-关键词提取的分类/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-08-13T00:11:22.877Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p><h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p><h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;一、算法定义&quot;&gt;&lt;a href=&quot;#一、算法定义&quot; class=&quot;headerlink&quot; title=&quot;一、算法定义&quot;&gt;&lt;/a&gt;一、算法定义&lt;/h4&gt;&lt;p&gt;PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相
+        &lt;h4 id=&quot;一、关键词抽取分类&quot;&gt;&lt;a href=&quot;#一、关键词抽取分类&quot; class=&quot;headerlink&quot; title=&quot;一、关键词抽取分类&quot;&gt;&lt;/a&gt;一、关键词抽取分类&lt;/h4&gt;&lt;p&gt;关键词抽取算法可以分为两类&lt;/p&gt;
+&lt;h6 id=&quot;1-使用外部的知识库&quot;&gt;&lt;a h
       
     
     </summary>
@@ -279,19 +360,27 @@
   </entry>
   
   <entry>
-    <title>0文本分类算法总结</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/</id>
+    <title>0-语言模型</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/0-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/11-语言模型/0-语言模型/</id>
     <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-18T10:05:46.154Z</updated>
+    <updated>2018-10-08T06:00:39.691Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>语言模型就是用于评估文本符合语言使用习惯程度的模型。</code></p><h4 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h4><p>我们目前所说的语言模型主要指的是统计语言模型。<br>统计语言模型是一个单词序列上的概率分布，对于一个给定长度为m的序列，它可以为整个序列产生一个概率 P(w1,w2,…,wm)。其实就是想办法找到一个概率分布，它可以表示任意一个句子或序列出现的概率。 </p><h4 id="二、建立统计语言模型"><a href="#二、建立统计语言模型" class="headerlink" title="二、建立统计语言模型"></a>二、建立统计语言模型</h4><p>对于一个由T个词按顺序构成的句子$s=w_1w_2w_3…w_t$，p(s)实际上求解的是字符串$w_1w_2w_3…w_t$的联合概率，利用贝叶斯公式，链式分解如下：<br>$P(s)=P(w_1w_2w_3…w_t) =P(w_1)P(w_2|w_1)P(w_3|w_1w_2)P(w_T|w<em>1…w</em>{T-1})$<br>从上面可以看到，一个统计语言模型可以表示成，给定前面的的词，求后面一个词出现的条件概率。我们在求p(s)时实际上就已经建立了一个模型，这里的p(*)就是模型的参数，如果这些参数已经求解得到，那么很容易就能够得到字符串s的概率。</p><p>由于上式中的参数过多，因此需要近似的计算方法。常见的方法有n-gram模型方法、决策树方法、最大熵模型方法、最大熵马尔科夫模型方法、条件随机域方法、神经网络方法，等等。</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;code&gt;语言模型就是用于评估文本符合语言使用习惯程度的模型。&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;一、定义&quot;&gt;&lt;a href=&quot;#一、定义&quot; class=&quot;headerlink&quot; title=&quot;一、定义&quot;&gt;&lt;/a&gt;一、定义&lt;/h4&gt;&lt;p&gt;我们目前所说的语言模型主要指的
+      
     
     </summary>
     
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
+      <category term="11-语言模型" scheme="http://yoursite.com/categories/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
     
     
   </entry>
@@ -316,8 +405,8 @@
   
   <entry>
     <title>2-密度聚类法之DBSCAN</title>
-    <link href="http://yoursite.com/2017/03/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/2-%E5%AF%86%E5%BA%A6%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8BDBSCAN%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>http://yoursite.com/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本/</id>
+    <link href="http://yoursite.com/2017/03/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/2-%E5%AF%86%E5%BA%A6%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8BDBSCAN/"/>
+    <id>http://yoursite.com/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN/</id>
     <published>2017-03-18T09:17:35.000Z</published>
     <updated>2018-09-25T10:45:53.121Z</updated>
     
@@ -367,93 +456,6 @@
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
       <category term="8-文本聚类" scheme="http://yoursite.com/categories/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>CNN算法</title>
-    <link href="http://yoursite.com/2017/01/09/DeepLearning/CNN/CNN/"/>
-    <id>http://yoursite.com/2017/01/09/DeepLearning/CNN/CNN/</id>
-    <published>2017-01-09T08:02:27.000Z</published>
-    <updated>2018-09-20T06:12:27.399Z</updated>
-    
-    <content type="html"><![CDATA[<p>二、学习资料</p><ol><li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;二、学习资料&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Michael Nielsen的《Neural Network and Deep Learning》&lt;br&gt;中文翻译《神经网络与深度学习》  &lt;/li&gt;
-&lt;/ol&gt;
-
-      
-    
-    </summary>
-    
-      <category term="DeepLearning" scheme="http://yoursite.com/categories/DeepLearning/"/>
-    
-      <category term="CNN" scheme="http://yoursite.com/categories/DeepLearning/CNN/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>CNN算法</title>
-    <link href="http://yoursite.com/2017/01/09/DeepLearning/CNN/CNN%E7%AE%97%E6%B3%95%E4%B9%8B%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
-    <id>http://yoursite.com/2017/01/09/DeepLearning/CNN/CNN算法之文本分类/</id>
-    <published>2017-01-09T08:02:27.000Z</published>
-    <updated>2018-09-20T06:12:27.399Z</updated>
-    
-    <content type="html"><![CDATA[<p>二、学习资料</p><ol><li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;二、学习资料&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Michael Nielsen的《Neural Network and Deep Learning》&lt;br&gt;中文翻译《神经网络与深度学习》  &lt;/li&gt;
-&lt;/ol&gt;
-
-      
-    
-    </summary>
-    
-      <category term="DeepLearning" scheme="http://yoursite.com/categories/DeepLearning/"/>
-    
-      <category term="CNN" scheme="http://yoursite.com/categories/DeepLearning/CNN/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>感知机算法</title>
-    <link href="http://yoursite.com/2017/01/09/DeepLearning/Perceptron/Perceptron/"/>
-    <id>http://yoursite.com/2017/01/09/DeepLearning/Perceptron/Perceptron/</id>
-    <published>2017-01-09T08:02:27.000Z</published>
-    <updated>2018-09-20T06:11:58.139Z</updated>
-    
-    <content type="html"><![CDATA[<p>二、学习资料</p><ol><li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;二、学习资料&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Michael Nielsen的《Neural Network and Deep Learning》&lt;br&gt;中文翻译《神经网络与深度学习》  &lt;/li&gt;
-&lt;/ol&gt;
-
-      
-    
-    </summary>
-    
-      <category term="DeepLearning" scheme="http://yoursite.com/categories/DeepLearning/"/>
-    
-      <category term="Perceptron" scheme="http://yoursite.com/categories/DeepLearning/Perceptron/"/>
     
     
   </entry>

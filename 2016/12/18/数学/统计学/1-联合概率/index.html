@@ -3,22 +3,22 @@
 <head>
     <meta charset="utf-8">
     
-    <title>关键词提取的分类 | 帅的掉渣的博客</title>
+    <title>1-联合概率 | 帅的掉渣的博客</title>
     
     
-        <meta name="keywords" content="关键词提取的分类" />
+        <meta name="keywords" content="1-联合概率" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="一、关键词抽取分类关键词抽取算法可以分为两类 1.使用外部的知识库(1).TF-IDFTF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库(2).LDA模型 2.不适用外部知识库(1).TextRank(2).PageRank">
+    <meta name="description" content="一、定义联合概率是指在多元的概率分布中多个随机变量分别满足各自条件的概率。假设X和Y都服从正态分布，那么P{X&amp;lt;4,Y&amp;lt;0}就是一个联合概率，表示X&amp;lt;4,Y&amp;lt;0两个条件同时成立的概率。表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）。 二、公式$P(AB) = P(A)P(B|A)$$P(AB) = P(B)P(A|B)$以">
 <meta property="og:type" content="article">
-<meta property="og:title" content="关键词提取的分类">
-<meta property="og:url" content="http://yoursite.com/2017/12/18/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类/index.html">
+<meta property="og:title" content="1-联合概率">
+<meta property="og:url" content="http://yoursite.com/2016/12/18/数学/统计学/1-联合概率/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
-<meta property="og:description" content="一、关键词抽取分类关键词抽取算法可以分为两类 1.使用外部的知识库(1).TF-IDFTF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库(2).LDA模型 2.不适用外部知识库(1).TextRank(2).PageRank">
-<meta property="og:updated_time" content="2018-08-13T00:11:22.877Z">
+<meta property="og:description" content="一、定义联合概率是指在多元的概率分布中多个随机变量分别满足各自条件的概率。假设X和Y都服从正态分布，那么P{X&amp;lt;4,Y&amp;lt;0}就是一个联合概率，表示X&amp;lt;4,Y&amp;lt;0两个条件同时成立的概率。表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）。 二、公式$P(AB) = P(A)P(B|A)$$P(AB) = P(B)P(A|B)$以">
+<meta property="og:updated_time" content="2018-10-08T06:09:05.627Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关键词提取的分类">
-<meta name="twitter:description" content="一、关键词抽取分类关键词抽取算法可以分为两类 1.使用外部的知识库(1).TF-IDFTF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库(2).LDA模型 2.不适用外部知识库(1).TextRank(2).PageRank">
+<meta name="twitter:title" content="1-联合概率">
+<meta name="twitter:description" content="一、定义联合概率是指在多元的概率分布中多个随机变量分别满足各自条件的概率。假设X和Y都服从正态分布，那么P{X&amp;lt;4,Y&amp;lt;0}就是一个联合概率，表示X&amp;lt;4,Y&amp;lt;0两个条件同时成立的概率。表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）。 二、公式$P(AB) = P(A)P(B|A)$$P(AB) = P(B)P(A|B)$以">
     
 
     
@@ -204,29 +204,38 @@
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/09/MachineLearning/回归/">回归</a></li>  <li class="file"><a href="/2018/01/09/MachineLearning/回归的分类/">回归的分类</a></li>  </ul> 
                     </li> 
                     
-                    <li class="directory open">
+                    <li class="directory">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder-open"></i>
+                            <i class="fa fa-folder"></i>
                             &nbsp;
                             NLP
                         </a>
                          <ul class="unstyled" id="tree" > 
-                    <li class="directory open">
+                    <li class="directory">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder-open"></i>
+                            <i class="fa fa-folder"></i>
                             &nbsp;
                             1-词法分析
                         </a>
                          <ul class="unstyled" id="tree" > 
-                    <li class="directory open">
+                    <li class="directory">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder-open"></i>
+                            <i class="fa fa-folder"></i>
                             &nbsp;
                             4-关键词提取
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类/">关键词提取的分类</a></li>  <li class="file"><a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生/">PageRank算法的前世今生</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/0-关键词提取的分类/">关键词提取的分类</a></li>  <li class="file"><a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/1-PageRank的前世今生/">PageRank算法的前世今生</a></li>  </ul> 
                     </li> 
                      <li class="file"><a href="/2017/12/18/NLP/1-词法分析/这里是词法分析/">这里是词法分析</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            11-语言模型
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/11-语言模型/0-语言模型/">0-语言模型</a></li>  <li class="file"><a href="/2017/12/19/NLP/11-语言模型/1-判别模型和生成模型/">1-判别模型和生成模型.md</a></li>  <li class="file"><a href="/2017/12/19/NLP/11-语言模型/2-模型评估的指标/">2-模型评估的指标</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -289,7 +298,7 @@
                             &nbsp;
                             8-文本聚类
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/12/18/NLP/8-文本聚类/0-文本聚类算法总结 - 副本/">0-文本聚类算法总结</a></li>  <li class="file"><a href="/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本/">2-密度聚类法之DBSCAN</a></li>  <li class="file"><a href="/2017/01/18/NLP/8-文本聚类/1-划分聚类法之k-means/">1-划分聚类法之k-means</a></li>  <li class="file"><a href="/2017/05/18/NLP/8-文本聚类/3-层次聚类法之CANOPY/">3-层次聚类法之CANOPY</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/18/NLP/8-文本聚类/1-划分聚类法之k-means/">1-划分聚类法之k-means</a></li>  <li class="file"><a href="/2017/05/18/NLP/8-文本聚类/3-层次聚类法之CANOPY/">3-层次聚类法之CANOPY</a></li>  <li class="file"><a href="/2016/12/18/NLP/8-文本聚类/0-文本聚类算法总结/">0-文本聚类算法总结</a></li>  <li class="file"><a href="/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN/">2-密度聚类法之DBSCAN</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -298,7 +307,7 @@
                             &nbsp;
                             9-特征提取
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/01/18/NLP/9-特征提取/0.文本特征提取算法总结 - 副本/">0.文本特征提取算法总结</a></li>  <li class="file"><a href="/2016/01/18/NLP/9-特征提取/1.TF-IDF/">1.TF-IDF算法</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/01/18/NLP/9-特征提取/1-TF-IDF/">1-TF-IDF算法</a></li>  <li class="file"><a href="/2016/01/18/NLP/9-特征提取/0-文本特征提取算法总结/">0-文本特征提取算法总结</a></li>  </ul> 
                     </li> 
                      </ul> 
                     </li> 
@@ -310,6 +319,24 @@
                             总结
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/09/总结/2017年/">2017年</a></li>  <li class="file"><a href="/2018/01/09/总结/2017年总结/">2017年总结</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            数学
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
+                            统计学
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/12/18/数学/统计学/0-条件概率/">0-条件概率</a></li>  <li class="file active"><a href="/2016/12/18/数学/统计学/1-联合概率/">1-联合概率</a></li>  </ul> 
+                    </li> 
+                     </ul> 
                     </li> 
                      <li class="file"><a href="/2017/03/10/人工智能机器学习NLP算法分类总结/">人工智能机器学习NLP算法分类总结</a></li>  </ul> 
     </div>
@@ -382,7 +409,7 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
-            <section id="main"><article id="post-NLP/1-词法分析/4-关键词提取/0.关键词提取的分类" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-数学/统计学/1-联合概率" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -392,15 +419,15 @@
                         
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/1-词法分析/">1-词法分析</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/1-词法分析/4-关键词提取/">4-关键词提取</a>
+        <a class="article-category-link" href="/categories/数学/">数学</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/数学/统计学/">统计学</a>
     </div>
 
                         
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类/">
-            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        <a href="/2016/12/18/数学/统计学/1-联合概率/">
+            <time datetime="2016-12-18T09:17:35.000Z" itemprop="datePublished">2016-12-18</time>
         </a>
     </div>
 
@@ -411,13 +438,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/数学/统计学/1-联合概率.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/数学/统计学/1-联合概率.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/数学/统计学/1-联合概率.md'> History </a>
                             </div>
                         
                     </div>
@@ -425,7 +452,7 @@
                 
     
         <h1 class="article-title" itemprop="name">
-            关键词提取的分类
+            1-联合概率
         </h1>
     
 
@@ -438,9 +465,8 @@
             
         
         
-            <h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p>
-<h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p>
-<h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>
+            <h4 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h4><p>联合概率是指在多元的概率分布中多个随机变量分别满足各自条件的概率。假设X和Y都服从正态分布，那么P{X&lt;4,Y&lt;0}就是一个联合概率，表示X&lt;4,Y&lt;0两个条件同时成立的概率。表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）。</p>
+<h4 id="二、公式"><a href="#二、公式" class="headerlink" title="二、公式"></a>二、公式</h4><p>$P(AB) = P(A)<em>P(B|A)$<br>$P(AB) = P(B)</em>P(A|B)$<br>以上公式还可以变形为：<br>$P(B|A) = \frac {P(A|B)<em>P(B)}{P(A)}$<br>$P(A|B) = \frac {P(B|A)</em>P(A)}{P(B)}$</p>
 
             </div>
         
@@ -453,19 +479,19 @@
     
 <nav id="article-nav">
     
-        <a href="/2017/12/18/NLP/2-句法分析/这里是句法分析/" id="article-nav-newer" class="article-nav-link-wrap">
+        <a href="/2016/12/18/数学/统计学/0-条件概率/" id="article-nav-newer" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Newer</strong>
             <div class="article-nav-title">
                 
-                    这里是句法分析
+                    0-条件概率
                 
             </div>
         </a>
     
     
-        <a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/2016/12/18/NLP/8-文本聚类/0-文本聚类算法总结/" id="article-nav-older" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Older</strong>
-            <div class="article-nav-title">PageRank算法的前世今生</div>
+            <div class="article-nav-title">0-文本聚类算法总结</div>
         </a>
     
 </nav>

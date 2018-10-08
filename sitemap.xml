@@ -2,16 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2017/01/09/DeepLearning/RNN/RNN/</loc>
+    <loc>http://yoursite.com/2016/01/18/NLP/9-%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/1-TF-IDF/</loc>
     
-    <lastmod>2018-09-29T06:30:25.521Z</lastmod>
+    <lastmod>2018-10-08T06:10:07.347Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/01/18/NLP/9-%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/1.TF-IDF/</loc>
+    <loc>http://yoursite.com/2016/01/18/NLP/9-%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/0-%E6%96%87%E6%9C%AC%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/</loc>
     
-    <lastmod>2018-09-28T08:59:27.402Z</lastmod>
+    <lastmod>2018-10-08T06:09:59.092Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/12/18/%E6%95%B0%E5%AD%A6/%E7%BB%9F%E8%AE%A1%E5%AD%A6/1-%E8%81%94%E5%90%88%E6%A6%82%E7%8E%87/</loc>
+    
+    <lastmod>2018-10-08T06:09:05.627Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/12/18/%E6%95%B0%E5%AD%A6/%E7%BB%9F%E8%AE%A1%E5%AD%A6/0-%E6%9D%A1%E4%BB%B6%E6%A6%82%E7%8E%87/</loc>
+    
+    <lastmod>2018-10-08T06:07:42.683Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/12/19/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/2-%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E6%8C%87%E6%A0%87/</loc>
+    
+    <lastmod>2018-10-08T06:03:43.875Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/12/19/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/1-%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B%E5%92%8C%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/</loc>
+    
+    <lastmod>2018-10-08T06:02:20.795Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/12/18/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/0-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</loc>
+    
+    <lastmod>2018-10-08T06:00:39.691Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2017/01/09/DeepLearning/RNN/RNN/</loc>
+    
+    <lastmod>2018-09-29T06:30:25.521Z</lastmod>
     
   </url>
   
@@ -44,7 +86,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/03/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/2-%E5%AF%86%E5%BA%A6%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8BDBSCAN%20-%20%E5%89%AF%E6%9C%AC/</loc>
+    <loc>http://yoursite.com/2017/03/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/2-%E5%AF%86%E5%BA%A6%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8BDBSCAN/</loc>
     
     <lastmod>2018-09-25T10:45:53.121Z</lastmod>
     
@@ -58,21 +100,21 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/12/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/0-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93%20-%20%E5%89%AF%E6%9C%AC/</loc>
+    <loc>http://yoursite.com/2016/12/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/0-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/</loc>
     
     <lastmod>2018-09-25T10:45:35.496Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/01/09/DeepLearning/CNN/CNN%E7%AE%97%E6%B3%95%E4%B9%8B%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/</loc>
+    <loc>http://yoursite.com/2017/01/09/DeepLearning/CNN/CNN/</loc>
     
     <lastmod>2018-09-20T06:12:27.399Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/01/09/DeepLearning/CNN/CNN/</loc>
+    <loc>http://yoursite.com/2017/01/09/DeepLearning/CNN/CNN%E7%AE%97%E6%B3%95%E4%B9%8B%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/</loc>
     
     <lastmod>2018-09-20T06:12:27.399Z</lastmod>
     
@@ -89,13 +131,6 @@
     <loc>http://yoursite.com/2017/01/09/DeepLearning/deeplearning/</loc>
     
     <lastmod>2018-09-20T06:11:12.756Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/01/18/NLP/9-%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/0.%E6%96%87%E6%9C%AC%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93%20-%20%E5%89%AF%E6%9C%AC/</loc>
-    
-    <lastmod>2018-09-18T10:10:34.298Z</lastmod>
     
   </url>
   
@@ -121,14 +156,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/0.%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/</loc>
+    <loc>http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/0-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/</loc>
     
     <lastmod>2018-08-13T00:11:22.877Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/1.PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/</loc>
+    <loc>http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/1-PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/</loc>
     
     <lastmod>2018-08-13T00:08:23.140Z</lastmod>
     

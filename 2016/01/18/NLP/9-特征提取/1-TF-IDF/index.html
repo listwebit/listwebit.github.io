@@ -3,19 +3,22 @@
 <head>
     <meta charset="utf-8">
     
-    <title>2-密度聚类法之DBSCAN | 帅的掉渣的博客</title>
+    <title>1-TF-IDF算法 | 帅的掉渣的博客</title>
     
     
-        <meta name="keywords" content="2-密度聚类法之DBSCAN" />
+        <meta name="keywords" content="1-TF-IDF算法" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="article">
-<meta property="og:title" content="2-密度聚类法之DBSCAN">
-<meta property="og:url" content="http://yoursite.com/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本/index.html">
+    <meta name="description" content="TF-IDF算法可以分解为两部分：TF和IDF 一、TF算法1.词频（term frequency，TF）2.公式：$TF =\frac {N{i,j}}{ \sum{k}N_{k,j}}$3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。 二、IDF算法1.逆向文件频率（inverse document frequency，IDF）2.公式：$IDF =">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1-TF-IDF算法">
+<meta property="og:url" content="http://yoursite.com/2016/01/18/NLP/9-特征提取/1-TF-IDF/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
-<meta property="og:updated_time" content="2018-09-25T10:45:53.121Z">
+<meta property="og:description" content="TF-IDF算法可以分解为两部分：TF和IDF 一、TF算法1.词频（term frequency，TF）2.公式：$TF =\frac {N{i,j}}{ \sum{k}N_{k,j}}$3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。 二、IDF算法1.逆向文件频率（inverse document frequency，IDF）2.公式：$IDF =">
+<meta property="og:updated_time" content="2018-10-08T06:10:07.347Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2-密度聚类法之DBSCAN">
+<meta name="twitter:title" content="1-TF-IDF算法">
+<meta name="twitter:description" content="TF-IDF算法可以分解为两部分：TF和IDF 一、TF算法1.词频（term frequency，TF）2.公式：$TF =\frac {N{i,j}}{ \sum{k}N_{k,j}}$3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。 二、IDF算法1.逆向文件频率（inverse document frequency，IDF）2.公式：$IDF =">
     
 
     
@@ -221,9 +224,18 @@
                             &nbsp;
                             4-关键词提取
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/0.关键词提取的分类/">关键词提取的分类</a></li>  <li class="file"><a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/1.PageRank的前世今生/">PageRank算法的前世今生</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/0-关键词提取的分类/">关键词提取的分类</a></li>  <li class="file"><a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/1-PageRank的前世今生/">PageRank算法的前世今生</a></li>  </ul> 
                     </li> 
                      <li class="file"><a href="/2017/12/18/NLP/1-词法分析/这里是词法分析/">这里是词法分析</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            11-语言模型
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/11-语言模型/0-语言模型/">0-语言模型</a></li>  <li class="file"><a href="/2017/12/19/NLP/11-语言模型/1-判别模型和生成模型/">1-判别模型和生成模型.md</a></li>  <li class="file"><a href="/2017/12/19/NLP/11-语言模型/2-模型评估的指标/">2-模型评估的指标</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -280,22 +292,22 @@
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/">0文本分类算法总结</a></li>  <li class="file"><a href="/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/">1.朴素贝叶斯算法</a></li>  </ul> 
                     </li> 
                     
-                    <li class="directory open">
-                        <a href="#" data-role="directory">
-                            <i class="fa fa-folder-open"></i>
-                            &nbsp;
-                            8-文本聚类
-                        </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/12/18/NLP/8-文本聚类/0-文本聚类算法总结 - 副本/">0-文本聚类算法总结</a></li>  <li class="file active"><a href="/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本/">2-密度聚类法之DBSCAN</a></li>  <li class="file"><a href="/2017/01/18/NLP/8-文本聚类/1-划分聚类法之k-means/">1-划分聚类法之k-means</a></li>  <li class="file"><a href="/2017/05/18/NLP/8-文本聚类/3-层次聚类法之CANOPY/">3-层次聚类法之CANOPY</a></li>  </ul> 
-                    </li> 
-                    
                     <li class="directory">
                         <a href="#" data-role="directory">
                             <i class="fa fa-folder"></i>
                             &nbsp;
+                            8-文本聚类
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/18/NLP/8-文本聚类/1-划分聚类法之k-means/">1-划分聚类法之k-means</a></li>  <li class="file"><a href="/2017/05/18/NLP/8-文本聚类/3-层次聚类法之CANOPY/">3-层次聚类法之CANOPY</a></li>  <li class="file"><a href="/2016/12/18/NLP/8-文本聚类/0-文本聚类算法总结/">0-文本聚类算法总结</a></li>  <li class="file"><a href="/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN/">2-密度聚类法之DBSCAN</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory open">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder-open"></i>
+                            &nbsp;
                             9-特征提取
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/01/18/NLP/9-特征提取/0.文本特征提取算法总结 - 副本/">0.文本特征提取算法总结</a></li>  <li class="file"><a href="/2016/01/18/NLP/9-特征提取/1.TF-IDF/">1.TF-IDF算法</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/2016/01/18/NLP/9-特征提取/1-TF-IDF/">1-TF-IDF算法</a></li>  <li class="file"><a href="/2016/01/18/NLP/9-特征提取/0-文本特征提取算法总结/">0-文本特征提取算法总结</a></li>  </ul> 
                     </li> 
                      </ul> 
                     </li> 
@@ -307,6 +319,24 @@
                             总结
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2018/01/09/总结/2017年/">2017年</a></li>  <li class="file"><a href="/2018/01/09/总结/2017年总结/">2017年总结</a></li>  </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            数学
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            统计学
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2016/12/18/数学/统计学/0-条件概率/">0-条件概率</a></li>  <li class="file"><a href="/2016/12/18/数学/统计学/1-联合概率/">1-联合概率</a></li>  </ul> 
+                    </li> 
+                     </ul> 
                     </li> 
                      <li class="file"><a href="/2017/03/10/人工智能机器学习NLP算法分类总结/">人工智能机器学习NLP算法分类总结</a></li>  </ul> 
     </div>
@@ -379,7 +409,7 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
-            <section id="main"><article id="post-NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-NLP/9-特征提取/1-TF-IDF" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -389,15 +419,15 @@
                         
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/8-文本聚类/">8-文本聚类</a>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/9-特征提取/">9-特征提取</a>
     </div>
 
                         
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本/">
-            <time datetime="2017-03-18T09:17:35.000Z" itemprop="datePublished">2017-03-18</time>
+        <a href="/2016/01/18/NLP/9-特征提取/1-TF-IDF/">
+            <time datetime="2016-01-18T05:17:35.000Z" itemprop="datePublished">2016-01-18</time>
         </a>
     </div>
 
@@ -408,13 +438,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/9-特征提取/1-TF-IDF.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/9-特征提取/1-TF-IDF.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/8-文本聚类/2-密度聚类法之DBSCAN - 副本.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/9-特征提取/1-TF-IDF.md'> History </a>
                             </div>
                         
                     </div>
@@ -422,7 +452,7 @@
                 
     
         <h1 class="article-title" itemprop="name">
-            2-密度聚类法之DBSCAN
+            1-TF-IDF算法
         </h1>
     
 
@@ -435,7 +465,10 @@
             
         
         
-            
+            <p>TF-IDF算法可以分解为两部分：TF和IDF</p>
+<h4 id="一、TF算法"><a href="#一、TF算法" class="headerlink" title="一、TF算法"></a>一、TF算法</h4><p>1.词频（term frequency，TF）<br>2.公式：$TF =\frac {N<em>{i,j}}{ \sum</em>{k}N_{k,j}}$<br>3.解释：以上式子中分子是该词在文件中的出现次数，而分母则是在文件中所有字词的出现次数之和。</p>
+<h4 id="二、IDF算法"><a href="#二、IDF算法" class="headerlink" title="二、IDF算法"></a>二、IDF算法</h4><p>1.逆向文件频率（inverse document frequency，IDF）<br>2.公式：$IDF =lg \frac {|D|}{|j:t_i ∈d_j|}$<br>3.解释：逆向文件频率（inverse document frequency，IDF）是一个词语普遍重要性的度量。某一特定词语的IDF，可以由总文件数目除以包含该词语之文件的数目，再将得到的商取以10为底的对数得到</p>
+
             </div>
         
         <footer class="article-footer">
@@ -447,20 +480,15 @@
     
 <nav id="article-nav">
     
-        <a href="/2017/05/18/NLP/8-文本聚类/3-层次聚类法之CANOPY/" id="article-nav-newer" class="article-nav-link-wrap">
+        <a href="/2016/01/18/NLP/9-特征提取/0-文本特征提取算法总结/" id="article-nav-newer" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Newer</strong>
             <div class="article-nav-title">
                 
-                    3-层次聚类法之CANOPY
+                    0-文本特征提取算法总结
                 
             </div>
         </a>
     
-    
-        <a href="/2017/03/10/人工智能机器学习NLP算法分类总结/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Older</strong>
-            <div class="article-nav-title">人工智能机器学习NLP算法分类总结</div>
-        </a>
     
 </nav>
 
