@@ -39,6 +39,28 @@
   </entry>
   
   <entry>
+    <title>评论观点抽取</title>
+    <link href="http://yoursite.com/2018/05/16/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
+    <id>http://yoursite.com/2018/05/16/NLP/3-短语分析/观点抽取/评论观点抽取/评论观点抽取/</id>
+    <published>2018-05-16T05:17:35.000Z</published>
+    <updated>2018-09-26T12:12:36.848Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="3-短语分析" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/"/>
+    
+      <category term="观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
+    
+      <category term="评论观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>观点抽取分类</title>
     <link href="http://yoursite.com/2018/05/16/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96%E5%88%86%E7%B1%BB/"/>
     <id>http://yoursite.com/2018/05/16/NLP/3-短语分析/观点抽取/观点抽取分类/</id>
@@ -66,31 +88,27 @@
   </entry>
   
   <entry>
-    <title>评论观点抽取</title>
-    <link href="http://yoursite.com/2018/05/16/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
-    <id>http://yoursite.com/2018/05/16/NLP/3-短语分析/观点抽取/评论观点抽取/评论观点抽取/</id>
-    <published>2018-05-16T05:17:35.000Z</published>
-    <updated>2018-09-26T12:12:36.848Z</updated>
+    <title>回归</title>
+    <link href="http://yoursite.com/2018/01/09/MachineLearning/2-%E5%9B%9E%E5%BD%92/%E5%9B%9E%E5%BD%92/"/>
+    <id>http://yoursite.com/2018/01/09/MachineLearning/2-回归/回归/</id>
+    <published>2018-01-09T08:02:27.000Z</published>
+    <updated>2018-01-09T08:02:27.288Z</updated>
     
     <summary type="html">
     
     </summary>
     
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
     
-      <category term="3-短语分析" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/"/>
-    
-      <category term="观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
-    
-      <category term="评论观点抽取" scheme="http://yoursite.com/categories/NLP/3-%E7%9F%AD%E8%AF%AD%E5%88%86%E6%9E%90/%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/%E8%AF%84%E8%AE%BA%E8%A7%82%E7%82%B9%E6%8A%BD%E5%8F%96/"/>
+      <category term="2-回归" scheme="http://yoursite.com/categories/MachineLearning/2-%E5%9B%9E%E5%BD%92/"/>
     
     
   </entry>
   
   <entry>
     <title>回归的分类</title>
-    <link href="http://yoursite.com/2018/01/09/MachineLearning/%E5%9B%9E%E5%BD%92%E7%9A%84%E5%88%86%E7%B1%BB/"/>
-    <id>http://yoursite.com/2018/01/09/MachineLearning/回归的分类/</id>
+    <link href="http://yoursite.com/2018/01/09/MachineLearning/2-%E5%9B%9E%E5%BD%92/%E5%9B%9E%E5%BD%92%E7%9A%84%E5%88%86%E7%B1%BB/"/>
+    <id>http://yoursite.com/2018/01/09/MachineLearning/2-回归/回归的分类/</id>
     <published>2018-01-09T08:02:27.000Z</published>
     <updated>2018-01-09T08:31:26.000Z</updated>
     
@@ -107,23 +125,37 @@
     
       <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
     
+      <category term="2-回归" scheme="http://yoursite.com/categories/MachineLearning/2-%E5%9B%9E%E5%BD%92/"/>
+    
     
       <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
-    <title>回归</title>
-    <link href="http://yoursite.com/2018/01/09/MachineLearning/%E5%9B%9E%E5%BD%92/"/>
-    <id>http://yoursite.com/2018/01/09/MachineLearning/回归/</id>
+    <title>代价函数，损失函数，目标函数区别</title>
+    <link href="http://yoursite.com/2018/01/09/MachineLearning/0-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%EF%BC%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%EF%BC%8C%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0%E5%8C%BA%E5%88%AB/"/>
+    <id>http://yoursite.com/2018/01/09/MachineLearning/0-基本概念/代价函数，损失函数，目标函数区别/</id>
     <published>2018-01-09T08:02:27.000Z</published>
-    <updated>2018-01-09T08:02:27.288Z</updated>
+    <updated>2018-11-01T09:46:59.187Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先给出结论：</p><p>损失函数（Loss Function ）是定义在单个样本上的，算的是一个样本的误差。</p><p>代价函数（Cost Function ）是定义在整个训练集上的，是所有样本误差的平均，也就是损失函数的平均。</p><p>目标函数（Object Function）定义为：最终需要优化的函数。等于经验风险+结构风险（也就是Cost Function + 正则化项）。</p><p>参考：<a href="https://www.zhihu.com/question/52398145" target="_blank" rel="noopener">https://www.zhihu.com/question/52398145</a></p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;首先给出结论：&lt;/p&gt;
+&lt;p&gt;损失函数（Loss Function ）是定义在单个样本上的，算的是一个样本的误差。&lt;/p&gt;
+&lt;p&gt;代价函数（Cost Function ）是定义在整个训练集上的，是所有样本误差的平均，也就是损失函数的平均。&lt;/p&gt;
+&lt;p&gt;目标函数（Objec
+      
     
     </summary>
     
       <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="0-基本概念" scheme="http://yoursite.com/categories/MachineLearning/0-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
     
     
   </entry>
@@ -163,35 +195,9 @@
   </entry>
   
   <entry>
-    <title>2-模型评估的指标</title>
-    <link href="http://yoursite.com/2017/12/19/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/2-%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E6%8C%87%E6%A0%87/"/>
-    <id>http://yoursite.com/2017/12/19/NLP/11-语言模型/2-模型评估的指标/</id>
-    <published>2017-12-19T09:17:35.000Z</published>
-    <updated>2018-10-08T06:03:43.875Z</updated>
-    
-    <content type="html"><![CDATA[<p>多模型评估的指标可以分为以下几个类别</p><h4 id="一-Accuracy，Precision，Recall"><a href="#一-Accuracy，Precision，Recall" class="headerlink" title="一.Accuracy，Precision，Recall"></a>一.Accuracy，Precision，Recall</h4><p>要计算这几个指标先要了解几个概念：<br>FN：False Negative,被判定为负样本，但事实上是正样本。<br>FP：False Positive,被判定为正样本，但事实上是负样本。<br>TN：True Negative,被判定为负样本，事实上也是负样本。<br>TP：True Positive,被判定为正样本，事实上也是证样本。<br>1.Accuracy (正确率)<br>$ac=\frac {TP+TN}{TP+TN+FP+FN}$</p><p>2.Precision精确率，准确率，查准率<br>$P = \frac {TP}{TP+FP}$<br>解释：正样本占分类器所分的正样本的比例</p><p>3.Recall(召回率，查全率)<br>$R = \frac {TP}{TP + FN}$<br>解释：正样本占真正的正样本的比例</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;多模型评估的指标可以分为以下几个类别&lt;/p&gt;
-&lt;h4 id=&quot;一-Accuracy，Precision，Recall&quot;&gt;&lt;a href=&quot;#一-Accuracy，Precision，Recall&quot; class=&quot;headerlink&quot; title=&quot;一.Accuracy，P
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="11-语言模型" scheme="http://yoursite.com/categories/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>1-判别模型和生成模型.md</title>
-    <link href="http://yoursite.com/2017/12/19/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/1-%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B%E5%92%8C%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/"/>
-    <id>http://yoursite.com/2017/12/19/NLP/11-语言模型/1-判别模型和生成模型/</id>
+    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/1-%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B%E5%92%8C%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/</id>
     <published>2017-12-19T09:17:35.000Z</published>
     <updated>2018-10-08T06:02:20.795Z</updated>
     
@@ -214,6 +220,83 @@
 &lt;td&gt;特点&lt;/td&gt;
 &lt;td&gt;寻找不同类别之间的最优分类面，反映的是异类数据之间的差异&lt;/td&gt;
 &lt;td
+      
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2-模型评估的指标</title>
+    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/2-%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E6%8C%87%E6%A0%87/"/>
+    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/2-模型评估的指标/</id>
+    <published>2017-12-19T09:17:35.000Z</published>
+    <updated>2018-10-08T06:03:43.875Z</updated>
+    
+    <content type="html"><![CDATA[<p>多模型评估的指标可以分为以下几个类别</p><h4 id="一-Accuracy，Precision，Recall"><a href="#一-Accuracy，Precision，Recall" class="headerlink" title="一.Accuracy，Precision，Recall"></a>一.Accuracy，Precision，Recall</h4><p>要计算这几个指标先要了解几个概念：<br>FN：False Negative,被判定为负样本，但事实上是正样本。<br>FP：False Positive,被判定为正样本，但事实上是负样本。<br>TN：True Negative,被判定为负样本，事实上也是负样本。<br>TP：True Positive,被判定为正样本，事实上也是证样本。<br>1.Accuracy (正确率)<br>$ac=\frac {TP+TN}{TP+TN+FP+FN}$</p><p>2.Precision精确率，准确率，查准率<br>$P = \frac {TP}{TP+FP}$<br>解释：正样本占分类器所分的正样本的比例</p><p>3.Recall(召回率，查全率)<br>$R = \frac {TP}{TP + FN}$<br>解释：正样本占真正的正样本的比例</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;多模型评估的指标可以分为以下几个类别&lt;/p&gt;
+&lt;h4 id=&quot;一-Accuracy，Precision，Recall&quot;&gt;&lt;a href=&quot;#一-Accuracy，Precision，Recall&quot; class=&quot;headerlink&quot; title=&quot;一.Accuracy，P
+      
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>3-模型假设函数,损失函数,代价函数,目标函数</title>
+    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/3-%E6%A8%A1%E5%9E%8B%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0,%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0,%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0,%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0/"/>
+    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/</id>
+    <published>2017-12-19T09:17:35.000Z</published>
+    <updated>2018-11-27T15:15:23.023Z</updated>
+    
+    <content type="html"><![CDATA[<p>假设函数(hypothesis function):预测函数<br>损失函数(loss function):计算的是一个样本的误差<br>代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均<br>目标函数(objective function):代价函数 + 正则化项</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;假设函数(hypothesis function):预测函数&lt;br&gt;损失函数(loss function):计算的是一个样本的误差&lt;br&gt;代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均&lt;br&gt;目标函数(objective function
+      
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0-语言模型</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/0-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/11-语言模型/0-语言模型/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-11-13T10:13:35.720Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>语言模型就是用于评估文本符合语言使用习惯程度的模型。</code></p><h4 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h4><p>我们目前所说的语言模型主要指的是统计语言模型。<br>统计语言模型是一个单词序列上的概率分布，对于一个给定长度为m的序列，它可以为整个序列产生一个概率 P(w1,w2,…,wm)。其实就是想办法找到一个概率分布，它可以表示任意一个句子或序列出现的概率。 </p><h4 id="二、统计语言模型"><a href="#二、统计语言模型" class="headerlink" title="二、统计语言模型"></a>二、统计语言模型</h4><p>对于一个由T个词按顺序构成的句子$s=w_1w_2w_3…w_t$，p(s)实际上求解的是字符串$w_1w_2w_3…w_t$的联合概率，利用贝叶斯公式，链式分解如下：<br>$P(s)=P(w_1w_2w_3…w_t) =P(w_1)P(w_2|w_1)P(w_3|w_1w_2)P(w_T|w<em>1…w</em>{T-1})$<br>从上面可以看到，一个统计语言模型可以表示成，给定前面的的词，求后面一个词出现的条件概率。我们在求p(s)时实际上就已经建立了一个模型，这里的p(*)就是模型的参数，如果这些参数已经求解得到，那么很容易就能够得到字符串s的概率。</p><p>由于上式中的参数过多，因此需要近似的计算方法。常见的方法有n-gram模型方法、决策树方法、最大熵模型方法、最大熵马尔科夫模型方法、条件随机域方法、神经网络方法，等等。</p><h4 id="三、"><a href="#三、" class="headerlink" title="三、"></a>三、</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;code&gt;语言模型就是用于评估文本符合语言使用习惯程度的模型。&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;一、定义&quot;&gt;&lt;a href=&quot;#一、定义&quot; class=&quot;headerlink&quot; title=&quot;一、定义&quot;&gt;&lt;/a&gt;一、定义&lt;/h4&gt;&lt;p&gt;我们目前所说的语言模型主要指的
       
     
     </summary>
@@ -244,11 +327,11 @@
   </entry>
   
   <entry>
-    <title>这里是句法分析</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/2-%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/%E8%BF%99%E9%87%8C%E6%98%AF%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/2-句法分析/这里是句法分析/</id>
+    <title>0文本分类算法总结</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/</id>
     <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-08-12T08:48:45.815Z</updated>
+    <updated>2018-09-18T10:05:46.154Z</updated>
     
     <summary type="html">
     
@@ -256,7 +339,7 @@
     
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="2-句法分析" scheme="http://yoursite.com/categories/NLP/2-%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
+      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
@@ -284,24 +367,6 @@
       <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
     
       <category term="4-关键词提取" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0文本分类算法总结</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-18T10:05:46.154Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
@@ -360,55 +425,36 @@
   </entry>
   
   <entry>
-    <title>0-语言模型</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/0-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/11-语言模型/0-语言模型/</id>
+    <title>0-文本向量化</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/0-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/6-文本向量化/0-文本向量化/</id>
     <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-10-08T06:00:39.691Z</updated>
+    <updated>2018-11-13T12:45:56.226Z</updated>
     
-    <content type="html"><![CDATA[<p><code>语言模型就是用于评估文本符合语言使用习惯程度的模型。</code></p><h4 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h4><p>我们目前所说的语言模型主要指的是统计语言模型。<br>统计语言模型是一个单词序列上的概率分布，对于一个给定长度为m的序列，它可以为整个序列产生一个概率 P(w1,w2,…,wm)。其实就是想办法找到一个概率分布，它可以表示任意一个句子或序列出现的概率。 </p><h4 id="二、建立统计语言模型"><a href="#二、建立统计语言模型" class="headerlink" title="二、建立统计语言模型"></a>二、建立统计语言模型</h4><p>对于一个由T个词按顺序构成的句子$s=w_1w_2w_3…w_t$，p(s)实际上求解的是字符串$w_1w_2w_3…w_t$的联合概率，利用贝叶斯公式，链式分解如下：<br>$P(s)=P(w_1w_2w_3…w_t) =P(w_1)P(w_2|w_1)P(w_3|w_1w_2)P(w_T|w<em>1…w</em>{T-1})$<br>从上面可以看到，一个统计语言模型可以表示成，给定前面的的词，求后面一个词出现的条件概率。我们在求p(s)时实际上就已经建立了一个模型，这里的p(*)就是模型的参数，如果这些参数已经求解得到，那么很容易就能够得到字符串s的概率。</p><p>由于上式中的参数过多，因此需要近似的计算方法。常见的方法有n-gram模型方法、决策树方法、最大熵模型方法、最大熵马尔科夫模型方法、条件随机域方法、神经网络方法，等等。</p>]]></content>
+    <content type="html"><![CDATA[<h4 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h4><h4 id="二、分类"><a href="#二、分类" class="headerlink" title="二、分类"></a>二、分类</h4><h5 id="1-one-hot-将词向量化"><a href="#1-one-hot-将词向量化" class="headerlink" title="1.one-hot(将词向量化)"></a>1.one-hot(将词向量化)</h5><p>这最简单的一种想法，就是对一句话用one-hot编码:比如对于这句话：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ohn likes to watch movies,Mary likes too.</span><br><span class="line">John likes to watch movies,Mary likes too.</span><br><span class="line">John also likes to watch football games.</span><br><span class="line">John also likes to watch football games.</span><br></pre></td></tr></table></figure></p><p>可以通过以上语料构建一个字典：dic<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1:&quot;John&quot;</span><br><span class="line">2:&quot;likes&quot;</span><br><span class="line">3:&quot;to&quot;</span><br><span class="line">4:&quot;watch&quot;</span><br><span class="line">5:&quot;movies&quot;</span><br><span class="line">6:&quot;also&quot;</span><br><span class="line">7:&quot;football&quot;</span><br><span class="line">8:&quot;games&quot;</span><br><span class="line">9:&quot;Mary&quot;</span><br><span class="line">10:&quot;too&quot;</span><br></pre></td></tr></table></figure></p><p>用one-hot可以表示为：<br>第一句话：<br>John :[1,0,0,0,0,0,0,0,0,0]<br>likes  :[0,1,0,0,0,0,0,0,0,0]<br>…<br>too   :[0,0,0,0,0,0,0,0,0,1]</p><p>第二句话：<br>John :[1,0,0,0,0,0,0,0,0,0]<br>likes  :[0,1,0,0,0,0,0,0,0,0]<br>…<br>too   :[0,0,0,0,0,0,0,0,0,1]<br>但事实是，这样做耗费的资源太多，而且不能很好的表征每句话的特性。</p><h5 id="2-Bag-of-words-将句子向量化"><a href="#2-Bag-of-words-将句子向量化" class="headerlink" title="2.Bag-of-words(将句子向量化)"></a>2.Bag-of-words(将句子向量化)</h5><p>另一种方法则是词袋模型，它相当于一个词袋，不考虑词/句之间的相关性，只要出现了该词，就会记为1，再次出现就会+1。比如前面的那句话：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">John likes to watch movies,Mary likes too.</span><br></pre></td></tr></table></figure></p><p>可以表示为<br>[1,2,1,1,1,0,0,0,1,1]</p><p>与其相似的是binary weighting,它就是看一下每个词是否出现，出现记为1，没出现记为0<br>[1,1,1,1,1,0,0,0,1,1]</p><h5 id="3-TF-IDF-将句子向量化：考虑词的重要性"><a href="#3-TF-IDF-将句子向量化：考虑词的重要性" class="headerlink" title="3.TF-IDF(将句子向量化：考虑词的重要性)"></a>3.TF-IDF(将句子向量化：考虑词的重要性)</h5><p>因此，就有tf-idf解决这个问题，它的主要思路就是有两方面：<br>A—第一就是如果这个词在我们当前文档出现的频率非常高，说明它在当前文档应该是比较重要的。<br>B-但如果它在所有的文档中出现的频次都非常好，大家可能就会觉得这个词应该不是那么重要的。</p><p>比如中文的“的“，或者我们上面那两个句子中的to.<br>因此，tf-idf就是一个在当前文档和所有文档中权衡他们的重要性，然后计算出每个词的重要度的方法。</p><h5 id="4-word2vec-词的维度固定"><a href="#4-word2vec-词的维度固定" class="headerlink" title="4.word2vec(词的维度固定)"></a>4.word2vec(词的维度固定)</h5>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;code&gt;语言模型就是用于评估文本符合语言使用习惯程度的模型。&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&quot;一、定义&quot;&gt;&lt;a href=&quot;#一、定义&quot; class=&quot;headerlink&quot; title=&quot;一、定义&quot;&gt;&lt;/a&gt;一、定义&lt;/h4&gt;&lt;p&gt;我们目前所说的语言模型主要指的
+        &lt;h4 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;headerlink&quot; title=&quot;一、简介&quot;&gt;&lt;/a&gt;一、简介&lt;/h4&gt;&lt;h4 id=&quot;二、分类&quot;&gt;&lt;a href=&quot;#二、分类&quot; class=&quot;headerlink&quot; title=&quot;二、分类&quot;&gt;&lt;/a
       
     
     </summary>
     
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="11-语言模型" scheme="http://yoursite.com/categories/NLP/11-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
+      <category term="6-文本向量化" scheme="http://yoursite.com/categories/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/"/>
     
     
   </entry>
   
   <entry>
-    <title>3-层次聚类法之CANOPY</title>
-    <link href="http://yoursite.com/2017/05/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/3-%E5%B1%82%E6%AC%A1%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8BCANOPY/"/>
-    <id>http://yoursite.com/2017/05/18/NLP/8-文本聚类/3-层次聚类法之CANOPY/</id>
-    <published>2017-05-18T09:17:35.000Z</published>
-    <updated>2018-09-25T10:45:58.395Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="8-文本聚类" scheme="http://yoursite.com/categories/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2-密度聚类法之DBSCAN</title>
-    <link href="http://yoursite.com/2017/03/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/2-%E5%AF%86%E5%BA%A6%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8BDBSCAN/"/>
-    <id>http://yoursite.com/2017/03/18/NLP/8-文本聚类/2-密度聚类法之DBSCAN/</id>
-    <published>2017-03-18T09:17:35.000Z</published>
-    <updated>2018-09-25T10:45:53.121Z</updated>
+    <title>这里是句法分析</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/2-%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/%E8%BF%99%E9%87%8C%E6%98%AF%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/2-句法分析/这里是句法分析/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-08-12T08:48:45.815Z</updated>
     
     <summary type="html">
     
@@ -416,46 +462,36 @@
     
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="8-文本聚类" scheme="http://yoursite.com/categories/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/"/>
+      <category term="2-句法分析" scheme="http://yoursite.com/categories/NLP/2-%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
     
     
   </entry>
   
   <entry>
-    <title>人工智能机器学习NLP算法分类总结</title>
-    <link href="http://yoursite.com/2017/03/10/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0NLP%E7%AE%97%E6%B3%95%E5%88%86%E7%B1%BB%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2017/03/10/人工智能机器学习NLP算法分类总结/</id>
-    <published>2017-03-10T02:27:01.000Z</published>
-    <updated>2018-09-18T09:49:24.191Z</updated>
+    <title>word2ve源码解析(python版gensim实现)</title>
+    <link href="http://yoursite.com/2017/10/12/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/2.1-word2ve%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90(python%E7%89%88gensim%E5%AE%9E%E7%8E%B0)/"/>
+    <id>http://yoursite.com/2017/10/12/NLP/6-文本向量化/2.1-word2ve源码解析(python版gensim实现)/</id>
+    <published>2017-10-12T04:18:15.000Z</published>
+    <updated>2018-11-27T03:13:23.258Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、人工智能学习算法分类"><a href="#一、人工智能学习算法分类" class="headerlink" title="一、人工智能学习算法分类"></a>一、人工智能学习算法分类</h2><p> 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法(Machine Learning)和深度学习算法(Deep Learning)</p><h4 id="总的来说，在sklearn中机器学习算法大概的分类如下："><a href="#总的来说，在sklearn中机器学习算法大概的分类如下：" class="headerlink" title="总的来说，在sklearn中机器学习算法大概的分类如下："></a>总的来说，在sklearn中机器学习算法大概的分类如下：</h4><h5 id="1-纯算法类"><a href="#1-纯算法类" class="headerlink" title="1. 纯算法类"></a>1. 纯算法类</h5><ul><li>(1).回归算法</li><li>(2).分类算法</li><li>(3).聚类算法</li><li>(4)降维算法</li><li>(5)概率图模型算法</li><li>(6)文本挖掘算法</li><li>(7)优化算法</li><li>(8)深度学习算法<h5 id="2-建模方面"><a href="#2-建模方面" class="headerlink" title="2.建模方面"></a>2.建模方面</h5></li><li>(1).模型优化</li><li>(2).数据预处理</li></ul><h2 id="二、详细算法"><a href="#二、详细算法" class="headerlink" title="二、详细算法"></a>二、详细算法</h2><h4 id="1-分类算法"><a href="#1-分类算法" class="headerlink" title="1.分类算法"></a>1.分类算法</h4><ul><li>(1).LR (Logistic Regression，逻辑回归又叫逻辑分类)</li><li>(2).SVM (Support Vector Machine，支持向量机)</li><li>(3).NB  (Naive Bayes，朴素贝叶斯)</li><li>(4).DT  (Decision Tree，决策树)<ul><li>1).C4.5</li><li>2).ID3</li><li>3).CART</li></ul></li><li>(5).集成算法<ul><li>1).Bagging</li><li>2).Random Forest (随机森林)</li><li>3).GB(梯度提升,Gradient boosting)</li><li>4).GBDT (Gradient Boosting Decision Tree)</li><li>5).AdaBoost  </li><li>6).Xgboost</li></ul></li><li><p>(6).最大熵模型</p><h4 id="2-回归算法"><a href="#2-回归算法" class="headerlink" title="2.回归算法"></a>2.回归算法</h4><ul><li>(1).LR (Linear Regression，线性回归)</li><li>(2).SVR (支持向量机回归)</li><li>(3). RR (Ridge Regression，岭回归)<h4 id="3-聚类算法"><a href="#3-聚类算法" class="headerlink" title="3.聚类算法"></a>3.聚类算法</h4></li><li>(1).Knn </li><li>(2).Kmeans 算法</li><li>(3).层次聚类</li><li>(4).密度聚类<h4 id="4-降维算法"><a href="#4-降维算法" class="headerlink" title="4.降维算法"></a>4.降维算法</h4></li><li>(1).SGD  (随机梯度下降)</li><li>(2). <h4 id="5-概率图模型算法"><a href="#5-概率图模型算法" class="headerlink" title="5.概率图模型算法"></a>5.概率图模型算法</h4><ul><li>(1).贝叶斯网络</li><li>(2).HMM</li><li>(3).CRF (条件随机场)<h4 id="6-文本挖掘算法"><a href="#6-文本挖掘算法" class="headerlink" title="6.文本挖掘算法"></a>6.文本挖掘算法</h4><h6 id="1-模型"><a href="#1-模型" class="headerlink" title="(1).模型"></a>(1).模型</h6><ul><li>1).LDA (主题生成模型，Latent Dirichlet Allocation)</li><li>4).最大熵模型<h6 id="2-关键词提取"><a href="#2-关键词提取" class="headerlink" title="(2).关键词提取"></a>(2).关键词提取</h6></li></ul></li><li>1).tf-idf</li><li>2).bm25</li><li>3).textrank</li><li>4).pagerank</li><li>5).左右熵 :左右熵高的作为关键词</li><li>6).互信息： <h6 id="3-词法分析"><a href="#3-词法分析" class="headerlink" title="(3).词法分析"></a>(3).词法分析</h6><ul><li>1).分词<ul><li>①HMM (因马尔科夫)</li><li>②CRF (条件随机场)</li></ul></li><li>2).词性标注</li><li>3).命名实体识别<h6 id="4-句法分析"><a href="#4-句法分析" class="headerlink" title="(4).句法分析"></a>(4).句法分析</h6></li></ul></li><li>1).句法结构分析</li><li>2).依存句法分析<h6 id="5-文本向量化"><a href="#5-文本向量化" class="headerlink" title="(5).文本向量化"></a>(5).文本向量化</h6></li><li>1).tf-idf</li><li>2).word2vec</li><li>3).doc2vec</li><li>4).cw2vec<h6 id="6-距离计算"><a href="#6-距离计算" class="headerlink" title="(6).距离计算"></a>(6).距离计算</h6></li><li>1).欧氏距离</li><li>2).相似度计算</li></ul></li></ul><h4 id="7-优化算法"><a href="#7-优化算法" class="headerlink" title="7.优化算法"></a>7.优化算法</h4><ul><li>(1).正则化<ul><li>1).L1正则化</li><li>2).L2正则化<h4 id="8-深度学习算法"><a href="#8-深度学习算法" class="headerlink" title="8.深度学习算法"></a>8.深度学习算法</h4></li></ul></li><li>(1).BP </li><li>(2).CNN</li><li>(3).DNN</li><li>(3).RNN</li><li>(4).LSTM</li></ul></li></ul><h2 id="三、建模方面"><a href="#三、建模方面" class="headerlink" title="三、建模方面"></a>三、建模方面</h2><h4 id="1-模型优化·"><a href="#1-模型优化·" class="headerlink" title="1.模型优化·"></a>1.模型优化·</h4><ul><li>(1).特征选择</li><li>(2).梯度下降</li><li>(3).交叉验证</li><li>(4).参数调优</li><li>(5).模型评估：准确率、召回率、F1、AUC、ROC、损失函数 <h4 id="2-数据预处理"><a href="#2-数据预处理" class="headerlink" title="2.数据预处理"></a>2.数据预处理</h4></li><li>(1).标准化</li><li>(2).异常值处理</li><li>(3).二值化</li><li>(4).缺失值填充： 支持均值、中位数、特定值补差、多重插补</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;一、人工智能学习算法分类&quot;&gt;&lt;a href=&quot;#一、人工智能学习算法分类&quot; class=&quot;headerlink&quot; title=&quot;一、人工智能学习算法分类&quot;&gt;&lt;/a&gt;一、人工智能学习算法分类&lt;/h2&gt;&lt;p&gt; 人工智能算法大体上来说可以分类两类：基于统计的机器学习算法
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1-划分聚类法之k-means</title>
-    <link href="http://yoursite.com/2017/01/18/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/1-%E5%88%92%E5%88%86%E8%81%9A%E7%B1%BB%E6%B3%95%E4%B9%8Bk-means/"/>
-    <id>http://yoursite.com/2017/01/18/NLP/8-文本聚类/1-划分聚类法之k-means/</id>
-    <published>2017-01-18T09:17:35.000Z</published>
-    <updated>2018-09-25T10:45:46.632Z</updated>
+    <content type="html"><![CDATA[<p>————————–base_any2vec.py——————-</p><p>class BaseAny2VecModel()<br>    def <strong>init</strong>():</p><pre><code>def _worker_loop():def _job_producer():def _log_epoch_progress():def _train_epoch():#在这里才是真正的训练def train():    for cur_epoch in range(self.epochs):        self._train_epoch()def load():    return super(BaseAny2VecModel, cls).load()def save():    super(BaseAny2VecModel, self).save()</code></pre><p>class BaseWordEmbeddingsModel(BaseAny2VecModel)</p><pre><code>def __init__():    super(BaseWordEmbeddingsModel, self).__init__()    #开始建立词典1    self.build_vocab(sentences)    #开始训练    self.train()def build_vocab():     total_words, corpus_count = self.vocabulary.scan_vocab()     #开始构建词典2     report_values = self.vocabulary.prepare_vocab()     #开始构建网络模型     self.trainables.prepare_weights()def build_vocab_from_freq():def estimate_memory():def train():     return super(BaseWordEmbeddingsModel, self).train()def load():def similarity():def most_similar():</code></pre><p>##———————–word2vec.py———————–    </p><p>#word2vec 共有三个类：Word2Vec 、Word2VecVocab、Word2VecTrainables<br>def train_batch_sg()<br>def train_batch_cbow()<br>def score_sentence_sg()<br>def score_sentence_cbow()<br>def train_sg_pair()<br>def train_cbow_pair()<br>def score_sg_pair()<br>def score_cbow_pair()    </p><p>class Word2Vec(BaseWordEmbeddingsModel)</p><pre><code>def __init__():    #wv: 是类 ~gensim.models.keyedvectors.Word2VecKeyedVectors生产的对象，在word2vec是一个属性</code></pre><p>为了在不同的训练算法（Word2Vec，Fastext，WordRank，VarEmbed）之间共享单词向量查询代码，gensim将单词向量的存储和查询分离为一个单独的类 KeyedVectors包含单词和对应向量的映射。可以通过它进行词向量的查询</p><pre><code>    #This object essentially contains the mapping between words and embeddings.    self.wv = Word2VecKeyedVectors(size)    #词汇表    self.vocabulary = Word2VecVocab()    #网络模型初始化    self.trainables = Word2VecTrainables()    super(Word2Vec, self).__init__()def _do_train_job():def _clear_post_train(self):def _set_train_params():def train():    return super(Word2Vec, self).train()def score():#非主要def clear_sims(self):#非主要def intersect_word2vec_format():def predict_output_word():def init_sims():def reset_from():#非主要def log_accuracy()#非主要def accuracy():def delete_temporary_training_data():#保存模型def save():def get_latest_training_loss():def load_word2vec_format():def save_word2vec_format():#加载模型def load():</code></pre><p>#词库的构建：huffman树的构建<br>class Word2VecVocab()<br>     def <strong>init</strong>():</p><pre><code>#该方法是从句子序列中构建单词表def scan_vocab():def sort_vocab():#开始构建词典3def prepare_vocab():     #如果是层次softmax构建霍夫曼树     if hs:         self.create_binary_tree(wv)     #如果是负采样     if negative:        self.make_cum_table(wv)#使用存储的词汇单词及其词频创建一个二叉霍夫曼树def create_binary_tree():def add_null_word():def make_cum_table():</code></pre><p>#训练词向量的内部浅层神经网络<br>class Word2VecTrainables():<br>    def <strong>init</strong>():<br>    def prepare_weights():<br>    def seeded_vector():<br>    def reset_weights():<br>    def update_weights():</p><p>参考资料：<br>[1]<a href="https://blog.csdn.net/zynash2/article/details/81636338" target="_blank" rel="noopener">https://blog.csdn.net/zynash2/article/details/81636338</a><br>[2]<a href="https://blog.csdn.net/u012416045/article/details/78237060" target="_blank" rel="noopener">https://blog.csdn.net/u012416045/article/details/78237060</a><br>[3]<a href="https://blog.csdn.net/google19890102/article/details/51887344" target="_blank" rel="noopener">https://blog.csdn.net/google19890102/article/details/51887344</a></p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;————————–base_any2vec.py——————-&lt;/p&gt;
+&lt;p&gt;class BaseAny2VecModel()&lt;br&gt;    def &lt;strong&gt;init&lt;/strong&gt;():&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def _worker_loop():
+
+d
+      
     
     </summary>
     
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="8-文本聚类" scheme="http://yoursite.com/categories/NLP/8-%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB/"/>
+      <category term="6-文本向量化" scheme="http://yoursite.com/categories/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/"/>
     
     
   </entry>
