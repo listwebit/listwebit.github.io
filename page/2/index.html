@@ -75,7 +75,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Cari" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -94,10 +94,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'pos',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            CATEGORIES: 'kategori',
+            TAGS: 'tag',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -128,7 +128,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Cari" />
     </div>
 
                 </td>
@@ -145,7 +145,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>categories</span>
+            <span>kategori</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -933,13 +933,24 @@
                     
                     
                 
+                    
+                    
+                
+                
+                    
+                    <p><p>目前,关键词抽取主要有两种方式:<br>(1)基于规则的方法：关键词分配。即预先定义一个关键词词库,对于一篇文章,从词库中选取若干词语作为文章的关键词;<br>(2)基于机器学习方法：关键词抽取。即从文章的内容中寻找一些词语作为推荐关键词</p>
+<h4 id="一、基于规则的方法-关键词分配"><a href="#一、基于规则的方法-关键词分配" class="headerlink" title="一、基于规则的方法(关键词分配):"></a>一、基于规则的方法(关键词分配):</h4><p>一般要求词库是某个或某些领域的专业词汇,或者看作是与一个或多个领域相关的专业词典.这些词典一般都是由专家手工编纂的,有质量保证,但费时费力,而词典的大小和覆盖度决定了关键词分配的范围和效果.当切换到一个新的领域时,又需要重新构建词典,无法满足如今网络时代的大规模应用和推广需求.</p>
+<h4 id="二、基于机器学习方法-关键词抽取"><a href="#二、基于机器学习方法-关键词抽取" class="headerlink" title="二、基于机器学习方法(关键词抽取):"></a>二、基于机器学习方法(关键词抽取):</h4><p>对于关键词抽取,大致可分为无监督方法和有监督方法。</p>
+<h6 id="1-无监督方法"><a href="#1-无监督方法" class="headerlink" title="1.无监督方法"></a>1.无监督方法</h6><p>无监督方法会利用 TFIDF等统计信息,选取topK 作为关键词.这些方法无需人工标注训练集合的过程,因此更加快捷,但无法有效地综合利用词法和语义信息对候选关键词进行排序.</p>
+<p>– (1).使用外部的知识库<br>  1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>  2).LDA模型</p>
+<p>
+                
             
         
         
-            <h4 id="一、关键词抽取分类"><a href="#一、关键词抽取分类" class="headerlink" title="一、关键词抽取分类"></a>一、关键词抽取分类</h4><p>关键词抽取算法可以分为两类</p>
-<h6 id="1-使用外部的知识库"><a href="#1-使用外部的知识库" class="headerlink" title="1.使用外部的知识库"></a>1.使用外部的知识库</h6><p>(1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>(2).LDA模型</p>
-<h6 id="2-不适用外部知识库"><a href="#2-不适用外部知识库" class="headerlink" title="2.不适用外部知识库"></a>2.不适用外部知识库</h6><p>(1).TextRank<br>(2).PageRank</p>
-
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/12/18/NLP/1-词法分析/4-关键词提取/0-关键词提取的分类/#more">Read More</a>
             </div>
         
         <footer class="article-footer">
@@ -1327,7 +1338,7 @@ def _job_producer():
 
     
         <nav id="page-nav">
-        <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+        <a class="extend prev" rel="prev" href="/">&laquo; Sebelumnya</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Berikutnya &raquo;</a>
         </nav>
     
 </section>
