@@ -88,6 +88,59 @@
   </entry>
   
   <entry>
+    <title>0-新词发现.md</title>
+    <link href="http://yoursite.com/2018/02/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/2-%E6%96%B0%E8%AF%8D%E5%8F%91%E7%8E%B0/0-%E6%96%B0%E8%AF%8D%E5%8F%91%E7%8E%B0/"/>
+    <id>http://yoursite.com/2018/02/18/NLP/1-词法分析/2-新词发现/0-新词发现/</id>
+    <published>2018-02-18T09:17:35.000Z</published>
+    <updated>2018-12-19T07:58:41.582Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、新词"><a href="#一、新词" class="headerlink" title="一、新词"></a>一、新词</h4><p>  新词发现又叫未登录词识别，我认为可以包括两种形式:1.命名实体识别 2.普通新词发现<br>命名实体识别我们在另一章中专门讨论，本节只讨论普通新词发现。<br>  目前新词发现可以分为两类算法：无监督，有监督。无监督主要通过互信息，左右熵来发现，有监督主要通过<br>标注，例如CRF+深度学习  </p><h4 id="二、基本概念"><a href="#二、基本概念" class="headerlink" title="二、基本概念"></a>二、基本概念</h4><p>   现在基于统计方法的新词发现主要通过词内互信息(凝聚度)，词间的左右信息熵来确定，因此我们向明确一下基本<br>   概念。</p><h6 id="1-互信息：凝聚度-Pointwise-mutual-information"><a href="#1-互信息：凝聚度-Pointwise-mutual-information" class="headerlink" title="1.互信息：凝聚度(Pointwise mutual information)"></a>1.互信息：凝聚度(Pointwise mutual information)</h6><p>   公式：$PMI = \frac{P(x,y)}{P(x)<em>P(y)}$<br>   如果x，y独立 ，那么pmi等于1。如果不独立，则PMI大于1，当PMI足够大的时候就表示凝固度足够高。拿 “知”、“乎” 这两个字来说，假设在 5000 万字的样本中, “知” 出现了 150 万次， “乎” 出现了 4 万次。那 “知” 出现的概率为 0.03, “乎” 出现的概率为 0.0008。如果两个字符出现是个独立事件的话，”知”、“乎” 一起出现的期望概率是 0.03 </em> 0.0008 = 2.4e-05. 如果实际上 “知乎” 出现了 3 万次, 则实际上”知”、“乎” 一起出现的概率是 6e-03, 是期望概率的 250 倍。也就是说两个字越相关，点间互信息越大。</p><h6 id="2-信息熵"><a href="#2-信息熵" class="headerlink" title="2.信息熵"></a>2.信息熵</h6><p>公式：$H = \sum_{i=1}^{n}{P(i)*logP(i)}$<br>熵描述的是信息的不确定性，熵越大，不确定性越强，例如“萝卜”，左边可以有“吃萝卜”、“腌萝卜”、“炒萝卜”、“炖萝卜”，左边的词越多，代表萝卜的左熵越丰富，那“萝卜”成词的可能性就越大。</p><h6 id="3-左右熵"><a href="#3-左右熵" class="headerlink" title="3.左右熵"></a>3.左右熵</h6><p>左右熵是根据信息熵来算的。<br>我们用信息熵来衡量一个文本片段的左邻字集合和右邻字集合有多随机。考虑这么一句话“吃葡萄不吐葡萄皮不吃葡萄倒吐葡萄皮”，“葡萄”一词出现了四次，其中左邻字分别为 {吃, 吐, 吃, 吐} ，右邻字分别为 {不, 皮, 倒, 皮} 。根据公式，“葡萄”一词的左邻字的信息熵为 – (1/2) · log(1/2) – (1/2) · log(1/2) ≈ 0.693 ，它的右邻字的信息熵则为 – (1/2) · log(1/2) – (1/4) · log(1/4) – (1/4) · log(1/4) ≈ 1.04 。可见，在这个句子中，“葡萄”一词的右邻字更加丰富一些。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、新词&quot;&gt;&lt;a href=&quot;#一、新词&quot; class=&quot;headerlink&quot; title=&quot;一、新词&quot;&gt;&lt;/a&gt;一、新词&lt;/h4&gt;&lt;p&gt;  新词发现又叫未登录词识别，我认为可以包括两种形式:1.命名实体识别 2.普通新词发现&lt;br&gt;命名实体识别我们在另一章中专
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    
+      <category term="2-新词发现" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/2-%E6%96%B0%E8%AF%8D%E5%8F%91%E7%8E%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0-吴恩达-机器学习</title>
+    <link href="http://yoursite.com/2018/01/09/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/0-%E5%90%B4%E6%81%A9%E8%BE%BE%E2%80%94%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2018/01/09/学习资料/机器学习/0-吴恩达—机器学习/</id>
+    <published>2018-01-09T08:02:27.000Z</published>
+    <updated>2018-11-28T12:24:16.356Z</updated>
+    
+    <content type="html"><![CDATA[<p>机器学习课程地址：<br><a href="https://www.coursera.org/course/ml" target="_blank" rel="noopener">https://www.coursera.org/course/ml</a></p><p>笔记地址：<br><a href="http://www.ai-start.com/ml2014/" target="_blank" rel="noopener">http://www.ai-start.com/ml2014/</a></p><p>深度学习课程地址：</p><p><a href="https://mooc.study.163.com/university/deeplearning_ai#/c" target="_blank" rel="noopener">https://mooc.study.163.com/university/deeplearning_ai#/c</a></p><p>笔记地址：</p><p><a href="http://www.ai-start.com/dl2017/" target="_blank" rel="noopener">http://www.ai-start.com/dl2017/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;机器学习课程地址：&lt;br&gt;&lt;a href=&quot;https://www.coursera.org/course/ml&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.coursera.org/course/ml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;笔记
+      
+    
+    </summary>
+    
+      <category term="学习资料" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    
+      <category term="机器学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>回归</title>
     <link href="http://yoursite.com/2018/01/09/MachineLearning/2-%E5%9B%9E%E5%BD%92/%E5%9B%9E%E5%BD%92/"/>
     <id>http://yoursite.com/2018/01/09/MachineLearning/2-回归/回归/</id>
@@ -102,33 +155,6 @@
     
       <category term="2-回归" scheme="http://yoursite.com/categories/MachineLearning/2-%E5%9B%9E%E5%BD%92/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>回归的分类</title>
-    <link href="http://yoursite.com/2018/01/09/MachineLearning/2-%E5%9B%9E%E5%BD%92/%E5%9B%9E%E5%BD%92%E7%9A%84%E5%88%86%E7%B1%BB/"/>
-    <id>http://yoursite.com/2018/01/09/MachineLearning/2-回归/回归的分类/</id>
-    <published>2018-01-09T08:02:27.000Z</published>
-    <updated>2018-01-09T08:31:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一、回归可以分为以下几类"><a href="#一、回归可以分为以下几类" class="headerlink" title="一、回归可以分为以下几类"></a>一、回归可以分为以下几类</h2><ul><li>1.线性回归</li><li>2.非线性回归</li><li>3.逻辑回归<a id="more"></a><h2 id="二、回归的概念"><a href="#二、回归的概念" class="headerlink" title="二、回归的概念"></a>二、回归的概念</h2><h4 id="1-线性回归"><a href="#1-线性回归" class="headerlink" title="1.线性回归"></a>1.线性回归</h4>可以简单理解为线性就是每个变量的指数都是1。</li></ul><h4 id="2-非线性回归"><a href="#2-非线性回归" class="headerlink" title="2.非线性回归"></a>2.非线性回归</h4><p>而非线性就是至少有一个变量的指数不是1。</p><h4 id="3-逻辑回归"><a href="#3-逻辑回归" class="headerlink" title="3.逻辑回归"></a>3.逻辑回归</h4><h1 id="回归和分类的区别"><a href="#回归和分类的区别" class="headerlink" title="回归和分类的区别"></a>回归和分类的区别</h1><p>分类和回归的区别在于输出变量的类型。</p><p>定量输出称为回归，或者说是连续变量预测；<br>定性输出称为分类，或者说是离散变量预测。</p><p>举个例子：<br>预测明天的气温是多少度，这是一个回归任务；<br>预测明天是阴、晴还是雨，就是一个分类任务。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;一、回归可以分为以下几类&quot;&gt;&lt;a href=&quot;#一、回归可以分为以下几类&quot; class=&quot;headerlink&quot; title=&quot;一、回归可以分为以下几类&quot;&gt;&lt;/a&gt;一、回归可以分为以下几类&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;1.线性回归&lt;/li&gt;
-&lt;li&gt;2.非线性回归&lt;/li&gt;
-&lt;li&gt;3.逻辑回归
-    
-    </summary>
-    
-      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
-    
-      <category term="2-回归" scheme="http://yoursite.com/categories/MachineLearning/2-%E5%9B%9E%E5%BD%92/"/>
-    
-    
-      <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -157,6 +183,33 @@
     
       <category term="0-基本概念" scheme="http://yoursite.com/categories/MachineLearning/0-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>回归的分类</title>
+    <link href="http://yoursite.com/2018/01/09/MachineLearning/2-%E5%9B%9E%E5%BD%92/%E5%9B%9E%E5%BD%92%E7%9A%84%E5%88%86%E7%B1%BB/"/>
+    <id>http://yoursite.com/2018/01/09/MachineLearning/2-回归/回归的分类/</id>
+    <published>2018-01-09T08:02:27.000Z</published>
+    <updated>2018-01-09T08:31:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、回归可以分为以下几类"><a href="#一、回归可以分为以下几类" class="headerlink" title="一、回归可以分为以下几类"></a>一、回归可以分为以下几类</h2><ul><li>1.线性回归</li><li>2.非线性回归</li><li>3.逻辑回归<a id="more"></a><h2 id="二、回归的概念"><a href="#二、回归的概念" class="headerlink" title="二、回归的概念"></a>二、回归的概念</h2><h4 id="1-线性回归"><a href="#1-线性回归" class="headerlink" title="1.线性回归"></a>1.线性回归</h4>可以简单理解为线性就是每个变量的指数都是1。</li></ul><h4 id="2-非线性回归"><a href="#2-非线性回归" class="headerlink" title="2.非线性回归"></a>2.非线性回归</h4><p>而非线性就是至少有一个变量的指数不是1。</p><h4 id="3-逻辑回归"><a href="#3-逻辑回归" class="headerlink" title="3.逻辑回归"></a>3.逻辑回归</h4><h1 id="回归和分类的区别"><a href="#回归和分类的区别" class="headerlink" title="回归和分类的区别"></a>回归和分类的区别</h1><p>分类和回归的区别在于输出变量的类型。</p><p>定量输出称为回归，或者说是连续变量预测；<br>定性输出称为分类，或者说是离散变量预测。</p><p>举个例子：<br>预测明天的气温是多少度，这是一个回归任务；<br>预测明天是阴、晴还是雨，就是一个分类任务。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一、回归可以分为以下几类&quot;&gt;&lt;a href=&quot;#一、回归可以分为以下几类&quot; class=&quot;headerlink&quot; title=&quot;一、回归可以分为以下几类&quot;&gt;&lt;/a&gt;一、回归可以分为以下几类&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;1.线性回归&lt;/li&gt;
+&lt;li&gt;2.非线性回归&lt;/li&gt;
+&lt;li&gt;3.逻辑回归
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="2-回归" scheme="http://yoursite.com/categories/MachineLearning/2-%E5%9B%9E%E5%BD%92/"/>
+    
+    
+      <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -190,6 +243,84 @@
     </summary>
     
       <category term="总结" scheme="http://yoursite.com/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>3-模型假设函数,损失函数,代价函数,目标函数</title>
+    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/3-%E6%A8%A1%E5%9E%8B%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0,%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0,%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0,%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0/"/>
+    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/</id>
+    <published>2017-12-19T09:17:35.000Z</published>
+    <updated>2018-11-28T09:32:28.927Z</updated>
+    
+    <content type="html"><![CDATA[<p>假设函数(hypothesis function):预测函数<br>损失函数(loss function,error function):计算的是一个样本的误差<br>代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均<br>目标函数(objective function):代价函数 + 正则化项</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;假设函数(hypothesis function):预测函数&lt;br&gt;损失函数(loss function,error function):计算的是一个样本的误差&lt;br&gt;代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均&lt;br&gt;目标函数(obj
+      
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2-模型评估的指标</title>
+    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/2-%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E6%8C%87%E6%A0%87/"/>
+    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/2-模型评估的指标/</id>
+    <published>2017-12-19T09:17:35.000Z</published>
+    <updated>2018-10-08T06:03:43.875Z</updated>
+    
+    <content type="html"><![CDATA[<p>多模型评估的指标可以分为以下几个类别</p><h4 id="一-Accuracy，Precision，Recall"><a href="#一-Accuracy，Precision，Recall" class="headerlink" title="一.Accuracy，Precision，Recall"></a>一.Accuracy，Precision，Recall</h4><p>要计算这几个指标先要了解几个概念：<br>FN：False Negative,被判定为负样本，但事实上是正样本。<br>FP：False Positive,被判定为正样本，但事实上是负样本。<br>TN：True Negative,被判定为负样本，事实上也是负样本。<br>TP：True Positive,被判定为正样本，事实上也是证样本。<br>1.Accuracy (正确率)<br>$ac=\frac {TP+TN}{TP+TN+FP+FN}$</p><p>2.Precision精确率，准确率，查准率<br>$P = \frac {TP}{TP+FP}$<br>解释：正样本占分类器所分的正样本的比例</p><p>3.Recall(召回率，查全率)<br>$R = \frac {TP}{TP + FN}$<br>解释：正样本占真正的正样本的比例</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;多模型评估的指标可以分为以下几个类别&lt;/p&gt;
+&lt;h4 id=&quot;一-Accuracy，Precision，Recall&quot;&gt;&lt;a href=&quot;#一-Accuracy，Precision，Recall&quot; class=&quot;headerlink&quot; title=&quot;一.Accuracy，P
+      
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1-PageRank算法的前世今生</title>
+    <link href="http://yoursite.com/2017/12/19/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/1-PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
+    <id>http://yoursite.com/2017/12/19/NLP/1-词法分析/4-关键词提取/1-PageRank的前世今生/</id>
+    <published>2017-12-19T09:17:35.000Z</published>
+    <updated>2018-11-28T04:06:07.710Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、算法定义"><a href="#一、算法定义" class="headerlink" title="一、算法定义"></a>一、算法定义</h4><p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p><p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p><h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p><p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p><p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p><h4 id="三、搜索引擎"><a href="#三、搜索引擎" class="headerlink" title="三、搜索引擎"></a>三、搜索引擎</h4><p>搜索引擎的功能主要是：根据用户输入的关键字，返回文档的链接结果。<br>搜索引擎主要解决的三大问题：(1)如何获取文档资料  (2)如何根据关键词检索到相关文档  (3)如何对文档进行排序，返回给用户满意的页面。</p><h6 id="1-获取文档资料"><a href="#1-获取文档资料" class="headerlink" title="1.获取文档资料"></a>1.获取文档资料</h6><p>利用爬虫程序，获取互联网的页面资料。爬虫技术先从一个网页出发，将该网页的内容记录下来，保存到资料库，接着分析页面中的超链接，分别递归得去获取超链接页面。</p><h6 id="2-如何根据关键词检索到相关文档"><a href="#2-如何根据关键词检索到相关文档" class="headerlink" title="2.如何根据关键词检索到相关文档"></a>2.如何根据关键词检索到相关文档</h6><p>采用倒排索引算法。简单的说，倒排索引是一对key-value对，key代表关键词，value代表拥有这些关键词的文档编号或者url。</p><h6 id="3-文档排序"><a href="#3-文档排序" class="headerlink" title="3.文档排序"></a>3.文档排序</h6><p>这是搜索引擎最核心的问题，也是google发家致富的法宝 – PageRank算法。</p><h4 id="四、算法原理"><a href="#四、算法原理" class="headerlink" title="四、算法原理"></a>四、算法原理</h4><h6 id="4-1PageRank的两个假设"><a href="#4-1PageRank的两个假设" class="headerlink" title="4.1PageRank的两个假设"></a>4.1PageRank的两个假设</h6><blockquote><p>数量假设：1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高。<br>质量假设：2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高。</p></blockquote><h6 id="4-2PageRank的算法原理"><a href="#4-2PageRank的算法原理" class="headerlink" title="4.2PageRank的算法原理"></a>4.2PageRank的算法原理</h6><p>PageRank算法总的来说就是预先给每个网页一个PR值（下面用PR值指代PageRank值），由于PR值物理意义上为一个网页被访问概率，所以一般是1/N，其中N为网页总数。<br>预先给定PR值后，通过下面的算法不断迭代，直至达到平稳分布为止。</p><p><strong><em>PageRank值主要是的是节点的入链值。</em></strong></p><h6 id="4-3PageRank的简单计算"><a href="#4-3PageRank的简单计算" class="headerlink" title="4.3PageRank的简单计算"></a>4.3PageRank的简单计算</h6><h6 id="4-4PageRank的修正计算"><a href="#4-4PageRank的修正计算" class="headerlink" title="4.4PageRank的修正计算"></a>4.4PageRank的修正计算</h6>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、算法定义&quot;&gt;&lt;a href=&quot;#一、算法定义&quot; class=&quot;headerlink&quot; title=&quot;一、算法定义&quot;&gt;&lt;/a&gt;一、算法定义&lt;/h4&gt;&lt;p&gt;PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    
+      <category term="4-关键词提取" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/"/>
     
     
   </entry>
@@ -232,52 +363,72 @@
   </entry>
   
   <entry>
-    <title>2-模型评估的指标</title>
-    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/2-%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E6%8C%87%E6%A0%87/"/>
-    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/2-模型评估的指标/</id>
-    <published>2017-12-19T09:17:35.000Z</published>
-    <updated>2018-10-08T06:03:43.875Z</updated>
-    
-    <content type="html"><![CDATA[<p>多模型评估的指标可以分为以下几个类别</p><h4 id="一-Accuracy，Precision，Recall"><a href="#一-Accuracy，Precision，Recall" class="headerlink" title="一.Accuracy，Precision，Recall"></a>一.Accuracy，Precision，Recall</h4><p>要计算这几个指标先要了解几个概念：<br>FN：False Negative,被判定为负样本，但事实上是正样本。<br>FP：False Positive,被判定为正样本，但事实上是负样本。<br>TN：True Negative,被判定为负样本，事实上也是负样本。<br>TP：True Positive,被判定为正样本，事实上也是证样本。<br>1.Accuracy (正确率)<br>$ac=\frac {TP+TN}{TP+TN+FP+FN}$</p><p>2.Precision精确率，准确率，查准率<br>$P = \frac {TP}{TP+FP}$<br>解释：正样本占分类器所分的正样本的比例</p><p>3.Recall(召回率，查全率)<br>$R = \frac {TP}{TP + FN}$<br>解释：正样本占真正的正样本的比例</p>]]></content>
+    <title>这里是词法分析</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/%E8%BF%99%E9%87%8C%E6%98%AF%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/这里是词法分析/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-08-12T08:48:26.854Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;多模型评估的指标可以分为以下几个类别&lt;/p&gt;
-&lt;h4 id=&quot;一-Accuracy，Precision，Recall&quot;&gt;&lt;a href=&quot;#一-Accuracy，Precision，Recall&quot; class=&quot;headerlink&quot; title=&quot;一.Accuracy，P
-      
-    
     </summary>
     
-      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
+      <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
     
     
   </entry>
   
   <entry>
-    <title>3-模型假设函数,损失函数,代价函数,目标函数</title>
-    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/3-%E6%A8%A1%E5%9E%8B%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0,%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0,%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0,%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0/"/>
-    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/</id>
-    <published>2017-12-19T09:17:35.000Z</published>
-    <updated>2018-11-27T15:15:23.023Z</updated>
+    <title>1.朴素贝叶斯算法</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/1.%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-09-18T10:06:14.531Z</updated>
     
-    <content type="html"><![CDATA[<p>假设函数(hypothesis function):预测函数<br>损失函数(loss function):计算的是一个样本的误差<br>代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均<br>目标函数(objective function):代价函数 + 正则化项</p>]]></content>
+    <content type="html"><![CDATA[<h4 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h4><h5 id="1-分类原理"><a href="#1-分类原理" class="headerlink" title="1.分类原理"></a>1.分类原理</h5><p>通过某对象的先验概率，利用贝叶斯公式，计算出其后验概率。即该对象属于某一类的概率，选择具有最大后验概率的类作为该对象所属的类。</p><h5 id="2-贝叶斯公式"><a href="#2-贝叶斯公式" class="headerlink" title="2.贝叶斯公式"></a>2.贝叶斯公式</h5><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p><ul><li>(1).其中P(A)为先验概率：先验概率（prior probability）是指根据以往经验和分析得到的概率，如全概率公式，它往往作为”由因求果”问题中的”因”出现的概率。；</li><li>(2).其中P(B|A)为似然概率(likelihood)：是先前统计的事件中，A事件发生情况下B事件发生的概率</li><li>(3).其中P(B)为边界似然概率；</li><li>(4).其中P(A|B)为后验概率；<h5 id="3-相关概念"><a href="#3-相关概念" class="headerlink" title="3.相关概念"></a>3.相关概念</h5></li><li>(1).先验概率</li><li>(2).—-<pre><code>- ①后验概率- ②.最大后验概率</code></pre></li><li>(3).—<ul><li>①.条件概率：指事件A在另外一个事件B已经发生条件下的发生概率。条件概率表示为：P(A|B)。若只有两个事件A，B，那么$P(A|B) = \frac{P(AB)}{P(B)}$</li><li>②.联合概率：表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）</li><li>③.全概率</li></ul></li><li>(4).似然概率 </li></ul><p>联合概率的乘法公式为：P(AB) = P(A|B)*P(B),变形后可得到$P(A|B) = \frac{P(AB)}{P(B)}$</p><h4 id="二、朴素贝叶斯分类器"><a href="#二、朴素贝叶斯分类器" class="headerlink" title="二、朴素贝叶斯分类器"></a>二、朴素贝叶斯分类器</h4><h5 id="1-朴素贝叶斯分类的定义"><a href="#1-朴素贝叶斯分类的定义" class="headerlink" title="1.朴素贝叶斯分类的定义"></a>1.朴素贝叶斯分类的定义</h5><p>朴素贝叶斯分类的正式定义如下：<br>(1).设 $x = \left{  f<em>{1},f</em>{2},f<em>{3},…,f</em>{m} \right}$为一个待分类项，而每个f为x的一个特征。<br>(2).有类别集合$C = \left{  y<em>{1},y</em>{2},y<em>{3},…,y</em>{n} \right}$<br>(3).计算$P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x)$<br>(4).如果$P(y</em>{k}|x) = max \left{ P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x) \right}，则x∈y</em>{k}$。<br>那么现在的关键就是如何计算第3步中的各个条件概率。我们可以这么做：<br>(1)、找到一个已知分类的待分类项集合，这个集合叫做训练样本集。<br>(2)、统计得到在各类别下各个特征属性的条件概率估计。即<br>$P(x<em>{1}|y</em>{1}),P(x<em>{2}|y</em>{1}),…,P(x<em>{3}|y</em>{1})$;<br>$P(x<em>{1}|y</em>{2}),P(x<em>{2}|y</em>{2}),…,P(x<em>{3}|y</em>{2})$;<br>……<br>$P(x<em>{1}|y</em>{3}),P(x<em>{2}|y</em>{3}),…,P(x<em>{3}|y</em>{3})$;<br>(3)、如果各个特征属性是条件独立的，则根据贝叶斯定理有如下推导：<br>$P(y<em>{i}|x) = \frac {P(x|y</em>{i})P(y<em>{i})}{P(x)}$<br> 因为分母对于所有类别为常数，因为我们只要将分子最大化皆可。又因为各特征属性是条件独立的，所以有：<br> $P(x|y</em>{i})P(y<em>{i}) = P(a</em>{1}|y<em>{i})P(a</em>{2}|y<em>{i})…P(a</em>{m}|y<em>{i})P(y</em>{i})=P(y<em>(i))\prod\limits</em>{j=1}^mP(a_j|yi)$</p><h5 id="2-朴素贝叶斯分类的举例"><a href="#2-朴素贝叶斯分类的举例" class="headerlink" title="2.朴素贝叶斯分类的举例"></a>2.朴素贝叶斯分类的举例</h5><p>我们知道朴素贝叶斯的公式为：<br>$P(C|f) = \frac{P(f|C)<em>P(C)}{P(f)}$<br>如果换个表达式就会明朗很多，如下：<br>$P(类别|特征) = \frac{P(特征|分类)</em>P(分类)}{P(特征)}$<br>其中P(分类)和P(特征)都是已知的，我们只需求P(特征|分类)即可。</p><h5 id="例题分析"><a href="#例题分析" class="headerlink" title="例题分析"></a>例题分析</h5><p>给定数据如下：<br>| 高否 | 富否 | 帅否 | 嫁否 |<br>| – | — | – | – |<br>| 高 | 富 | 帅 | 嫁 |<br>| 高 | 不富 | 帅 | 嫁 |<br>| 不高 | 富 | 不帅 | 嫁 |<br>| 高 | 富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 帅 | 不嫁 |<br>| 高 | 不富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 不帅 | 不嫁 |<br>那我们现在的问题是，一个男生向一个女生求婚，这个男生具有以下三个特点：不高、富、帅，请你判断以下该女孩是否会嫁？</p><p>这是一个典型的分类问题，转化为概率论问题就是$P(嫁|不高、富、帅)$ 与 $P(不嫁|不高、富、帅)那个概率更大？</p><p>这里我们就使用朴素贝叶斯公式来分别求以下两种情况下的概率：</p><ul><li>①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)*P(嫁)}{P(不高、富、帅)}$</li><li>②$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)*P(不嫁)}{P(不高、富、帅)}$<h6 id="对①求解"><a href="#对①求解" class="headerlink" title="对①求解"></a>对①求解</h6>我们先对要求①进行求解。要求$P(嫁|不高、富、帅)$的概率只需求$P(不高、富、帅|嫁)、P(嫁)、P(不高、富、帅)$即可。根据“朴素”一词也就是各个特征之间是独立的，可以得到如下<1>公式和<2>公式(只需求如下公式即可)：<br><1>$P(不高、富、帅|嫁) = P(不高|嫁)<em>P(富|嫁)</em>P(帅|嫁)$<br><2>$P(不高、富、帅) = P(不高)<em>P(富)</em>P(帅)$<br>同时只需要再求出公式<3>问题就得到解决<br><3>$P(嫁)$</3></3></2></1></2></1></li></ul><p>我们从表格中统计所有嫁的样本共有3条，其中不高的样本有1条，所以$P(不高|嫁) = 1/3$，同理可以得到$P(富|嫁) = 2/3$， $P(帅|嫁) = 2/3$。</p><p>我们从表格中统计所有样本共有7条，其中嫁的样本有3条，所以 $P(嫁) = 3/7$。</p><p>我们从表格中统计所有样本共有7条，其中不高的样本有3条，所以 $P(不高) = 3/7$，其中富的样本有3条所以$P(富) = 3/7$，其中帅的样本有3条所以$P(帅) = 3/7$。</p><p>综上①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)<em>P(嫁)}{ \; P(不高、富、帅) \; } $<br> 此公式 $= \frac {(\frac {1}{3} </em>\frac {2}{3}<em>\frac {2}{3})</em>\frac {3}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {196}{243}$</p><h6 id="对②求解"><a href="#对②求解" class="headerlink" title="对②求解"></a>对②求解</h6><p>$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)<em>P(不嫁)}{P(不高、富、帅)}$<br>此公式  $= \frac {(\frac {1}{2} </em>\frac {1}{4}<em>\frac {1}{4})</em>\frac {4}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {49}{216}$</p><p>所以最终的答案是“嫁”<br>参考：<br>1.<a href="https://blog.csdn.net/xueyingxue001/article/details/52396170" target="_blank" rel="noopener">https://blog.csdn.net/xueyingxue001/article/details/52396170</a><br>2.<a href="https://blog.csdn.net/amds123/article/details/70173402" target="_blank" rel="noopener">https://blog.csdn.net/amds123/article/details/70173402</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;假设函数(hypothesis function):预测函数&lt;br&gt;损失函数(loss function):计算的是一个样本的误差&lt;br&gt;代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均&lt;br&gt;目标函数(objective function
+        &lt;h4 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot; title=&quot;一、基本概念&quot;&gt;&lt;/a&gt;一、基本概念&lt;/h4&gt;&lt;h5 id=&quot;1-分类原理&quot;&gt;&lt;a href=&quot;#1-分类原理&quot; class=&quot;headerlink&quot; titl
       
     
     </summary>
     
-      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
-      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
+      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0-关键词提取的分类</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/0-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/4-关键词提取/0-关键词提取的分类/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-11-28T04:05:53.430Z</updated>
+    
+    <content type="html"><![CDATA[<p>目前,关键词抽取主要有两种方式:<br>(1)基于规则的方法：关键词分配。即预先定义一个关键词词库,对于一篇文章,从词库中选取若干词语作为文章的关键词;<br>(2)基于机器学习方法：关键词抽取。即从文章的内容中寻找一些词语作为推荐关键词</p><h4 id="一、基于规则的方法-关键词分配"><a href="#一、基于规则的方法-关键词分配" class="headerlink" title="一、基于规则的方法(关键词分配):"></a>一、基于规则的方法(关键词分配):</h4><p>一般要求词库是某个或某些领域的专业词汇,或者看作是与一个或多个领域相关的专业词典.这些词典一般都是由专家手工编纂的,有质量保证,但费时费力,而词典的大小和覆盖度决定了关键词分配的范围和效果.当切换到一个新的领域时,又需要重新构建词典,无法满足如今网络时代的大规模应用和推广需求.</p><h4 id="二、基于机器学习方法-关键词抽取"><a href="#二、基于机器学习方法-关键词抽取" class="headerlink" title="二、基于机器学习方法(关键词抽取):"></a>二、基于机器学习方法(关键词抽取):</h4><p>对于关键词抽取,大致可分为无监督方法和有监督方法。</p><h6 id="1-无监督方法"><a href="#1-无监督方法" class="headerlink" title="1.无监督方法"></a>1.无监督方法</h6><p>无监督方法会利用 TFIDF等统计信息,选取topK 作为关键词.这些方法无需人工标注训练集合的过程,因此更加快捷,但无法有效地综合利用词法和语义信息对候选关键词进行排序.</p><p>– (1).使用外部的知识库<br>  1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>  2).LDA模型</p><p>– (2).不适用外部知识库<br>  1).TextRank<br>  2).PageRank</p><h6 id="2-有监督方法中"><a href="#2-有监督方法中" class="headerlink" title="2.有监督方法中"></a>2.有监督方法中</h6><p>将关键词抽取问题转换为判断每个候选关键词是否为关键词的二分类问题,它需要一个已经标注关键词的文档集合来训练分类模型,目标是在一个有标注的数据集上训练一个分类器,以便决定候选词中哪些是关键词.不同的机器学习算法可以训练出这样一个分类器,如 贝 叶 斯 算 法、决 策 树 算 法、bagging、boosting、最大熵算法、多层感知机和 SVM 算法.但是,把关键词抽取问题看作分类问题存在一些问题,最主要的问题是它对每个候选词进行单独处理,忽略了文本中句子结构的有效信息,造成模型分类的性能较差.</p><h6 id="3-基于图模型-序列标注"><a href="#3-基于图模型-序列标注" class="headerlink" title="3.基于图模型(序列标注)"></a>3.基于图模型(序列标注)</h6><p>基于分类思想解决此任务的不足,另外一种思路是将关键词自动抽取任务转化为序列标注问题来解决.传统的最常用的解决序列标注问题的方案是隐马尔可夫(Hidden MarkovModel,HMM)、最大熵(Maximum Entropy,ME)和条件随机场(ConditionalRandomFields,CRF)等模型.其中 CRF是目前解决序列标注问题最主流的做法,性能也最好,目前已被广泛应用于 NLP的各种任务中,如分词、词性标注、命名实体 识 别 等,并 且 取 得 了 非 常 好 的 效 果.基</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;目前,关键词抽取主要有两种方式:&lt;br&gt;(1)基于规则的方法：关键词分配。即预先定义一个关键词词库,对于一篇文章,从词库中选取若干词语作为文章的关键词;&lt;br&gt;(2)基于机器学习方法：关键词抽取。即从文章的内容中寻找一些词语作为推荐关键词&lt;/p&gt;
+&lt;h4 id=&quot;一、基于规
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    
+      <category term="4-关键词提取" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/"/>
     
     
   </entry>
@@ -309,24 +460,6 @@
   </entry>
   
   <entry>
-    <title>这里是词法分析</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/%E8%BF%99%E9%87%8C%E6%98%AF%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/这里是词法分析/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-08-12T08:48:26.854Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>0文本分类算法总结</title>
     <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
     <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/</id>
@@ -345,111 +478,6 @@
   </entry>
   
   <entry>
-    <title>PageRank算法的前世今生</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/1-PageRank%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/4-关键词提取/1-PageRank的前世今生/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-08-13T00:08:23.140Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="一、算法定义"><a href="#一、算法定义" class="headerlink" title="一、算法定义"></a>一、算法定义</h4><p>PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相互的超链接计算的技术，而作为网页排名的要素之一，以Google公司创办人拉里·佩奇（Larry Page）之姓来命名。Google用它来体现网页的相关性和重要性，在搜索引擎优化操作中是经常被用来评估网页优化的成效因素之一。Google的创始人拉里·佩奇和谢尔盖·布林于1998年在斯坦福大学发明了这项技术。</p><p>PageRank通过网络浩瀚的超链接关系来确定一个页面的等级。Google把从A页面到B页面的链接解释为A页面给B页面投票，Google根据投票来源（甚至来源的来源，即链接到A页面的页面）和投票目标的等级来决定新的等级。简单的说，一个高等级的页面可以使其他低等级页面的等级提升。</p><h4 id="二、算法来源"><a href="#二、算法来源" class="headerlink" title="二、算法来源"></a>二、算法来源</h4><p>这个要从搜索引擎的发展讲起。最早的搜索引擎采用的是 分类目录[^ref_1] 的方法，即通过人工进行网页分类并整理出高质量的网站。那时 Yahoo 和国内的 hao123 就是使用的这种方法。</p><p>后来网页越来越多，人工分类已经不现实了。搜索引擎进入了 文本检索 的时代，即计算用户查询关键词与网页内容的相关程度来返回搜索结果。这种方法突破了数量的限制，但是搜索结果不是很好。因为总有某些网页来回地倒腾某些关键词使自己的搜索排名靠前。</p><p>于是我们的主角要登场了。没错，谷歌的两位创始人，当时还是美国斯坦福大学 (Stanford University) 研究生的佩奇 (Larry Page) 和布林 (Sergey Brin) 开始了对网页排序问题的研究。他们的借鉴了学术界评判学术论文重要性的通用方法， 那就是看论文的引用次数。由此想到网页的重要性也可以根据这种方法来评价。于是PageRank的核心思想就诞生了[^ref_2]，非常简单：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高</span><br><span class="line">2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高</span><br></pre></td></tr></table></figure></p><h4 id="三、搜索引擎"><a href="#三、搜索引擎" class="headerlink" title="三、搜索引擎"></a>三、搜索引擎</h4><p>搜索引擎的功能主要是：根据用户输入的关键字，返回文档的链接结果。<br>搜索引擎主要解决的三大问题：(1)如何获取文档资料  (2)如何根据关键词检索到相关文档  (3)如何对文档进行排序，返回给用户满意的页面。</p><h6 id="1-获取文档资料"><a href="#1-获取文档资料" class="headerlink" title="1.获取文档资料"></a>1.获取文档资料</h6><p>利用爬虫程序，获取互联网的页面资料。爬虫技术先从一个网页出发，将该网页的内容记录下来，保存到资料库，接着分析页面中的超链接，分别递归得去获取超链接页面。</p><h6 id="2-如何根据关键词检索到相关文档"><a href="#2-如何根据关键词检索到相关文档" class="headerlink" title="2.如何根据关键词检索到相关文档"></a>2.如何根据关键词检索到相关文档</h6><p>采用倒排索引算法。简单的说，倒排索引是一对key-value对，key代表关键词，value代表拥有这些关键词的文档编号或者url。</p><h6 id="3-文档排序"><a href="#3-文档排序" class="headerlink" title="3.文档排序"></a>3.文档排序</h6><p>这是搜索引擎最核心的问题，也是google发家致富的法宝 – PageRank算法。</p><h4 id="四、算法原理"><a href="#四、算法原理" class="headerlink" title="四、算法原理"></a>四、算法原理</h4><h6 id="4-1PageRank的两个假设"><a href="#4-1PageRank的两个假设" class="headerlink" title="4.1PageRank的两个假设"></a>4.1PageRank的两个假设</h6><blockquote><p>数量假设：1.如果一个网页被很多其他网页链接到的话说明这个网页比较重要，也就是PageRank值会相对较高。<br>质量假设：2.如果一个PageRank值很高的网页链接到一个其他的网页，那么被链接到的网页的PageRank值会相应地因此而提高。</p></blockquote><h6 id="4-2PageRank的算法原理"><a href="#4-2PageRank的算法原理" class="headerlink" title="4.2PageRank的算法原理"></a>4.2PageRank的算法原理</h6><p>PageRank算法总的来说就是预先给每个网页一个PR值（下面用PR值指代PageRank值），由于PR值物理意义上为一个网页被访问概率，所以一般是1/N，其中N为网页总数。<br>预先给定PR值后，通过下面的算法不断迭代，直至达到平稳分布为止。</p><p><strong><em>PageRank值主要是的是节点的入链值。</em></strong></p><h6 id="4-3PageRank的简单计算"><a href="#4-3PageRank的简单计算" class="headerlink" title="4.3PageRank的简单计算"></a>4.3PageRank的简单计算</h6><h6 id="4-4PageRank的修正计算"><a href="#4-4PageRank的修正计算" class="headerlink" title="4.4PageRank的修正计算"></a>4.4PageRank的修正计算</h6>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;一、算法定义&quot;&gt;&lt;a href=&quot;#一、算法定义&quot; class=&quot;headerlink&quot; title=&quot;一、算法定义&quot;&gt;&lt;/a&gt;一、算法定义&lt;/h4&gt;&lt;p&gt;PageRank，网页排名，又称网页级别、Google左侧排名或佩奇排名，是一种由 [1]  根据网页之间相
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    
-      <category term="4-关键词提取" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>关键词提取的分类</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/0-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96%E7%9A%84%E5%88%86%E7%B1%BB/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/4-关键词提取/0-关键词提取的分类/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-11-28T03:54:59.121Z</updated>
-    
-    <content type="html"><![CDATA[<p>目前,关键词抽取主要有两种方式:<br>(1)基于规则的方法：关键词分配。即预先定义一个关键词词库,对于一篇文章,从词库中选取若干词语作为文章的关键词;<br>(2)基于机器学习方法：关键词抽取。即从文章的内容中寻找一些词语作为推荐关键词</p><h4 id="一、基于规则的方法-关键词分配"><a href="#一、基于规则的方法-关键词分配" class="headerlink" title="一、基于规则的方法(关键词分配):"></a>一、基于规则的方法(关键词分配):</h4><p>一般要求词库是某个或某些领域的专业词汇,或者看作是与一个或多个领域相关的专业词典.这些词典一般都是由专家手工编纂的,有质量保证,但费时费力,而词典的大小和覆盖度决定了关键词分配的范围和效果.当切换到一个新的领域时,又需要重新构建词典,无法满足如今网络时代的大规模应用和推广需求.</p><h4 id="二、基于机器学习方法-关键词抽取"><a href="#二、基于机器学习方法-关键词抽取" class="headerlink" title="二、基于机器学习方法(关键词抽取):"></a>二、基于机器学习方法(关键词抽取):</h4><p>对于关键词抽取,大致可分为无监督方法和有监督方法。</p><h6 id="1-无监督方法"><a href="#1-无监督方法" class="headerlink" title="1.无监督方法"></a>1.无监督方法</h6><p>无监督方法会利用 TFIDF等统计信息,选取topK 作为关键词.这些方法无需人工标注训练集合的过程,因此更加快捷,但无法有效地综合利用词法和语义信息对候选关键词进行排序.</p><p>– (1).使用外部的知识库<br>  1).TF-IDF<br>TF-IDF关键词提取算法就是需要保存每个词的IDF值作为外部知识库<br>  2).LDA模型</p><p>– (2).不适用外部知识库<br>  1).TextRank<br>  2).PageRank</p><h6 id="2-有监督方法中"><a href="#2-有监督方法中" class="headerlink" title="2.有监督方法中"></a>2.有监督方法中</h6><p>将关键词抽取问题转换为判断每个候选关键词是否为关键词的二分类问题,它需要一个已经标注关键词的文档集合来训练分类模型,目标是在一个有标注的数据集上训练一个分类器,以便决定候选词中哪些是关键词.不同的机器学习算法可以训练出这样一个分类器,如 贝 叶 斯 算 法、决 策 树 算 法、bagging、boosting<br>、最大熵算法、多层感知机和 SVM 算法.但是,把关键词抽取问题看作分类问题存在一些问题,最主要的问题是它对每个候选词进行单独处理,忽略了文本中句子结构的有效信息,造成模型分类的性能较差.</p><h6 id="3-基于图模型-序列标注"><a href="#3-基于图模型-序列标注" class="headerlink" title="3.基于图模型(序列标注)"></a>3.基于图模型(序列标注)</h6><p>基于分类思想解决此任务的不足,另外一种思路是将关键词自动抽取任务转化为序列标注问题来解决.传统的最常用的解决序列标注问题的方案是隐马尔可夫(Hidden Mar<br>kovModel,HMM)、最大熵(Maximum Entropy,ME)和条件随机场(ConditionalRandomFields,CRF)等模型.其中 CRF是目前解决序列标注问题最主流的做法,性能也最好,目前已被广泛应用于 NLP的各种任务中,如分词、词性标注、命名实体 识 别 等,并 且 取 得 了 非 常 好 的 效 果.基</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;目前,关键词抽取主要有两种方式:&lt;br&gt;(1)基于规则的方法：关键词分配。即预先定义一个关键词词库,对于一篇文章,从词库中选取若干词语作为文章的关键词;&lt;br&gt;(2)基于机器学习方法：关键词抽取。即从文章的内容中寻找一些词语作为推荐关键词&lt;/p&gt;
-&lt;h4 id=&quot;一、基于规
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    
-      <category term="4-关键词提取" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1.朴素贝叶斯算法</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/1.%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%AE%97%E6%B3%95/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-18T10:06:14.531Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h4><h5 id="1-分类原理"><a href="#1-分类原理" class="headerlink" title="1.分类原理"></a>1.分类原理</h5><p>通过某对象的先验概率，利用贝叶斯公式，计算出其后验概率。即该对象属于某一类的概率，选择具有最大后验概率的类作为该对象所属的类。</p><h5 id="2-贝叶斯公式"><a href="#2-贝叶斯公式" class="headerlink" title="2.贝叶斯公式"></a>2.贝叶斯公式</h5><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p><ul><li>(1).其中P(A)为先验概率：先验概率（prior probability）是指根据以往经验和分析得到的概率，如全概率公式，它往往作为”由因求果”问题中的”因”出现的概率。；</li><li>(2).其中P(B|A)为似然概率(likelihood)：是先前统计的事件中，A事件发生情况下B事件发生的概率</li><li>(3).其中P(B)为边界似然概率；</li><li>(4).其中P(A|B)为后验概率；<h5 id="3-相关概念"><a href="#3-相关概念" class="headerlink" title="3.相关概念"></a>3.相关概念</h5></li><li>(1).先验概率</li><li>(2).—-<pre><code>- ①后验概率- ②.最大后验概率</code></pre></li><li>(3).—<ul><li>①.条件概率：指事件A在另外一个事件B已经发生条件下的发生概率。条件概率表示为：P(A|B)。若只有两个事件A，B，那么$P(A|B) = \frac{P(AB)}{P(B)}$</li><li>②.联合概率：表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）</li><li>③.全概率</li></ul></li><li>(4).似然概率 </li></ul><p>联合概率的乘法公式为：P(AB) = P(A|B)*P(B),变形后可得到$P(A|B) = \frac{P(AB)}{P(B)}$</p><h4 id="二、朴素贝叶斯分类器"><a href="#二、朴素贝叶斯分类器" class="headerlink" title="二、朴素贝叶斯分类器"></a>二、朴素贝叶斯分类器</h4><h5 id="1-朴素贝叶斯分类的定义"><a href="#1-朴素贝叶斯分类的定义" class="headerlink" title="1.朴素贝叶斯分类的定义"></a>1.朴素贝叶斯分类的定义</h5><p>朴素贝叶斯分类的正式定义如下：<br>(1).设 $x = \left{  f<em>{1},f</em>{2},f<em>{3},…,f</em>{m} \right}$为一个待分类项，而每个f为x的一个特征。<br>(2).有类别集合$C = \left{  y<em>{1},y</em>{2},y<em>{3},…,y</em>{n} \right}$<br>(3).计算$P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x)$<br>(4).如果$P(y</em>{k}|x) = max \left{ P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x) \right}，则x∈y</em>{k}$。<br>那么现在的关键就是如何计算第3步中的各个条件概率。我们可以这么做：<br>(1)、找到一个已知分类的待分类项集合，这个集合叫做训练样本集。<br>(2)、统计得到在各类别下各个特征属性的条件概率估计。即<br>$P(x<em>{1}|y</em>{1}),P(x<em>{2}|y</em>{1}),…,P(x<em>{3}|y</em>{1})$;<br>$P(x<em>{1}|y</em>{2}),P(x<em>{2}|y</em>{2}),…,P(x<em>{3}|y</em>{2})$;<br>……<br>$P(x<em>{1}|y</em>{3}),P(x<em>{2}|y</em>{3}),…,P(x<em>{3}|y</em>{3})$;<br>(3)、如果各个特征属性是条件独立的，则根据贝叶斯定理有如下推导：<br>$P(y<em>{i}|x) = \frac {P(x|y</em>{i})P(y<em>{i})}{P(x)}$<br> 因为分母对于所有类别为常数，因为我们只要将分子最大化皆可。又因为各特征属性是条件独立的，所以有：<br> $P(x|y</em>{i})P(y<em>{i}) = P(a</em>{1}|y<em>{i})P(a</em>{2}|y<em>{i})…P(a</em>{m}|y<em>{i})P(y</em>{i})=P(y<em>(i))\prod\limits</em>{j=1}^mP(a_j|yi)$</p><h5 id="2-朴素贝叶斯分类的举例"><a href="#2-朴素贝叶斯分类的举例" class="headerlink" title="2.朴素贝叶斯分类的举例"></a>2.朴素贝叶斯分类的举例</h5><p>我们知道朴素贝叶斯的公式为：<br>$P(C|f) = \frac{P(f|C)<em>P(C)}{P(f)}$<br>如果换个表达式就会明朗很多，如下：<br>$P(类别|特征) = \frac{P(特征|分类)</em>P(分类)}{P(特征)}$<br>其中P(分类)和P(特征)都是已知的，我们只需求P(特征|分类)即可。</p><h5 id="例题分析"><a href="#例题分析" class="headerlink" title="例题分析"></a>例题分析</h5><p>给定数据如下：<br>| 高否 | 富否 | 帅否 | 嫁否 |<br>| – | — | – | – |<br>| 高 | 富 | 帅 | 嫁 |<br>| 高 | 不富 | 帅 | 嫁 |<br>| 不高 | 富 | 不帅 | 嫁 |<br>| 高 | 富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 帅 | 不嫁 |<br>| 高 | 不富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 不帅 | 不嫁 |<br>那我们现在的问题是，一个男生向一个女生求婚，这个男生具有以下三个特点：不高、富、帅，请你判断以下该女孩是否会嫁？</p><p>这是一个典型的分类问题，转化为概率论问题就是$P(嫁|不高、富、帅)$ 与 $P(不嫁|不高、富、帅)那个概率更大？</p><p>这里我们就使用朴素贝叶斯公式来分别求以下两种情况下的概率：</p><ul><li>①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)*P(嫁)}{P(不高、富、帅)}$</li><li>②$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)*P(不嫁)}{P(不高、富、帅)}$<h6 id="对①求解"><a href="#对①求解" class="headerlink" title="对①求解"></a>对①求解</h6>我们先对要求①进行求解。要求$P(嫁|不高、富、帅)$的概率只需求$P(不高、富、帅|嫁)、P(嫁)、P(不高、富、帅)$即可。根据“朴素”一词也就是各个特征之间是独立的，可以得到如下<1>公式和<2>公式(只需求如下公式即可)：<br><1>$P(不高、富、帅|嫁) = P(不高|嫁)<em>P(富|嫁)</em>P(帅|嫁)$<br><2>$P(不高、富、帅) = P(不高)<em>P(富)</em>P(帅)$<br>同时只需要再求出公式<3>问题就得到解决<br><3>$P(嫁)$</3></3></2></1></2></1></li></ul><p>我们从表格中统计所有嫁的样本共有3条，其中不高的样本有1条，所以$P(不高|嫁) = 1/3$，同理可以得到$P(富|嫁) = 2/3$， $P(帅|嫁) = 2/3$。</p><p>我们从表格中统计所有样本共有7条，其中嫁的样本有3条，所以 $P(嫁) = 3/7$。</p><p>我们从表格中统计所有样本共有7条，其中不高的样本有3条，所以 $P(不高) = 3/7$，其中富的样本有3条所以$P(富) = 3/7$，其中帅的样本有3条所以$P(帅) = 3/7$。</p><p>综上①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)<em>P(嫁)}{ \; P(不高、富、帅) \; } $<br> 此公式 $= \frac {(\frac {1}{3} </em>\frac {2}{3}<em>\frac {2}{3})</em>\frac {3}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {196}{243}$</p><h6 id="对②求解"><a href="#对②求解" class="headerlink" title="对②求解"></a>对②求解</h6><p>$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)<em>P(不嫁)}{P(不高、富、帅)}$<br>此公式  $= \frac {(\frac {1}{2} </em>\frac {1}{4}<em>\frac {1}{4})</em>\frac {4}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {49}{216}$</p><p>所以最终的答案是“嫁”<br>参考：<br>1.<a href="https://blog.csdn.net/xueyingxue001/article/details/52396170" target="_blank" rel="noopener">https://blog.csdn.net/xueyingxue001/article/details/52396170</a><br>2.<a href="https://blog.csdn.net/amds123/article/details/70173402" target="_blank" rel="noopener">https://blog.csdn.net/amds123/article/details/70173402</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot; title=&quot;一、基本概念&quot;&gt;&lt;/a&gt;一、基本概念&lt;/h4&gt;&lt;h5 id=&quot;1-分类原理&quot;&gt;&lt;a href=&quot;#1-分类原理&quot; class=&quot;headerlink&quot; titl
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0-文本向量化</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/0-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/6-文本向量化/0-文本向量化/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-11-13T12:45:56.226Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h4><h4 id="二、分类"><a href="#二、分类" class="headerlink" title="二、分类"></a>二、分类</h4><h5 id="1-one-hot-将词向量化"><a href="#1-one-hot-将词向量化" class="headerlink" title="1.one-hot(将词向量化)"></a>1.one-hot(将词向量化)</h5><p>这最简单的一种想法，就是对一句话用one-hot编码:比如对于这句话：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ohn likes to watch movies,Mary likes too.</span><br><span class="line">John likes to watch movies,Mary likes too.</span><br><span class="line">John also likes to watch football games.</span><br><span class="line">John also likes to watch football games.</span><br></pre></td></tr></table></figure></p><p>可以通过以上语料构建一个字典：dic<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1:&quot;John&quot;</span><br><span class="line">2:&quot;likes&quot;</span><br><span class="line">3:&quot;to&quot;</span><br><span class="line">4:&quot;watch&quot;</span><br><span class="line">5:&quot;movies&quot;</span><br><span class="line">6:&quot;also&quot;</span><br><span class="line">7:&quot;football&quot;</span><br><span class="line">8:&quot;games&quot;</span><br><span class="line">9:&quot;Mary&quot;</span><br><span class="line">10:&quot;too&quot;</span><br></pre></td></tr></table></figure></p><p>用one-hot可以表示为：<br>第一句话：<br>John :[1,0,0,0,0,0,0,0,0,0]<br>likes  :[0,1,0,0,0,0,0,0,0,0]<br>…<br>too   :[0,0,0,0,0,0,0,0,0,1]</p><p>第二句话：<br>John :[1,0,0,0,0,0,0,0,0,0]<br>likes  :[0,1,0,0,0,0,0,0,0,0]<br>…<br>too   :[0,0,0,0,0,0,0,0,0,1]<br>但事实是，这样做耗费的资源太多，而且不能很好的表征每句话的特性。</p><h5 id="2-Bag-of-words-将句子向量化"><a href="#2-Bag-of-words-将句子向量化" class="headerlink" title="2.Bag-of-words(将句子向量化)"></a>2.Bag-of-words(将句子向量化)</h5><p>另一种方法则是词袋模型，它相当于一个词袋，不考虑词/句之间的相关性，只要出现了该词，就会记为1，再次出现就会+1。比如前面的那句话：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">John likes to watch movies,Mary likes too.</span><br></pre></td></tr></table></figure></p><p>可以表示为<br>[1,2,1,1,1,0,0,0,1,1]</p><p>与其相似的是binary weighting,它就是看一下每个词是否出现，出现记为1，没出现记为0<br>[1,1,1,1,1,0,0,0,1,1]</p><h5 id="3-TF-IDF-将句子向量化：考虑词的重要性"><a href="#3-TF-IDF-将句子向量化：考虑词的重要性" class="headerlink" title="3.TF-IDF(将句子向量化：考虑词的重要性)"></a>3.TF-IDF(将句子向量化：考虑词的重要性)</h5><p>因此，就有tf-idf解决这个问题，它的主要思路就是有两方面：<br>A—第一就是如果这个词在我们当前文档出现的频率非常高，说明它在当前文档应该是比较重要的。<br>B-但如果它在所有的文档中出现的频次都非常好，大家可能就会觉得这个词应该不是那么重要的。</p><p>比如中文的“的“，或者我们上面那两个句子中的to.<br>因此，tf-idf就是一个在当前文档和所有文档中权衡他们的重要性，然后计算出每个词的重要度的方法。</p><h5 id="4-word2vec-词的维度固定"><a href="#4-word2vec-词的维度固定" class="headerlink" title="4.word2vec(词的维度固定)"></a>4.word2vec(词的维度固定)</h5>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;headerlink&quot; title=&quot;一、简介&quot;&gt;&lt;/a&gt;一、简介&lt;/h4&gt;&lt;h4 id=&quot;二、分类&quot;&gt;&lt;a href=&quot;#二、分类&quot; class=&quot;headerlink&quot; title=&quot;二、分类&quot;&gt;&lt;/a
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="6-文本向量化" scheme="http://yoursite.com/categories/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>这里是句法分析</title>
     <link href="http://yoursite.com/2017/12/18/NLP/2-%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/%E8%BF%99%E9%87%8C%E6%98%AF%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
     <id>http://yoursite.com/2017/12/18/NLP/2-句法分析/这里是句法分析/</id>
@@ -463,35 +491,6 @@
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
       <category term="2-句法分析" scheme="http://yoursite.com/categories/NLP/2-%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>word2ve源码解析(python版gensim实现)</title>
-    <link href="http://yoursite.com/2017/10/12/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/2.1-word2ve%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90(python%E7%89%88gensim%E5%AE%9E%E7%8E%B0)/"/>
-    <id>http://yoursite.com/2017/10/12/NLP/6-文本向量化/2.1-word2ve源码解析(python版gensim实现)/</id>
-    <published>2017-10-12T04:18:15.000Z</published>
-    <updated>2018-11-27T03:13:23.258Z</updated>
-    
-    <content type="html"><![CDATA[<p>————————–base_any2vec.py——————-</p><p>class BaseAny2VecModel()<br>    def <strong>init</strong>():</p><pre><code>def _worker_loop():def _job_producer():def _log_epoch_progress():def _train_epoch():#在这里才是真正的训练def train():    for cur_epoch in range(self.epochs):        self._train_epoch()def load():    return super(BaseAny2VecModel, cls).load()def save():    super(BaseAny2VecModel, self).save()</code></pre><p>class BaseWordEmbeddingsModel(BaseAny2VecModel)</p><pre><code>def __init__():    super(BaseWordEmbeddingsModel, self).__init__()    #开始建立词典1    self.build_vocab(sentences)    #开始训练    self.train()def build_vocab():     total_words, corpus_count = self.vocabulary.scan_vocab()     #开始构建词典2     report_values = self.vocabulary.prepare_vocab()     #开始构建网络模型     self.trainables.prepare_weights()def build_vocab_from_freq():def estimate_memory():def train():     return super(BaseWordEmbeddingsModel, self).train()def load():def similarity():def most_similar():</code></pre><p>##———————–word2vec.py———————–    </p><p>#word2vec 共有三个类：Word2Vec 、Word2VecVocab、Word2VecTrainables<br>def train_batch_sg()<br>def train_batch_cbow()<br>def score_sentence_sg()<br>def score_sentence_cbow()<br>def train_sg_pair()<br>def train_cbow_pair()<br>def score_sg_pair()<br>def score_cbow_pair()    </p><p>class Word2Vec(BaseWordEmbeddingsModel)</p><pre><code>def __init__():    #wv: 是类 ~gensim.models.keyedvectors.Word2VecKeyedVectors生产的对象，在word2vec是一个属性</code></pre><p>为了在不同的训练算法（Word2Vec，Fastext，WordRank，VarEmbed）之间共享单词向量查询代码，gensim将单词向量的存储和查询分离为一个单独的类 KeyedVectors包含单词和对应向量的映射。可以通过它进行词向量的查询</p><pre><code>    #This object essentially contains the mapping between words and embeddings.    self.wv = Word2VecKeyedVectors(size)    #词汇表    self.vocabulary = Word2VecVocab()    #网络模型初始化    self.trainables = Word2VecTrainables()    super(Word2Vec, self).__init__()def _do_train_job():def _clear_post_train(self):def _set_train_params():def train():    return super(Word2Vec, self).train()def score():#非主要def clear_sims(self):#非主要def intersect_word2vec_format():def predict_output_word():def init_sims():def reset_from():#非主要def log_accuracy()#非主要def accuracy():def delete_temporary_training_data():#保存模型def save():def get_latest_training_loss():def load_word2vec_format():def save_word2vec_format():#加载模型def load():</code></pre><p>#词库的构建：huffman树的构建<br>class Word2VecVocab()<br>     def <strong>init</strong>():</p><pre><code>#该方法是从句子序列中构建单词表def scan_vocab():def sort_vocab():#开始构建词典3def prepare_vocab():     #如果是层次softmax构建霍夫曼树     if hs:         self.create_binary_tree(wv)     #如果是负采样     if negative:        self.make_cum_table(wv)#使用存储的词汇单词及其词频创建一个二叉霍夫曼树def create_binary_tree():def add_null_word():def make_cum_table():</code></pre><p>#训练词向量的内部浅层神经网络<br>class Word2VecTrainables():<br>    def <strong>init</strong>():<br>    def prepare_weights():<br>    def seeded_vector():<br>    def reset_weights():<br>    def update_weights():</p><p>参考资料：<br>[1]<a href="https://blog.csdn.net/zynash2/article/details/81636338" target="_blank" rel="noopener">https://blog.csdn.net/zynash2/article/details/81636338</a><br>[2]<a href="https://blog.csdn.net/u012416045/article/details/78237060" target="_blank" rel="noopener">https://blog.csdn.net/u012416045/article/details/78237060</a><br>[3]<a href="https://blog.csdn.net/google19890102/article/details/51887344" target="_blank" rel="noopener">https://blog.csdn.net/google19890102/article/details/51887344</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;————————–base_any2vec.py——————-&lt;/p&gt;
-&lt;p&gt;class BaseAny2VecModel()&lt;br&gt;    def &lt;strong&gt;init&lt;/strong&gt;():&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;def _worker_loop():
-
-d
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="6-文本向量化" scheme="http://yoursite.com/categories/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/"/>
     
     
   </entry>
