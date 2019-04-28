@@ -287,31 +287,19 @@
   </entry>
   
   <entry>
-    <title>1-判别模型和生成模型.md</title>
-    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/1-%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B%E5%92%8C%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/"/>
-    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/</id>
+    <title>3-模型假设函数,损失函数,代价函数,目标函数</title>
+    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/3-%E6%A8%A1%E5%9E%8B%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0,%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0,%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0,%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0/"/>
+    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/</id>
     <published>2017-12-19T09:17:35.000Z</published>
-    <updated>2018-10-08T06:02:20.795Z</updated>
+    <updated>2018-11-28T09:32:28.927Z</updated>
     
-    <content type="html"><![CDATA[<table><thead><tr><th></th><th>判别模型</th><th>生成模型</th></tr></thead><tbody><tr><td>特点</td><td>寻找不同类别之间的最优分类面，反映的是异类数据之间的差异</td><td>对后验概率建模，从统计的角度表示数据的分布情况，能够反映同类数据本身的相似度</td></tr><tr><td>区别(假定输入x, 类别标签y)</td><td>估计的是条件概率分布(conditional distribution) : P(yx)</td><td>估计的是联合概率分布（joint probability distribution: P(x, y)</td></tr><tr><td>联系</td><td>由判别式模型得不到产生式模型</td><td>由产生式模型可以得到判别式模型</td></tr><tr><td>常见模型</td><td>– logistic regression  – SVMs  – traditional neural networks  – Nearest neighbor</td><td>–Gaussians, Naive Bayes –Mixtures of Gaussians, Mixtures of experts, HMMs–Sigmoidal belief networks, Bayesian networks– Markov random fields</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<p>假设函数(hypothesis function):预测函数<br>损失函数(loss function,error function):计算的是一个样本的误差<br>代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均<br>目标函数(objective function):代价函数 + 正则化项</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;判别模型&lt;/th&gt;
-&lt;th&gt;生成模型&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;特点&lt;/td&gt;
-&lt;td&gt;寻找不同类别之间的最优分类面，反映的是异类数据之间的差异&lt;/td&gt;
-&lt;td
+        &lt;p&gt;假设函数(hypothesis function):预测函数&lt;br&gt;损失函数(loss function,error function):计算的是一个样本的误差&lt;br&gt;代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均&lt;br&gt;目标函数(obj
       
     
     </summary>
@@ -377,19 +365,31 @@
   </entry>
   
   <entry>
-    <title>3-模型假设函数,损失函数,代价函数,目标函数</title>
-    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/3-%E6%A8%A1%E5%9E%8B%E5%81%87%E8%AE%BE%E5%87%BD%E6%95%B0,%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0,%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0,%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0/"/>
-    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/</id>
+    <title>1-判别模型和生成模型.md</title>
+    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/1-%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B%E5%92%8C%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/</id>
     <published>2017-12-19T09:17:35.000Z</published>
-    <updated>2018-11-28T09:32:28.927Z</updated>
+    <updated>2018-10-08T06:02:20.795Z</updated>
     
-    <content type="html"><![CDATA[<p>假设函数(hypothesis function):预测函数<br>损失函数(loss function,error function):计算的是一个样本的误差<br>代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均<br>目标函数(objective function):代价函数 + 正则化项</p>]]></content>
+    <content type="html"><![CDATA[<table><thead><tr><th></th><th>判别模型</th><th>生成模型</th></tr></thead><tbody><tr><td>特点</td><td>寻找不同类别之间的最优分类面，反映的是异类数据之间的差异</td><td>对后验概率建模，从统计的角度表示数据的分布情况，能够反映同类数据本身的相似度</td></tr><tr><td>区别(假定输入x, 类别标签y)</td><td>估计的是条件概率分布(conditional distribution) : P(yx)</td><td>估计的是联合概率分布（joint probability distribution: P(x, y)</td></tr><tr><td>联系</td><td>由判别式模型得不到产生式模型</td><td>由产生式模型可以得到判别式模型</td></tr><tr><td>常见模型</td><td>– logistic regression  – SVMs  – traditional neural networks  – Nearest neighbor</td><td>–Gaussians, Naive Bayes –Mixtures of Gaussians, Mixtures of experts, HMMs–Sigmoidal belief networks, Bayesian networks– Markov random fields</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;假设函数(hypothesis function):预测函数&lt;br&gt;损失函数(loss function,error function):计算的是一个样本的误差&lt;br&gt;代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均&lt;br&gt;目标函数(obj
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;判别模型&lt;/th&gt;
+&lt;th&gt;生成模型&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;特点&lt;/td&gt;
+&lt;td&gt;寻找不同类别之间的最优分类面，反映的是异类数据之间的差异&lt;/td&gt;
+&lt;td
       
     
     </summary>
@@ -397,42 +397,6 @@
       <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
     
       <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>这里是词法分析</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/%E8%BF%99%E9%87%8C%E6%98%AF%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/1-词法分析/这里是词法分析/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-08-12T08:48:26.854Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0文本分类算法总结</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-18T10:05:46.154Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
@@ -464,6 +428,31 @@
   </entry>
   
   <entry>
+    <title>0-文本向量化</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/0-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/6-文本向量化/0-文本向量化/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-11-13T12:45:56.226Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h4><h4 id="二、分类"><a href="#二、分类" class="headerlink" title="二、分类"></a>二、分类</h4><h5 id="1-one-hot-将词向量化"><a href="#1-one-hot-将词向量化" class="headerlink" title="1.one-hot(将词向量化)"></a>1.one-hot(将词向量化)</h5><p>这最简单的一种想法，就是对一句话用one-hot编码:比如对于这句话：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ohn likes to watch movies,Mary likes too.</span><br><span class="line">John likes to watch movies,Mary likes too.</span><br><span class="line">John also likes to watch football games.</span><br><span class="line">John also likes to watch football games.</span><br></pre></td></tr></table></figure></p><p>可以通过以上语料构建一个字典：dic<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1:&quot;John&quot;</span><br><span class="line">2:&quot;likes&quot;</span><br><span class="line">3:&quot;to&quot;</span><br><span class="line">4:&quot;watch&quot;</span><br><span class="line">5:&quot;movies&quot;</span><br><span class="line">6:&quot;also&quot;</span><br><span class="line">7:&quot;football&quot;</span><br><span class="line">8:&quot;games&quot;</span><br><span class="line">9:&quot;Mary&quot;</span><br><span class="line">10:&quot;too&quot;</span><br></pre></td></tr></table></figure></p><p>用one-hot可以表示为：<br>第一句话：<br>John :[1,0,0,0,0,0,0,0,0,0]<br>likes  :[0,1,0,0,0,0,0,0,0,0]<br>…<br>too   :[0,0,0,0,0,0,0,0,0,1]</p><p>第二句话：<br>John :[1,0,0,0,0,0,0,0,0,0]<br>likes  :[0,1,0,0,0,0,0,0,0,0]<br>…<br>too   :[0,0,0,0,0,0,0,0,0,1]<br>但事实是，这样做耗费的资源太多，而且不能很好的表征每句话的特性。</p><h5 id="2-Bag-of-words-将句子向量化"><a href="#2-Bag-of-words-将句子向量化" class="headerlink" title="2.Bag-of-words(将句子向量化)"></a>2.Bag-of-words(将句子向量化)</h5><p>另一种方法则是词袋模型，它相当于一个词袋，不考虑词/句之间的相关性，只要出现了该词，就会记为1，再次出现就会+1。比如前面的那句话：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">John likes to watch movies,Mary likes too.</span><br></pre></td></tr></table></figure></p><p>可以表示为<br>[1,2,1,1,1,0,0,0,1,1]</p><p>与其相似的是binary weighting,它就是看一下每个词是否出现，出现记为1，没出现记为0<br>[1,1,1,1,1,0,0,0,1,1]</p><h5 id="3-TF-IDF-将句子向量化：考虑词的重要性"><a href="#3-TF-IDF-将句子向量化：考虑词的重要性" class="headerlink" title="3.TF-IDF(将句子向量化：考虑词的重要性)"></a>3.TF-IDF(将句子向量化：考虑词的重要性)</h5><p>因此，就有tf-idf解决这个问题，它的主要思路就是有两方面：<br>A—第一就是如果这个词在我们当前文档出现的频率非常高，说明它在当前文档应该是比较重要的。<br>B-但如果它在所有的文档中出现的频次都非常好，大家可能就会觉得这个词应该不是那么重要的。</p><p>比如中文的“的“，或者我们上面那两个句子中的to.<br>因此，tf-idf就是一个在当前文档和所有文档中权衡他们的重要性，然后计算出每个词的重要度的方法。</p><h5 id="4-word2vec-词的维度固定"><a href="#4-word2vec-词的维度固定" class="headerlink" title="4.word2vec(词的维度固定)"></a>4.word2vec(词的维度固定)</h5>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;headerlink&quot; title=&quot;一、简介&quot;&gt;&lt;/a&gt;一、简介&lt;/h4&gt;&lt;h4 id=&quot;二、分类&quot;&gt;&lt;a href=&quot;#二、分类&quot; class=&quot;headerlink&quot; title=&quot;二、分类&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="6-文本向量化" scheme="http://yoursite.com/categories/NLP/6-%E6%96%87%E6%9C%AC%E5%90%91%E9%87%8F%E5%8C%96/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>这里是句法分析</title>
     <link href="http://yoursite.com/2017/12/18/NLP/2-%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/%E8%BF%99%E9%87%8C%E6%98%AF%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
     <id>http://yoursite.com/2017/12/18/NLP/2-句法分析/这里是句法分析/</id>
@@ -477,6 +466,31 @@
       <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
     
       <category term="2-句法分析" scheme="http://yoursite.com/categories/NLP/2-%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1.朴素贝叶斯算法</title>
+    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/1.%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/</id>
+    <published>2017-12-18T09:17:35.000Z</published>
+    <updated>2018-09-18T10:06:14.531Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h4><h5 id="1-分类原理"><a href="#1-分类原理" class="headerlink" title="1.分类原理"></a>1.分类原理</h5><p>通过某对象的先验概率，利用贝叶斯公式，计算出其后验概率。即该对象属于某一类的概率，选择具有最大后验概率的类作为该对象所属的类。</p><h5 id="2-贝叶斯公式"><a href="#2-贝叶斯公式" class="headerlink" title="2.贝叶斯公式"></a>2.贝叶斯公式</h5><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p><ul><li>(1).其中P(A)为先验概率：先验概率（prior probability）是指根据以往经验和分析得到的概率，如全概率公式，它往往作为”由因求果”问题中的”因”出现的概率。；</li><li>(2).其中P(B|A)为似然概率(likelihood)：是先前统计的事件中，A事件发生情况下B事件发生的概率</li><li>(3).其中P(B)为边界似然概率；</li><li>(4).其中P(A|B)为后验概率；<h5 id="3-相关概念"><a href="#3-相关概念" class="headerlink" title="3.相关概念"></a>3.相关概念</h5></li><li>(1).先验概率</li><li>(2).—-<pre><code>- ①后验概率- ②.最大后验概率</code></pre></li><li>(3).—<ul><li>①.条件概率：指事件A在另外一个事件B已经发生条件下的发生概率。条件概率表示为：P(A|B)。若只有两个事件A，B，那么$P(A|B) = \frac{P(AB)}{P(B)}$</li><li>②.联合概率：表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）</li><li>③.全概率</li></ul></li><li>(4).似然概率 </li></ul><p>联合概率的乘法公式为：P(AB) = P(A|B)*P(B),变形后可得到$P(A|B) = \frac{P(AB)}{P(B)}$</p><h4 id="二、朴素贝叶斯分类器"><a href="#二、朴素贝叶斯分类器" class="headerlink" title="二、朴素贝叶斯分类器"></a>二、朴素贝叶斯分类器</h4><h5 id="1-朴素贝叶斯分类的定义"><a href="#1-朴素贝叶斯分类的定义" class="headerlink" title="1.朴素贝叶斯分类的定义"></a>1.朴素贝叶斯分类的定义</h5><p>朴素贝叶斯分类的正式定义如下：<br>(1).设 $x = \left{  f<em>{1},f</em>{2},f<em>{3},…,f</em>{m} \right}$为一个待分类项，而每个f为x的一个特征。<br>(2).有类别集合$C = \left{  y<em>{1},y</em>{2},y<em>{3},…,y</em>{n} \right}$<br>(3).计算$P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x)$<br>(4).如果$P(y</em>{k}|x) = max \left{ P(y<em>{1}|x),P(y</em>{2}|x),….,P(y<em>{n}|x) \right}，则x∈y</em>{k}$。<br>那么现在的关键就是如何计算第3步中的各个条件概率。我们可以这么做：<br>(1)、找到一个已知分类的待分类项集合，这个集合叫做训练样本集。<br>(2)、统计得到在各类别下各个特征属性的条件概率估计。即<br>$P(x<em>{1}|y</em>{1}),P(x<em>{2}|y</em>{1}),…,P(x<em>{3}|y</em>{1})$;<br>$P(x<em>{1}|y</em>{2}),P(x<em>{2}|y</em>{2}),…,P(x<em>{3}|y</em>{2})$;<br>……<br>$P(x<em>{1}|y</em>{3}),P(x<em>{2}|y</em>{3}),…,P(x<em>{3}|y</em>{3})$;<br>(3)、如果各个特征属性是条件独立的，则根据贝叶斯定理有如下推导：<br>$P(y<em>{i}|x) = \frac {P(x|y</em>{i})P(y<em>{i})}{P(x)}$<br> 因为分母对于所有类别为常数，因为我们只要将分子最大化皆可。又因为各特征属性是条件独立的，所以有：<br> $P(x|y</em>{i})P(y<em>{i}) = P(a</em>{1}|y<em>{i})P(a</em>{2}|y<em>{i})…P(a</em>{m}|y<em>{i})P(y</em>{i})=P(y<em>(i))\prod\limits</em>{j=1}^mP(a_j|yi)$</p><h5 id="2-朴素贝叶斯分类的举例"><a href="#2-朴素贝叶斯分类的举例" class="headerlink" title="2.朴素贝叶斯分类的举例"></a>2.朴素贝叶斯分类的举例</h5><p>我们知道朴素贝叶斯的公式为：<br>$P(C|f) = \frac{P(f|C)<em>P(C)}{P(f)}$<br>如果换个表达式就会明朗很多，如下：<br>$P(类别|特征) = \frac{P(特征|分类)</em>P(分类)}{P(特征)}$<br>其中P(分类)和P(特征)都是已知的，我们只需求P(特征|分类)即可。</p><h5 id="例题分析"><a href="#例题分析" class="headerlink" title="例题分析"></a>例题分析</h5><p>给定数据如下：<br>| 高否 | 富否 | 帅否 | 嫁否 |<br>| – | — | – | – |<br>| 高 | 富 | 帅 | 嫁 |<br>| 高 | 不富 | 帅 | 嫁 |<br>| 不高 | 富 | 不帅 | 嫁 |<br>| 高 | 富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 帅 | 不嫁 |<br>| 高 | 不富 | 不帅 | 不嫁 |<br>| 不高 | 不富 | 不帅 | 不嫁 |<br>那我们现在的问题是，一个男生向一个女生求婚，这个男生具有以下三个特点：不高、富、帅，请你判断以下该女孩是否会嫁？</p><p>这是一个典型的分类问题，转化为概率论问题就是$P(嫁|不高、富、帅)$ 与 $P(不嫁|不高、富、帅)那个概率更大？</p><p>这里我们就使用朴素贝叶斯公式来分别求以下两种情况下的概率：</p><ul><li>①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)*P(嫁)}{P(不高、富、帅)}$</li><li>②$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)*P(不嫁)}{P(不高、富、帅)}$<h6 id="对①求解"><a href="#对①求解" class="headerlink" title="对①求解"></a>对①求解</h6>我们先对要求①进行求解。要求$P(嫁|不高、富、帅)$的概率只需求$P(不高、富、帅|嫁)、P(嫁)、P(不高、富、帅)$即可。根据“朴素”一词也就是各个特征之间是独立的，可以得到如下<1>公式和<2>公式(只需求如下公式即可)：<br><1>$P(不高、富、帅|嫁) = P(不高|嫁)<em>P(富|嫁)</em>P(帅|嫁)$<br><2>$P(不高、富、帅) = P(不高)<em>P(富)</em>P(帅)$<br>同时只需要再求出公式<3>问题就得到解决<br><3>$P(嫁)$</3></3></2></1></2></1></li></ul><p>我们从表格中统计所有嫁的样本共有3条，其中不高的样本有1条，所以$P(不高|嫁) = 1/3$，同理可以得到$P(富|嫁) = 2/3$， $P(帅|嫁) = 2/3$。</p><p>我们从表格中统计所有样本共有7条，其中嫁的样本有3条，所以 $P(嫁) = 3/7$。</p><p>我们从表格中统计所有样本共有7条，其中不高的样本有3条，所以 $P(不高) = 3/7$，其中富的样本有3条所以$P(富) = 3/7$，其中帅的样本有3条所以$P(帅) = 3/7$。</p><p>综上①$P(嫁|不高、富、帅) = \frac {P(不高、富、帅|嫁)<em>P(嫁)}{ \; P(不高、富、帅) \; } $<br> 此公式 $= \frac {(\frac {1}{3} </em>\frac {2}{3}<em>\frac {2}{3})</em>\frac {3}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {196}{243}$</p><h6 id="对②求解"><a href="#对②求解" class="headerlink" title="对②求解"></a>对②求解</h6><p>$P(不嫁|不高、富、帅) = \frac {P(不高、富、帅|不嫁)<em>P(不嫁)}{P(不高、富、帅)}$<br>此公式  $= \frac {(\frac {1}{2} </em>\frac {1}{4}<em>\frac {1}{4})</em>\frac {4}{7}}  {\frac {3}{7} <em>\frac {3}{7}</em>\frac {3}{7}} =\frac {49}{216}$</p><p>所以最终的答案是“嫁”<br>参考：<br>1.<a href="https://blog.csdn.net/xueyingxue001/article/details/52396170" target="_blank" rel="noopener">https://blog.csdn.net/xueyingxue001/article/details/52396170</a><br>2.<a href="https://blog.csdn.net/amds123/article/details/70173402" target="_blank" rel="noopener">https://blog.csdn.net/amds123/article/details/70173402</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot; title=&quot;一、基本概念&quot;&gt;&lt;/a&gt;一、基本概念&lt;/h4&gt;&lt;h5 id=&quot;1-分类原理&quot;&gt;&lt;a href=&quot;#1-分类原理&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
+    
+      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>

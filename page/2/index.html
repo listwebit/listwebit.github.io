@@ -75,7 +75,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -94,10 +94,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Entradas',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -128,7 +128,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
     </div>
 
                 </td>
@@ -145,7 +145,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>categories</span>
+            <span>Categorias</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -168,7 +168,7 @@
                             &nbsp;
                             1-Perceptron
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/1-Perceptron/感知机(Perceptron)/">深度学习-感知机</a></li>  <li class="file"><a href="/2017/01/09/DeepLearning/1-Perceptron/多层感知机(MLP)/">感知机算法</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/1-Perceptron/多层感知机(MLP)/">感知机(感知器)算法</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -635,7 +635,7 @@
 
 
     
-        <article id="post-MachineLearning/1-模型/1-判别模型和生成模型" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -652,7 +652,7 @@
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/">
+        <a href="/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/">
             <time datetime="2017-12-19T09:17:35.000Z" itemprop="datePublished">2017-12-19</time>
         </a>
     </div>
@@ -664,13 +664,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/1-模型/1-判别模型和生成模型.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/1-模型/1-判别模型和生成模型.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/1-模型/1-判别模型和生成模型.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数.md'> History </a>
                             </div>
                         
                     </div>
@@ -678,7 +678,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/">1-判别模型和生成模型.md</a>
+            <a class="article-title" href="/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/">3-模型假设函数,损失函数,代价函数,目标函数</a>
         </h1>
     
 
@@ -697,30 +697,11 @@
                     
                     
                 
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                
-                    
-                    <p><table>
-<thead>
-<tr>
-<th></th>
-<th>判别模型</th>
-<p>
-                
             
         
         
-            </div>   
-            <div class="article-more-link">
-                <a href="/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/#more">Read More</a>
+            <p>假设函数(hypothesis function):预测函数<br>损失函数(loss function,error function):计算的是一个样本的误差<br>代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均<br>目标函数(objective function):代价函数 + 正则化项</p>
+
             </div>
         
         <footer class="article-footer">
@@ -819,7 +800,7 @@
         
             </div>   
             <div class="article-more-link">
-                <a href="/2017/12/19/NLP/1-词法分析/4-关键词提取/1-PageRank的前世今生/#more">Read More</a>
+                <a href="/2017/12/19/NLP/1-词法分析/4-关键词提取/1-PageRank的前世今生/#more">Ler Mais</a>
             </div>
         
         <footer class="article-footer">
@@ -925,7 +906,7 @@
 
 
     
-        <article id="post-MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-MachineLearning/1-模型/1-判别模型和生成模型" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -942,7 +923,7 @@
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/">
+        <a href="/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/">
             <time datetime="2017-12-19T09:17:35.000Z" itemprop="datePublished">2017-12-19</time>
         </a>
     </div>
@@ -954,13 +935,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/1-模型/1-判别模型和生成模型.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/1-模型/1-判别模型和生成模型.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/1-模型/1-判别模型和生成模型.md'> History </a>
                             </div>
                         
                     </div>
@@ -968,7 +949,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/19/MachineLearning/1-模型/3-模型假设函数,损失函数,代价函数,目标函数/">3-模型假设函数,损失函数,代价函数,目标函数</a>
+            <a class="article-title" href="/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/">1-判别模型和生成模型.md</a>
         </h1>
     
 
@@ -987,163 +968,30 @@
                     
                     
                 
-            
-        
-        
-            <p>假设函数(hypothesis function):预测函数<br>损失函数(loss function,error function):计算的是一个样本的误差<br>代价函数(cost function,成本函数):是整个训练集上所有样本误差的平均<br>目标函数(objective function):代价函数 + 正则化项</p>
-
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-NLP/1-词法分析/这里是词法分析" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/1-词法分析/">1-词法分析</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/12/18/NLP/1-词法分析/这里是词法分析/">
-            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/1-词法分析/这里是词法分析.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/1-词法分析/这里是词法分析.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/1-词法分析/这里是词法分析.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/18/NLP/1-词法分析/这里是词法分析/">这里是词法分析</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
+                    
+                    
                 
                     
                     
                 
-            
-        
-        
-            
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-NLP/7-文本分类/0.文本分类算法总结" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/7-文本分类/">7-文本分类</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/">
-            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/7-文本分类/0.文本分类算法总结.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/7-文本分类/0.文本分类算法总结.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/7-文本分类/0.文本分类算法总结.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/">0文本分类算法总结</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
                     
                     
                 
+                
+                    
+                    <p><table>
+<thead>
+<tr>
+<th></th>
+<th>判别模型</th>
+<p>
+                
             
         
         
-            
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/#more">Ler Mais</a>
             </div>
         
         <footer class="article-footer">
@@ -1249,6 +1097,105 @@
 
 
     
+        <article id="post-NLP/6-文本向量化/0-文本向量化" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/6-文本向量化/">6-文本向量化</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/18/NLP/6-文本向量化/0-文本向量化/">
+            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/6-文本向量化/0-文本向量化.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/6-文本向量化/0-文本向量化.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/6-文本向量化/0-文本向量化.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/12/18/NLP/6-文本向量化/0-文本向量化/">0-文本向量化</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><h4 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h4><h4 id="二、分类"><a href="#二、分类" class="headerlink" title="二、分类"></a>二、分类</h4><h5 id="1-one-hot-将词向量化"><a href="#1-one-hot-将词向量化" class="headerlink" title="1.one-hot(将词向量化)"></a>1.one-hot(将词向量化)</h5><p>这最简单的一种想法，就是对一句话用one-hot编码:比如对于这句话：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ohn likes to watch movies,Mary likes too.</span><br><span class="line">John likes to watch movies,Mary likes too.</span><br><span class="line">John also likes to watch football games.</span><br><span class="line">John also likes to watch football games.</span><br></pre></td></tr></table></figure></p>
+<p>可以通过以上语料构建一个字典：dic<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1:&quot;John&quot;</span><br><span class="line">2:&quot;likes&quot;</span><br><span class="line">3:&quot;to&quot;</span><br><span class="line">4:&quot;watch&quot;</span><br><span class="line">5:&quot;movies&quot;</span><br><span class="line">6:&quot;also&quot;</span><br><span class="line">7:&quot;football&quot;</span><br><span class="line">8:&quot;games&quot;</span><br><span class="line">9:&quot;Mary&quot;</span><br><span class="line">10:&quot;too&quot;</span><br></pre></td></tr></table></figure></p>
+<p>用one-hot可以表示为：<br>第一句话：<br>John :[1,0,0,0,0,0,0,0,0,0]<br>likes  :[0,1,0,0,0,0,0,0,0,0]<br>…<br>too   :[0,0,0,0,0,0,0,0,0,1]</p>
+<p>第二句话：<br>John :[1,0,0,0,0,0,0,0,0,0]<br>likes  :[0,1,0,0,0,0,0,0,0,0]<br>…<br>too   :[0,0,0,0,0,0,0,0,0,1]<br>但事实是，这样做耗费的资源太多，而且不能很好的表征每句话的特性。</p>
+<h5 id="2-Bag-of-words-将句子向量化"><a href="#2-Bag-of-words-将句子向量化" class="headerlink" title="2.Bag-of-words(将句子向量化)"></a>2.Bag-of-words(将句子向量化)</h5><p>另一种方法则是词袋模型，它相当于一个词袋，不考虑词/句之间的相关性，只要出现了该词，就会记为1，再次出现就会+1。比如前面的那句话：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">John likes to watch movies,Mary likes too.</span><br></pre></td></tr></table></figure></p>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/12/18/NLP/6-文本向量化/0-文本向量化/#more">Ler Mais</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-NLP/2-句法分析/这里是句法分析" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -1325,8 +1272,107 @@
 
 
     
+        <article id="post-NLP/7-文本分类/1.朴素贝叶斯算法" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/7-文本分类/">7-文本分类</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/">
+            <time datetime="2017-12-18T09:17:35.000Z" itemprop="datePublished">2017-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/7-文本分类/1.朴素贝叶斯算法.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/7-文本分类/1.朴素贝叶斯算法.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/7-文本分类/1.朴素贝叶斯算法.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/">1.朴素贝叶斯算法</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><h4 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h4><h5 id="1-分类原理"><a href="#1-分类原理" class="headerlink" title="1.分类原理"></a>1.分类原理</h5><p>通过某对象的先验概率，利用贝叶斯公式，计算出其后验概率。即该对象属于某一类的概率，选择具有最大后验概率的类作为该对象所属的类。</p>
+<h5 id="2-贝叶斯公式"><a href="#2-贝叶斯公式" class="headerlink" title="2.贝叶斯公式"></a>2.贝叶斯公式</h5><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p>
+<ul>
+<li>(1).其中P(A)为先验概率：先验概率（prior probability）是指根据以往经验和分析得到的概率，如全概率公式，它往往作为”由因求果”问题中的”因”出现的概率。；</li>
+<li>(2).其中P(B|A)为似然概率(likelihood)：是先前统计的事件中，A事件发生情况下B事件发生的概率</li>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2017/12/18/NLP/7-文本分类/1.朴素贝叶斯算法/#more">Ler Mais</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <nav id="page-nav">
-        <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+        <a class="extend prev" rel="prev" href="/">&laquo; Anterior</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Siguiente  &raquo;</a>
         </nav>
     
 </section>

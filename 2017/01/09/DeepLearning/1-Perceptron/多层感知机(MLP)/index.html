@@ -3,22 +3,25 @@
 <head>
     <meta charset="utf-8">
     
-    <title>感知机算法 | 帅的掉渣的博客</title>
+    <title>感知机(感知器)算法 | 帅的掉渣的博客</title>
     
     
-        <meta name="keywords" content="感知机算法" />
+        <meta name="keywords" content="感知机(感知器)算法" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="二、学习资料  Michael Nielsen的《Neural Network and Deep Learning》中文翻译《神经网络与深度学习》">
+    <meta name="description" content="一、深度学习1.基本定义在现在的人工智能领域，数据挖掘类的算法大致可以分为两类，第一种是机器学习算法，第二种是深度学习算法。深度学习算法，可以叫做深度神经网络算法。神经网络的结构可以如下图所示：上图中每个圆圈都是一个神经元，每条线叫神经元的链接。上图中神经元可以分为三层，层与层直接有神经元连接，层内无神经元连接。最左边的层叫输入层。最右边的层叫输出层。输入层和输出层直接的叫隐藏层。深度神经网络：隐">
 <meta property="og:type" content="article">
-<meta property="og:title" content="感知机算法">
+<meta property="og:title" content="感知机(感知器)算法">
 <meta property="og:url" content="http://yoursite.com/2017/01/09/DeepLearning/1-Perceptron/多层感知机(MLP)/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
-<meta property="og:description" content="二、学习资料  Michael Nielsen的《Neural Network and Deep Learning》中文翻译《神经网络与深度学习》">
-<meta property="og:updated_time" content="2018-09-20T06:11:58.139Z">
+<meta property="og:description" content="一、深度学习1.基本定义在现在的人工智能领域，数据挖掘类的算法大致可以分为两类，第一种是机器学习算法，第二种是深度学习算法。深度学习算法，可以叫做深度神经网络算法。神经网络的结构可以如下图所示：上图中每个圆圈都是一个神经元，每条线叫神经元的链接。上图中神经元可以分为三层，层与层直接有神经元连接，层内无神经元连接。最左边的层叫输入层。最右边的层叫输出层。输入层和输出层直接的叫隐藏层。深度神经网络：隐">
+<meta property="og:image" content="https://raw.githubusercontent.com/listwebit/ImgDate/master/perceptron-1.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/listwebit/ImgDate/master/perceptron-2.png">
+<meta property="og:updated_time" content="2019-04-28T08:09:30.873Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="感知机算法">
-<meta name="twitter:description" content="二、学习资料  Michael Nielsen的《Neural Network and Deep Learning》中文翻译《神经网络与深度学习》">
+<meta name="twitter:title" content="感知机(感知器)算法">
+<meta name="twitter:description" content="一、深度学习1.基本定义在现在的人工智能领域，数据挖掘类的算法大致可以分为两类，第一种是机器学习算法，第二种是深度学习算法。深度学习算法，可以叫做深度神经网络算法。神经网络的结构可以如下图所示：上图中每个圆圈都是一个神经元，每条线叫神经元的链接。上图中神经元可以分为三层，层与层直接有神经元连接，层内无神经元连接。最左边的层叫输入层。最右边的层叫输出层。输入层和输出层直接的叫隐藏层。深度神经网络：隐">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/listwebit/ImgDate/master/perceptron-1.png">
     
 
     
@@ -79,7 +82,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -98,10 +101,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Entradas',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -132,7 +135,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
     </div>
 
                 </td>
@@ -149,7 +152,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>categories</span>
+            <span>Categorias</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -172,7 +175,7 @@
                             &nbsp;
                             1-Perceptron
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/1-Perceptron/感知机(Perceptron)/">深度学习-感知机</a></li>  <li class="file active"><a href="/2017/01/09/DeepLearning/1-Perceptron/多层感知机(MLP)/">感知机算法</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/2017/01/09/DeepLearning/1-Perceptron/多层感知机(MLP)/">感知机(感知器)算法</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -524,7 +527,7 @@
                 
     
         <h1 class="article-title" itemprop="name">
-            感知机算法
+            感知机(感知器)算法
         </h1>
     
 
@@ -537,10 +540,17 @@
             
         
         
-            <p>二、学习资料</p>
-<ol>
-<li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li>
-</ol>
+            <h4 id="一、深度学习"><a href="#一、深度学习" class="headerlink" title="一、深度学习"></a>一、深度学习</h4><h6 id="1-基本定义"><a href="#1-基本定义" class="headerlink" title="1.基本定义"></a>1.基本定义</h6><p>在现在的人工智能领域，数据挖掘类的算法大致可以分为两类，第一种是机器学习算法，第二种是深度学习算法。深度学习算法，可以叫做深度神经网络算法。神经网络的结构可以如下图所示：<br><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/perceptron-1.png" alt="avatar"><br>上图中每个圆圈都是一个<strong>神经元</strong>，每条线叫神经元的<strong>链接</strong>。<br>上图中神经元可以分为三层，层与层直接有神经元连接，层内无神经元连接。最左边的层叫<strong>输入层</strong>。最右边的层叫<strong>输出层</strong>。输入层和输出层直接的叫<strong>隐藏层</strong>。<br><strong>深度神经网络</strong>：隐藏层大于2的神经网络。</p>
+<p><strong>深度网络和宽度网络的区别：</strong><br>(1)一个仅有一个隐藏层的神经网络就能拟合任何一个函数，但是它需要很多很多的神经元。<br>(2)而深层网络用少得多的神经元就能拟合同样的函数。也就是为了拟合一个函数，要么使用一个浅而宽的网络，要么使用一个深而窄的网络。而后者往往更节约资源。</p>
+<h4 id="二、感知器-也叫感知机"><a href="#二、感知器-也叫感知机" class="headerlink" title="二、感知器(也叫感知机)"></a>二、感知器(也叫感知机)</h4><h5 id="1-感知器的基本定义"><a href="#1-感知器的基本定义" class="headerlink" title="1.感知器的基本定义"></a>1.感知器的基本定义</h5><p><strong>感知器：</strong> 也叫感知机，也叫神经元，神经网络的基本组成单元。<br><strong>感知器的定义：</strong><br><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/perceptron-2.png" alt="avatar"><br>可以看到，一个感知器有如下组成部分：</p>
+<ul>
+<li><strong>输入权值：</strong>  一个感知器可以接收多个输入$(x_1,x_2,…,x_n)$，每个输入上有一个权值，此外还有一个偏置项$b$，就是上图中的$w_0$。</li>
+<li><strong>激活函数：</strong>  感知器的激活函数可以有很多选择，比如我们可以选择下面这个阶跃函数来作为激活函数<br>$f(x)=<br>\begin{cases}<br>1&amp; \text{z&gt;0}\<br>0&amp; \text{otherwise}<br>\end{cases}$</li>
+<li><strong>输出：</strong>  感知器的输出由下面的公式来计算<br>$y =f(w*x +b)$</li>
+</ul>
+<h5 id="2-感知器的训练"><a href="#2-感知器的训练" class="headerlink" title="2.感知器的训练"></a>2.感知器的训练</h5><p>前面的权重项和偏置项的值是如何获得的呢？这就要用到感知器训练算法：将权重项和偏置项初始化为0，然后，利用下面的感知器规则迭代的修改$w_i$和$b$，直到训练完成。<br>$w_i =   w_i + \nabla w_i$  （公式1）<br>$b  = b+\nabla b$  （公式2）</p>
+<p>其中：<br>$\nabla w_i = \alpha(t-y)x_i$<br>$\nabla b= \alpha(t-y)$</p>
+<p>$w_i$是输入$x_i$对应的<strong>权重项</strong>。<br>$b$是<strong>偏置项</strong>。<br>$t$是训练样本的<strong>实际值</strong>，也就是label。<br>$y$是感知器的<strong>输出值</strong>。<br>$\alpha$是学习率的常数。</p>
 
             </div>
         
@@ -554,7 +564,7 @@
 <nav id="article-nav">
     
         <a href="/2017/01/09/DeepLearning/2-CNN/CNN算法之文本分类/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Newer</strong>
+            <strong class="article-nav-caption">Más nuevo</strong>
             <div class="article-nav-title">
                 
                     CNN算法
@@ -564,7 +574,7 @@
     
     
         <a href="/2016/12/18/数学/统计学/1-联合概率/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Older</strong>
+            <strong class="article-nav-caption">Más viejo</strong>
             <div class="article-nav-title">1-联合概率</div>
         </a>
     
