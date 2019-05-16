@@ -3,18 +3,21 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Catégorie: 3-RNN | 帅的掉渣的博客</title>
+    <title>RNN算法 | 帅的掉渣的博客</title>
     
     
-        <meta name="keywords" content="帅的掉渣的博客" />
+        <meta name="keywords" content="RNN算法" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="帅的掉渣的博客">
-<meta property="og:url" content="http://yoursite.com/categories/DeepLearning/3-RNN/index.html">
+    <meta property="og:type" content="article">
+<meta property="og:title" content="RNN算法">
+<meta property="og:url" content="http://yoursite.com/2017/01/09/DeepLearning/4-RNN/RNN/index.html">
 <meta property="og:site_name" content="帅的掉渣的博客">
+<meta property="og:image" content="https://raw.githubusercontent.com/listwebit/ImgDate/master/RNN-1.jpg">
+<meta property="og:updated_time" content="2018-09-29T06:30:25.521Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="帅的掉渣的博客">
+<meta name="twitter:title" content="RNN算法">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/listwebit/ImgDate/master/RNN-1.jpg">
     
 
     
@@ -75,7 +78,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -94,10 +97,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Articles',
+            POSTS: 'Entradas',
             PAGES: 'Pages',
-            CATEGORIES: 'Catégories',
-            TAGS: 'Tags',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -128,7 +131,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
     </div>
 
                 </td>
@@ -145,7 +148,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>Catégories</span>
+            <span>Categorias</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -155,9 +158,9 @@
         
         
          <ul class="unstyled" id="tree" > 
-                    <li class="directory">
+                    <li class="directory open">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder"></i>
+                            <i class="fa fa-folder-open"></i>
                             &nbsp;
                             DeepLearning
                         </a>
@@ -175,20 +178,20 @@
                         <a href="#" data-role="directory">
                             <i class="fa fa-folder"></i>
                             &nbsp;
-                            2-CNN
+                            3-CNN
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/2-CNN/CNN/">CNN算法</a></li>  <li class="file"><a href="/2017/01/09/DeepLearning/2-CNN/CNN算法之文本分类/">CNN算法</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/3-CNN/CNN算法之文本分类/">CNN算法</a></li>  <li class="file"><a href="/2017/01/09/DeepLearning/3-CNN/CNN/">CNN算法</a></li>  </ul> 
                     </li> 
                     
-                    <li class="directory">
+                    <li class="directory open">
                         <a href="#" data-role="directory">
-                            <i class="fa fa-folder"></i>
+                            <i class="fa fa-folder-open"></i>
                             &nbsp;
-                            3-RNN
+                            4-RNN
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/3-RNN/RNN/">RNN算法</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file active"><a href="/2017/01/09/DeepLearning/4-RNN/RNN/">RNN算法</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/2017/01/09/DeepLearning/deeplearning/">deeplearning算法分类</a></li>  </ul> 
+                     <li class="file"><a href="/2017/01/09/DeepLearning/deeplearning/">deeplearning算法分类</a></li>  <li class="file"><a href="/2019/02/09/DeepLearning/BP/">BP(反向传播算法)</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -477,45 +480,106 @@
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
             
-            <section id="main">
-<div class="timeline timeline-wrap">
-    <div class="timeline-row timeline-row-major">
-        <span class="node"><i class="fa fa-folder"></i></span>
-        <h1 class="title">3-RNN</h1>
-    </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
+            <section id="main"><article id="post-DeepLearning/4-RNN/RNN" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
                 
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/2017/01/09/DeepLearning/3-RNN/RNN/">RNN算法</a>
-        </h1>
-    
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/DeepLearning/4-RNN/">4-RNN</a>
+    </div>
 
-                <div class="article-meta">
-                    
+                        
+                        
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/01/09/DeepLearning/3-RNN/RNN/">
+        <a href="/2017/01/09/DeepLearning/4-RNN/RNN/">
             <time datetime="2017-01-09T08:02:27.000Z" itemprop="datePublished">2017-01-09</time>
         </a>
     </div>
 
 
-                    
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/DeepLearning/3-RNN/">3-RNN</a>
-    </div>
-
-                    
-                </div>
-            </div>
-        </div>
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
     
-</div>
+        <h1 class="article-title" itemprop="name">
+            RNN算法
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+        
+        
+            <p><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/RNN-1.jpg" alt="avatar"></p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+    
+<nav id="article-nav">
+    
+        <a href="/2017/01/09/DeepLearning/3-CNN/CNN算法之文本分类/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Más nuevo</strong>
+            <div class="article-nav-title">
+                
+                    CNN算法
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2017/01/09/DeepLearning/3-CNN/CNN/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Más viejo</strong>
+            <div class="article-nav-title">CNN算法</div>
+        </a>
+    
+</nav>
+
+
+
+
+
+    
+    
+
+
+
+
+<!-- baidu url auto push script -->
+<script type="text/javascript">
+    !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,o=document.referrer;if(!e.test(r)){var n="//api.share.baidu.com/s.gif";o?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var t=new Image;t.src=n}}(window);
+</script>     
 </section>
         </div>
         <footer id="footer">

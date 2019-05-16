@@ -75,7 +75,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -94,10 +94,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Articles',
+            POSTS: 'Entradas',
             PAGES: 'Pages',
-            CATEGORIES: 'Catégories',
-            TAGS: 'Tags',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -128,7 +128,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
     </div>
 
                 </td>
@@ -145,7 +145,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>Catégories</span>
+            <span>Categorias</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -175,20 +175,20 @@
                         <a href="#" data-role="directory">
                             <i class="fa fa-folder"></i>
                             &nbsp;
-                            2-CNN
+                            3-CNN
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/2-CNN/CNN/">CNN算法</a></li>  <li class="file"><a href="/2017/01/09/DeepLearning/2-CNN/CNN算法之文本分类/">CNN算法</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/3-CNN/CNN算法之文本分类/">CNN算法</a></li>  <li class="file"><a href="/2017/01/09/DeepLearning/3-CNN/CNN/">CNN算法</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
                         <a href="#" data-role="directory">
                             <i class="fa fa-folder"></i>
                             &nbsp;
-                            3-RNN
+                            4-RNN
                         </a>
-                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/3-RNN/RNN/">RNN算法</a></li>  </ul> 
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/4-RNN/RNN/">RNN算法</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/2017/01/09/DeepLearning/deeplearning/">deeplearning算法分类</a></li>  </ul> 
+                     <li class="file"><a href="/2017/01/09/DeepLearning/deeplearning/">deeplearning算法分类</a></li>  <li class="file"><a href="/2019/02/09/DeepLearning/BP/">BP(反向传播算法)</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -478,6 +478,90 @@
 </aside>
             
             <section id="main">
+        <article id="post-DeepLearning/BP" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2019/02/09/DeepLearning/BP/">
+            <time datetime="2019-02-09T08:02:27.000Z" itemprop="datePublished">2019-02-09</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/BP.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/BP.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/BP.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2019/02/09/DeepLearning/BP/">BP(反向传播算法)</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        
+        
+            <p>基本上目前所有的神经网络算法在训练得到权重$w$和偏执项$b$时候，都用的反向传播算法。今天我们对这个算法做个总结。</p>
+<h4 id="一、反向传播算法要解决的问题"><a href="#一、反向传播算法要解决的问题" class="headerlink" title="一、反向传播算法要解决的问题"></a>一、反向传播算法要解决的问题</h4><p>我们以最常见的DNN算法为例，我们首先要知道在DNN中反向传播算法要解决什么问题，也就是说，我们什么时候需要反向传播算法？</p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-人工智能机器学习NLP算法分类总结" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -871,6 +955,165 @@
 
 
     
+        <article id="post-MachineLearning/2-回归/回归的分类" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/MachineLearning/">MachineLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/MachineLearning/2-回归/">2-回归</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/机器学习/">机器学习</a>
+    </div>
+
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2018/01/09/MachineLearning/2-回归/回归的分类/">
+            <time datetime="2018-01-09T08:02:27.000Z" itemprop="datePublished">2018-01-09</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/2-回归/回归的分类.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/2-回归/回归的分类.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/2-回归/回归的分类.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2018/01/09/MachineLearning/2-回归/回归的分类/">回归的分类</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                <p><h2 id="一、回归可以分为以下几类"><a href="#一、回归可以分为以下几类" class="headerlink" title="一、回归可以分为以下几类"></a>一、回归可以分为以下几类</h2><ul>
+<li>1.线性回归</li>
+<li>2.非线性回归</li>
+<li>3.逻辑回归</p>
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2018/01/09/MachineLearning/2-回归/回归的分类/#more">Read More</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
+        <article id="post-MachineLearning/4-时序/时序" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/MachineLearning/">MachineLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/MachineLearning/4-时序/">4-时序</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2018/01/09/MachineLearning/4-时序/时序/">
+            <time datetime="2018-01-09T08:02:27.000Z" itemprop="datePublished">2018-01-09</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/4-时序/时序.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/4-时序/时序.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/4-时序/时序.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2018/01/09/MachineLearning/4-时序/时序/">时序</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+            
+        
+        
+            
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-MachineLearning/0-基本概念/代价函数，损失函数，目标函数区别" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -1069,255 +1312,8 @@
 
 
     
-        <article id="post-MachineLearning/4-时序/时序" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/MachineLearning/">MachineLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/MachineLearning/4-时序/">4-时序</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2018/01/09/MachineLearning/4-时序/时序/">
-            <time datetime="2018-01-09T08:02:27.000Z" itemprop="datePublished">2018-01-09</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/4-时序/时序.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/4-时序/时序.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/4-时序/时序.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2018/01/09/MachineLearning/4-时序/时序/">时序</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-            
-        
-        
-            
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-MachineLearning/2-回归/回归的分类" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/MachineLearning/">MachineLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/MachineLearning/2-回归/">2-回归</a>
-    </div>
-
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/机器学习/">机器学习</a>
-    </div>
-
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2018/01/09/MachineLearning/2-回归/回归的分类/">
-            <time datetime="2018-01-09T08:02:27.000Z" itemprop="datePublished">2018-01-09</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/2-回归/回归的分类.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/2-回归/回归的分类.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/2-回归/回归的分类.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2018/01/09/MachineLearning/2-回归/回归的分类/">回归的分类</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                <p><h2 id="一、回归可以分为以下几类"><a href="#一、回归可以分为以下几类" class="headerlink" title="一、回归可以分为以下几类"></a>一、回归可以分为以下几类</h2><ul>
-<li>1.线性回归</li>
-<li>2.非线性回归</li>
-<li>3.逻辑回归</p>
-            
-        
-        
-            </div>   
-            <div class="article-more-link">
-                <a href="/2018/01/09/MachineLearning/2-回归/回归的分类/#more">Read More</a>
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-MachineLearning/2-回归/LR" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/MachineLearning/">MachineLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/MachineLearning/2-回归/">2-回归</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2018/01/09/MachineLearning/2-回归/LR/">
-            <time datetime="2018-01-09T08:02:27.000Z" itemprop="datePublished">2018-01-09</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/MachineLearning/2-回归/LR.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/MachineLearning/2-回归/LR.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/MachineLearning/2-回归/LR.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2018/01/09/MachineLearning/2-回归/LR/">LR(逻辑回归)</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        
-        
-            <h4 id="一、假设函数-Hypothesis"><a href="#一、假设函数-Hypothesis" class="headerlink" title="一、假设函数 (Hypothesis)"></a>一、假设函数 (Hypothesis)</h4><p>就是在多元线性回归的基础上再加一个sigmod函数。<br>$y_\theta(x) = \theta_0 +\theta_1x_1+\theta_2x_2….+\theta_ix<em>i$<br>$z</em>\theta(x) = \frac{1}{1+e^{-x}}$<br>综合以上两个公式：<br>$h_\theta(x) = \frac{1}{1+e^{-\theta x}}$</p>
-<h4 id="二、损失函数"><a href="#二、损失函数" class="headerlink" title="二、损失函数"></a>二、损失函数</h4><h6 id="1-交叉熵损失函数"><a href="#1-交叉熵损失函数" class="headerlink" title="1.交叉熵损失函数"></a>1.交叉熵损失函数</h6><p>逻辑回归的损失函数不能采用平方差损失函数，因为逻辑回归的损失函数不是凸函数。<br>逻辑回归的损失函数采用交叉熵作为损失函数。<br>$h<em>\theta(x) =- \frac{1}{m}\sum</em>{i=1}^{m}(y^{i}logh<em>\theta(x^i)+(1-y)^{i}log(1-h</em>\theta(x^i)))$</p>
-<h6 id="2-交叉熵损失函数的推导"><a href="#2-交叉熵损失函数的推导" class="headerlink" title="2.交叉熵损失函数的推导"></a>2.交叉熵损失函数的推导</h6><p>$\frac{\partial h<em>\theta(x)}{\partial</em>\theta}=\frac{1}{m}\sum<em>{i=1}^{m}(h</em>\theta(x^i)-y^i)x^i$<br>所有逻辑回归的交叉熵损失函数的偏导数和多元线性回归的平方差损失的偏导数是一样的</p>
-
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
         <nav id="page-nav">
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">Suiv &raquo;</a>
+        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">Siguiente  &raquo;</a>
         </nav>
     
 </section>
