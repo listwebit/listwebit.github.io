@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-16T06:23:02.034Z</updated>
+  <updated>2019-05-16T07:18:33.307Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Activation (激活函数)</title>
+    <link href="http://yoursite.com/2019/02/09/DeepLearning/Activation/"/>
+    <id>http://yoursite.com/2019/02/09/DeepLearning/Activation/</id>
+    <published>2019-02-09T08:02:27.000Z</published>
+    <updated>2019-05-16T07:18:33.307Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、sigmoid-函数"><a href="#一、sigmoid-函数" class="headerlink" title="一、sigmoid 函数"></a>一、sigmoid 函数</h4><h6 id="1-公式"><a href="#1-公式" class="headerlink" title="1.公式"></a>1.公式</h6><p>$y(x) = \frac{1}{1+e^{-x}}$</p><h6 id="2-图像"><a href="#2-图像" class="headerlink" title="2.图像"></a>2.图像</h6><p><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/sigmoid.png" alt="在这里插入图片描述"></p><h6 id="3-性质"><a href="#3-性质" class="headerlink" title="3.性质"></a>3.性质</h6><ul><li>(1)$y’= y*(1-y)$</li><li>(2)$y’$导数的最大值为：1/4</li></ul><h4 id="二、softmax函数"><a href="#二、softmax函数" class="headerlink" title="二、softmax函数"></a>二、softmax函数</h4><h6 id="1-公式-1"><a href="#1-公式-1" class="headerlink" title="1.公式"></a>1.公式</h6><p>$y(x)=\frac{e^xi}{\sum_{i=1}^m e^xi}$</p><h6 id="2-图像-1"><a href="#2-图像-1" class="headerlink" title="2.图像"></a>2.图像</h6><p>softmax没有图像，刻画的是百分比，解释图像为<br><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/softmax.png" alt="在这里插入图片描述"></p><h4 id="三、tanh函数"><a href="#三、tanh函数" class="headerlink" title="三、tanh函数"></a>三、tanh函数</h4><h6 id="1-定义"><a href="#1-定义" class="headerlink" title="1.定义"></a>1.定义</h6><p>$y(x)=\frac{e^x - e^{-x}}{e^x + e^{-x}}$</p><h6 id="2-图像-2"><a href="#2-图像-2" class="headerlink" title="2.图像"></a>2.图像</h6><p><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/tanh.png" alt="在这里插入图片描述"></p><h6 id="3-性质-1"><a href="#3-性质-1" class="headerlink" title="3.性质"></a>3.性质</h6><ul><li>(1)$y’= 1- y^2$</li><li>(2)$y’$导数的最大值为：1</li></ul><h4 id="四、RELU函数"><a href="#四、RELU函数" class="headerlink" title="四、RELU函数"></a>四、RELU函数</h4><h6 id="1-定义-1"><a href="#1-定义-1" class="headerlink" title="1.定义"></a>1.定义</h6><p>$y(x)=\frac{e^x - e^{-x}}{e^x + e^{-x}}$</p><h6 id="2-图像-3"><a href="#2-图像-3" class="headerlink" title="2.图像"></a>2.图像</h6><p><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/Relu.jpg" alt="Relu函数"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、sigmoid-函数&quot;&gt;&lt;a href=&quot;#一、sigmoid-函数&quot; class=&quot;headerlink&quot; title=&quot;一、sigmoid 函数&quot;&gt;&lt;/a&gt;一、sigmoid 函数&lt;/h4&gt;&lt;h6 id=&quot;1-公式&quot;&gt;&lt;a href=&quot;#1-公式&quot; cla
+      
+    
+    </summary>
+    
+      <category term="DeepLearning" scheme="http://yoursite.com/categories/DeepLearning/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>BP(反向传播算法)</title>
@@ -160,6 +183,31 @@
   </entry>
   
   <entry>
+    <title>LR(逻辑回归)</title>
+    <link href="http://yoursite.com/2018/01/09/MachineLearning/2-%E5%9B%9E%E5%BD%92/LR/"/>
+    <id>http://yoursite.com/2018/01/09/MachineLearning/2-回归/LR/</id>
+    <published>2018-01-09T08:02:27.000Z</published>
+    <updated>2019-05-14T07:20:38.445Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、假设函数-Hypothesis"><a href="#一、假设函数-Hypothesis" class="headerlink" title="一、假设函数 (Hypothesis)"></a>一、假设函数 (Hypothesis)</h4><p>就是在多元线性回归的基础上再加一个sigmod函数。<br>$y_\theta(x) = \theta_0 +\theta_1x_1+\theta_2x_2….+\theta_ix<em>i$<br>$z</em>\theta(x) = \frac{1}{1+e^{-x}}$<br>综合以上两个公式：<br>$h_\theta(x) = \frac{1}{1+e^{-\theta x}}$</p><h4 id="二、损失函数"><a href="#二、损失函数" class="headerlink" title="二、损失函数"></a>二、损失函数</h4><h6 id="1-交叉熵损失函数"><a href="#1-交叉熵损失函数" class="headerlink" title="1.交叉熵损失函数"></a>1.交叉熵损失函数</h6><p>逻辑回归的损失函数不能采用平方差损失函数，因为逻辑回归的损失函数不是凸函数。<br>逻辑回归的损失函数采用交叉熵作为损失函数。<br>$h<em>\theta(x) =- \frac{1}{m}\sum</em>{i=1}^{m}(y^{i}logh<em>\theta(x^i)+(1-y)^{i}log(1-h</em>\theta(x^i)))$</p><h6 id="2-交叉熵损失函数的推导"><a href="#2-交叉熵损失函数的推导" class="headerlink" title="2.交叉熵损失函数的推导"></a>2.交叉熵损失函数的推导</h6><p>$\frac{\partial h<em>\theta(x)}{\partial</em>\theta}=\frac{1}{m}\sum<em>{i=1}^{m}(h</em>\theta(x^i)-y^i)x^i$<br>所有逻辑回归的交叉熵损失函数的偏导数和多元线性回归的平方差损失的偏导数是一样的</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;一、假设函数-Hypothesis&quot;&gt;&lt;a href=&quot;#一、假设函数-Hypothesis&quot; class=&quot;headerlink&quot; title=&quot;一、假设函数 (Hypothesis)&quot;&gt;&lt;/a&gt;一、假设函数 (Hypothesis)&lt;/h4&gt;&lt;p&gt;就是在多元线
+      
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="2-回归" scheme="http://yoursite.com/categories/MachineLearning/2-%E5%9B%9E%E5%BD%92/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>回归的分类</title>
     <link href="http://yoursite.com/2018/01/09/MachineLearning/2-%E5%9B%9E%E5%BD%92/%E5%9B%9E%E5%BD%92%E7%9A%84%E5%88%86%E7%B1%BB/"/>
     <id>http://yoursite.com/2018/01/09/MachineLearning/2-回归/回归的分类/</id>
@@ -205,34 +253,6 @@
   </entry>
   
   <entry>
-    <title>代价函数，损失函数，目标函数区别</title>
-    <link href="http://yoursite.com/2018/01/09/MachineLearning/0-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%EF%BC%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%EF%BC%8C%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0%E5%8C%BA%E5%88%AB/"/>
-    <id>http://yoursite.com/2018/01/09/MachineLearning/0-基本概念/代价函数，损失函数，目标函数区别/</id>
-    <published>2018-01-09T08:02:27.000Z</published>
-    <updated>2018-11-01T09:46:59.187Z</updated>
-    
-    <content type="html"><![CDATA[<p>首先给出结论：</p><p>损失函数（Loss Function ）是定义在单个样本上的，算的是一个样本的误差。</p><p>代价函数（Cost Function ）是定义在整个训练集上的，是所有样本误差的平均，也就是损失函数的平均。</p><p>目标函数（Object Function）定义为：最终需要优化的函数。等于经验风险+结构风险（也就是Cost Function + 正则化项）。</p><p>参考：<a href="https://www.zhihu.com/question/52398145" target="_blank" rel="noopener">https://www.zhihu.com/question/52398145</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;首先给出结论：&lt;/p&gt;
-&lt;p&gt;损失函数（Loss Function ）是定义在单个样本上的，算的是一个样本的误差。&lt;/p&gt;
-&lt;p&gt;代价函数（Cost Function ）是定义在整个训练集上的，是所有样本误差的平均，也就是损失函数的平均。&lt;/p&gt;
-&lt;p&gt;目标函数（Objec
-      
-    
-    </summary>
-    
-      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
-    
-      <category term="0-基本概念" scheme="http://yoursite.com/categories/MachineLearning/0-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>0-吴恩达-机器学习</title>
     <link href="http://yoursite.com/2018/01/09/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/0-%E5%90%B4%E6%81%A9%E8%BE%BE%E2%80%94%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     <id>http://yoursite.com/2018/01/09/学习资料/机器学习/0-吴恩达—机器学习/</id>
@@ -259,26 +279,29 @@
   </entry>
   
   <entry>
-    <title>LR(逻辑回归)</title>
-    <link href="http://yoursite.com/2018/01/09/MachineLearning/2-%E5%9B%9E%E5%BD%92/LR/"/>
-    <id>http://yoursite.com/2018/01/09/MachineLearning/2-回归/LR/</id>
+    <title>代价函数，损失函数，目标函数区别</title>
+    <link href="http://yoursite.com/2018/01/09/MachineLearning/0-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/%E4%BB%A3%E4%BB%B7%E5%87%BD%E6%95%B0%EF%BC%8C%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0%EF%BC%8C%E7%9B%AE%E6%A0%87%E5%87%BD%E6%95%B0%E5%8C%BA%E5%88%AB/"/>
+    <id>http://yoursite.com/2018/01/09/MachineLearning/0-基本概念/代价函数，损失函数，目标函数区别/</id>
     <published>2018-01-09T08:02:27.000Z</published>
-    <updated>2019-05-14T07:20:38.445Z</updated>
+    <updated>2018-11-01T09:46:59.187Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="一、假设函数-Hypothesis"><a href="#一、假设函数-Hypothesis" class="headerlink" title="一、假设函数 (Hypothesis)"></a>一、假设函数 (Hypothesis)</h4><p>就是在多元线性回归的基础上再加一个sigmod函数。<br>$y_\theta(x) = \theta_0 +\theta_1x_1+\theta_2x_2….+\theta_ix<em>i$<br>$z</em>\theta(x) = \frac{1}{1+e^{-x}}$<br>综合以上两个公式：<br>$h_\theta(x) = \frac{1}{1+e^{-\theta x}}$</p><h4 id="二、损失函数"><a href="#二、损失函数" class="headerlink" title="二、损失函数"></a>二、损失函数</h4><h6 id="1-交叉熵损失函数"><a href="#1-交叉熵损失函数" class="headerlink" title="1.交叉熵损失函数"></a>1.交叉熵损失函数</h6><p>逻辑回归的损失函数不能采用平方差损失函数，因为逻辑回归的损失函数不是凸函数。<br>逻辑回归的损失函数采用交叉熵作为损失函数。<br>$h<em>\theta(x) =- \frac{1}{m}\sum</em>{i=1}^{m}(y^{i}logh<em>\theta(x^i)+(1-y)^{i}log(1-h</em>\theta(x^i)))$</p><h6 id="2-交叉熵损失函数的推导"><a href="#2-交叉熵损失函数的推导" class="headerlink" title="2.交叉熵损失函数的推导"></a>2.交叉熵损失函数的推导</h6><p>$\frac{\partial h<em>\theta(x)}{\partial</em>\theta}=\frac{1}{m}\sum<em>{i=1}^{m}(h</em>\theta(x^i)-y^i)x^i$<br>所有逻辑回归的交叉熵损失函数的偏导数和多元线性回归的平方差损失的偏导数是一样的</p>]]></content>
+    <content type="html"><![CDATA[<p>首先给出结论：</p><p>损失函数（Loss Function ）是定义在单个样本上的，算的是一个样本的误差。</p><p>代价函数（Cost Function ）是定义在整个训练集上的，是所有样本误差的平均，也就是损失函数的平均。</p><p>目标函数（Object Function）定义为：最终需要优化的函数。等于经验风险+结构风险（也就是Cost Function + 正则化项）。</p><p>参考：<a href="https://www.zhihu.com/question/52398145" target="_blank" rel="noopener">https://www.zhihu.com/question/52398145</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;一、假设函数-Hypothesis&quot;&gt;&lt;a href=&quot;#一、假设函数-Hypothesis&quot; class=&quot;headerlink&quot; title=&quot;一、假设函数 (Hypothesis)&quot;&gt;&lt;/a&gt;一、假设函数 (Hypothesis)&lt;/h4&gt;&lt;p&gt;就是在多元线
+        &lt;p&gt;首先给出结论：&lt;/p&gt;
+&lt;p&gt;损失函数（Loss Function ）是定义在单个样本上的，算的是一个样本的误差。&lt;/p&gt;
+&lt;p&gt;代价函数（Cost Function ）是定义在整个训练集上的，是所有样本误差的平均，也就是损失函数的平均。&lt;/p&gt;
+&lt;p&gt;目标函数（Objec
       
     
     </summary>
     
       <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
     
-      <category term="2-回归" scheme="http://yoursite.com/categories/MachineLearning/2-%E5%9B%9E%E5%BD%92/"/>
+      <category term="0-基本概念" scheme="http://yoursite.com/categories/MachineLearning/0-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
     
     
   </entry>
@@ -318,6 +341,32 @@
   </entry>
   
   <entry>
+    <title>2-模型评估的指标</title>
+    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/2-%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E6%8C%87%E6%A0%87/"/>
+    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/2-模型评估的指标/</id>
+    <published>2017-12-19T09:17:35.000Z</published>
+    <updated>2018-10-08T06:03:43.875Z</updated>
+    
+    <content type="html"><![CDATA[<p>多模型评估的指标可以分为以下几个类别</p><h4 id="一-Accuracy，Precision，Recall"><a href="#一-Accuracy，Precision，Recall" class="headerlink" title="一.Accuracy，Precision，Recall"></a>一.Accuracy，Precision，Recall</h4><p>要计算这几个指标先要了解几个概念：<br>FN：False Negative,被判定为负样本，但事实上是正样本。<br>FP：False Positive,被判定为正样本，但事实上是负样本。<br>TN：True Negative,被判定为负样本，事实上也是负样本。<br>TP：True Positive,被判定为正样本，事实上也是证样本。<br>1.Accuracy (正确率)<br>$ac=\frac {TP+TN}{TP+TN+FP+FN}$</p><p>2.Precision精确率，准确率，查准率<br>$P = \frac {TP}{TP+FP}$<br>解释：正样本占分类器所分的正样本的比例</p><p>3.Recall(召回率，查全率)<br>$R = \frac {TP}{TP + FN}$<br>解释：正样本占真正的正样本的比例</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;多模型评估的指标可以分为以下几个类别&lt;/p&gt;
+&lt;h4 id=&quot;一-Accuracy，Precision，Recall&quot;&gt;&lt;a href=&quot;#一-Accuracy，Precision，Recall&quot; class=&quot;headerlink&quot; title=&quot;一.Accuracy，P
+      
+    
+    </summary>
+    
+      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
+    
+      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>1-判别模型和生成模型.md</title>
     <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/1-%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B%E5%92%8C%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/"/>
     <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/1-判别模型和生成模型/</id>
@@ -343,32 +392,6 @@
 &lt;td&gt;特点&lt;/td&gt;
 &lt;td&gt;寻找不同类别之间的最优分类面，反映的是异类数据之间的差异&lt;/td&gt;
 &lt;td
-      
-    
-    </summary>
-    
-      <category term="MachineLearning" scheme="http://yoursite.com/categories/MachineLearning/"/>
-    
-      <category term="1-模型" scheme="http://yoursite.com/categories/MachineLearning/1-%E6%A8%A1%E5%9E%8B/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2-模型评估的指标</title>
-    <link href="http://yoursite.com/2017/12/19/MachineLearning/1-%E6%A8%A1%E5%9E%8B/2-%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0%E7%9A%84%E6%8C%87%E6%A0%87/"/>
-    <id>http://yoursite.com/2017/12/19/MachineLearning/1-模型/2-模型评估的指标/</id>
-    <published>2017-12-19T09:17:35.000Z</published>
-    <updated>2018-10-08T06:03:43.875Z</updated>
-    
-    <content type="html"><![CDATA[<p>多模型评估的指标可以分为以下几个类别</p><h4 id="一-Accuracy，Precision，Recall"><a href="#一-Accuracy，Precision，Recall" class="headerlink" title="一.Accuracy，Precision，Recall"></a>一.Accuracy，Precision，Recall</h4><p>要计算这几个指标先要了解几个概念：<br>FN：False Negative,被判定为负样本，但事实上是正样本。<br>FP：False Positive,被判定为正样本，但事实上是负样本。<br>TN：True Negative,被判定为负样本，事实上也是负样本。<br>TP：True Positive,被判定为正样本，事实上也是证样本。<br>1.Accuracy (正确率)<br>$ac=\frac {TP+TN}{TP+TN+FP+FN}$</p><p>2.Precision精确率，准确率，查准率<br>$P = \frac {TP}{TP+FP}$<br>解释：正样本占分类器所分的正样本的比例</p><p>3.Recall(召回率，查全率)<br>$R = \frac {TP}{TP + FN}$<br>解释：正样本占真正的正样本的比例</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;多模型评估的指标可以分为以下几个类别&lt;/p&gt;
-&lt;h4 id=&quot;一-Accuracy，Precision，Recall&quot;&gt;&lt;a href=&quot;#一-Accuracy，Precision，Recall&quot; class=&quot;headerlink&quot; title=&quot;一.Accuracy，P
       
     
     </summary>
@@ -428,24 +451,6 @@
       <category term="1-词法分析" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
     
       <category term="4-关键词提取" scheme="http://yoursite.com/categories/NLP/1-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/4-%E5%85%B3%E9%94%AE%E8%AF%8D%E6%8F%90%E5%8F%96/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0文本分类算法总结</title>
-    <link href="http://yoursite.com/2017/12/18/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/0.%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2017/12/18/NLP/7-文本分类/0.文本分类算法总结/</id>
-    <published>2017-12-18T09:17:35.000Z</published>
-    <updated>2018-09-18T10:05:46.154Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="NLP" scheme="http://yoursite.com/categories/NLP/"/>
-    
-      <category term="7-文本分类" scheme="http://yoursite.com/categories/NLP/7-%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>

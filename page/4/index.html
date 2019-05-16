@@ -75,7 +75,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -94,10 +94,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Entradas',
+            POSTS: 'Articles',
             PAGES: 'Pages',
-            CATEGORIES: 'Categorias',
-            TAGS: 'Etiquetas',
+            CATEGORIES: 'Catégories',
+            TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -128,7 +128,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
     </div>
 
                 </td>
@@ -145,7 +145,7 @@
         
     <div class="widget-wrap" id='categories'>
         <h3 class="widget-title">
-            <span>Categorias</span>
+            <span>Catégories</span>
             &nbsp;
             <a id='allExpand' href="#">
                 <i class="fa fa-angle-double-down fa-2x"></i>
@@ -188,7 +188,7 @@
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2017/01/09/DeepLearning/4-RNN/RNN/">RNN算法</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/2017/01/09/DeepLearning/deeplearning/">deeplearning算法分类</a></li>  <li class="file"><a href="/2019/02/09/DeepLearning/BP/">BP(反向传播算法)</a></li>  </ul> 
+                     <li class="file"><a href="/2017/01/09/DeepLearning/deeplearning/">deeplearning算法分类</a></li>  <li class="file"><a href="/2019/02/09/DeepLearning/BP/">BP(反向传播算法)</a></li>  <li class="file"><a href="/2019/02/09/DeepLearning/Activation/">Activation (激活函数)</a></li>  </ul> 
                     </li> 
                     
                     <li class="directory">
@@ -478,7 +478,7 @@
 </aside>
             
             <section id="main">
-        <article id="post-DeepLearning/3-CNN/CNN算法之文本分类" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-NLP/8-文本聚类/1-划分聚类法之k-means" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -488,15 +488,15 @@
                         
     <div class="article-category">
     	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/DeepLearning/3-CNN/">3-CNN</a>
+        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/8-文本聚类/">8-文本聚类</a>
     </div>
 
                         
                         
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/2017/01/09/DeepLearning/3-CNN/CNN算法之文本分类/">
-            <time datetime="2017-01-09T08:02:27.000Z" itemprop="datePublished">2017-01-09</time>
+        <a href="/2017/01/18/NLP/8-文本聚类/1-划分聚类法之k-means/">
+            <time datetime="2017-01-18T09:17:35.000Z" itemprop="datePublished">2017-01-18</time>
         </a>
     </div>
 
@@ -507,13 +507,13 @@
                         
                         
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/3-CNN/CNN算法之文本分类.md'> Source </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/8-文本聚类/1-划分聚类法之k-means.md'> Source </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/3-CNN/CNN算法之文本分类.md'> Edit </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/8-文本聚类/1-划分聚类法之k-means.md'> Edit </a>
                             </div>
                             <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/3-CNN/CNN算法之文本分类.md'> History </a>
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/8-文本聚类/1-划分聚类法之k-means.md'> History </a>
                             </div>
                         
                     </div>
@@ -521,7 +521,7 @@
                 
     
         <h1 itemprop="name">
-            <a class="article-title" href="/2017/01/09/DeepLearning/3-CNN/CNN算法之文本分类/">CNN算法</a>
+            <a class="article-title" href="/2017/01/18/NLP/8-文本聚类/1-划分聚类法之k-means/">1-划分聚类法之k-means</a>
         </h1>
     
 
@@ -537,106 +537,10 @@
                     
                     
                 
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
             
         
         
-            <p>二、学习资料</p>
-<ol>
-<li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li>
-</ol>
-
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-DeepLearning/4-RNN/RNN" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/DeepLearning/4-RNN/">4-RNN</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/01/09/DeepLearning/4-RNN/RNN/">
-            <time datetime="2017-01-09T08:02:27.000Z" itemprop="datePublished">2017-01-09</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/01/09/DeepLearning/4-RNN/RNN/">RNN算法</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
             
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        
-        
-            <p><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/RNN-1.jpg" alt="avatar"></p>
-
             </div>
         
         <footer class="article-footer">
@@ -841,6 +745,178 @@
 
 
     
+        <article id="post-DeepLearning/4-RNN/RNN" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/DeepLearning/4-RNN/">4-RNN</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/01/09/DeepLearning/4-RNN/RNN/">
+            <time datetime="2017-01-09T08:02:27.000Z" itemprop="datePublished">2017-01-09</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/4-RNN/RNN.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/01/09/DeepLearning/4-RNN/RNN/">RNN算法</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        
+        
+            <p><img src="https://raw.githubusercontent.com/listwebit/ImgDate/master/RNN-1.jpg" alt="avatar"></p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
+        <article id="post-DeepLearning/3-CNN/CNN算法之文本分类" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/DeepLearning/">DeepLearning</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/DeepLearning/3-CNN/">3-CNN</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/01/09/DeepLearning/3-CNN/CNN算法之文本分类/">
+            <time datetime="2017-01-09T08:02:27.000Z" itemprop="datePublished">2017-01-09</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/DeepLearning/3-CNN/CNN算法之文本分类.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/DeepLearning/3-CNN/CNN算法之文本分类.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/DeepLearning/3-CNN/CNN算法之文本分类.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/01/09/DeepLearning/3-CNN/CNN算法之文本分类/">CNN算法</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        
+        
+            <p>二、学习资料</p>
+<ol>
+<li>Michael Nielsen的《Neural Network and Deep Learning》<br>中文翻译《神经网络与深度学习》  </li>
+</ol>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-DeepLearning/deeplearning" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -927,189 +1003,6 @@
             </div>   
             <div class="article-more-link">
                 <a href="/2017/01/09/DeepLearning/deeplearning/#more">Read More</a>
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-数学/统计学/1-联合概率" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/数学/">数学</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/数学/统计学/">统计学</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/12/18/数学/统计学/1-联合概率/">
-            <time datetime="2016-12-18T09:17:35.000Z" itemprop="datePublished">2016-12-18</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/数学/统计学/1-联合概率.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/数学/统计学/1-联合概率.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/数学/统计学/1-联合概率.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/12/18/数学/统计学/1-联合概率/">1-联合概率</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                
-                    
-                    <p><h4 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h4><p>联合概率是指在多元的概率分布中多个随机变量分别满足各自条件的概率。假设X和Y都服从正态分布，那么P{X&lt;4,Y&lt;0}就是一个联合概率，表示X&lt;4,Y&lt;0两个条件同时成立的概率。表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）。</p>
-<h4 id="二、公式"><a href="#二、公式" class="headerlink" title="二、公式"></a>二、公式</h4><p>$P(AB) = P(A)*P(B|A)$</p>
-<p>$P(AB) = P(B)*P(A|B)$<br>以上公式还可以变形为：</p>
-<p>$P(B|A) = \frac {P(A|B)*P(B)}{P(A)}$</p>
-<p>$P(A|B) = \frac {P(B|A)*P(A)}{P(B)}$</p>
-<p>
-                
-            
-        
-        
-            </div>   
-            <div class="article-more-link">
-                <a href="/2016/12/18/数学/统计学/1-联合概率/#more">Read More</a>
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
-        <article id="post-数学/统计学/0-条件概率" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/数学/">数学</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/数学/统计学/">统计学</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/12/18/数学/统计学/0-条件概率/">
-            <time datetime="2016-12-18T09:17:35.000Z" itemprop="datePublished">2016-12-18</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/数学/统计学/0-条件概率.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/数学/统计学/0-条件概率.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/数学/统计学/0-条件概率.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/12/18/数学/统计学/0-条件概率/">0-条件概率</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        
-        
-            <h4 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h4><p>条件概率是指事件A在另外一个事件B已经发生条件下的发生概率。条件概率表示为：P（A|B），读作“在B的条件下A的概率”。若只有两个事件A，B，那么，  $P(A|B) = \frac {P(AB)}{P(B)}$。</p>
-<h4 id="二、公式"><a href="#二、公式" class="headerlink" title="二、公式"></a>二、公式</h4><p>$P(A|B) = \frac {P(AB)}{P(B)}$<br>根据贝叶斯公式条件概率还可以是<br>$P(A|B) = \frac {P(B|A)*P(A)}{P(B)}$</p>
-
             </div>
         
         <footer class="article-footer">
@@ -1222,6 +1115,189 @@
 
 
     
+        <article id="post-数学/统计学/0-条件概率" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/数学/">数学</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/数学/统计学/">统计学</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2016/12/18/数学/统计学/0-条件概率/">
+            <time datetime="2016-12-18T09:17:35.000Z" itemprop="datePublished">2016-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/数学/统计学/0-条件概率.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/数学/统计学/0-条件概率.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/数学/统计学/0-条件概率.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2016/12/18/数学/统计学/0-条件概率/">0-条件概率</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        
+        
+            <h4 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h4><p>条件概率是指事件A在另外一个事件B已经发生条件下的发生概率。条件概率表示为：P（A|B），读作“在B的条件下A的概率”。若只有两个事件A，B，那么，  $P(A|B) = \frac {P(AB)}{P(B)}$。</p>
+<h4 id="二、公式"><a href="#二、公式" class="headerlink" title="二、公式"></a>二、公式</h4><p>$P(A|B) = \frac {P(AB)}{P(B)}$<br>根据贝叶斯公式条件概率还可以是<br>$P(A|B) = \frac {P(B|A)*P(A)}{P(B)}$</p>
+
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
+        <article id="post-数学/统计学/1-联合概率" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/数学/">数学</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/数学/统计学/">统计学</a>
+    </div>
+
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2016/12/18/数学/统计学/1-联合概率/">
+            <time datetime="2016-12-18T09:17:35.000Z" itemprop="datePublished">2016-12-18</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/数学/统计学/1-联合概率.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/数学/统计学/1-联合概率.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/数学/统计学/1-联合概率.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2016/12/18/数学/统计学/1-联合概率/">1-联合概率</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><h4 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h4><p>联合概率是指在多元的概率分布中多个随机变量分别满足各自条件的概率。假设X和Y都服从正态分布，那么P{X&lt;4,Y&lt;0}就是一个联合概率，表示X&lt;4,Y&lt;0两个条件同时成立的概率。表示两个事件共同发生的概率。A与B的联合概率表示为 P(AB) 或者P(A,B),或者P（A∩B）。</p>
+<h4 id="二、公式"><a href="#二、公式" class="headerlink" title="二、公式"></a>二、公式</h4><p>$P(AB) = P(A)*P(B|A)$</p>
+<p>$P(AB) = P(B)*P(A|B)$<br>以上公式还可以变形为：</p>
+<p>$P(B|A) = \frac {P(A|B)*P(B)}{P(A)}$</p>
+<p>$P(A|B) = \frac {P(B|A)*P(A)}{P(B)}$</p>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2016/12/18/数学/统计学/1-联合概率/#more">Read More</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-NLP/9-特征提取/1-TF-IDF" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -1310,88 +1386,8 @@
 
 
     
-        <article id="post-NLP/9-特征提取/0-文本特征提取算法总结" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-                    <div class="article-meta">
-                        
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/NLP/">NLP</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/NLP/9-特征提取/">9-特征提取</a>
-    </div>
-
-                        
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2016/01/18/NLP/9-特征提取/0-文本特征提取算法总结/">
-            <time datetime="2016-01-18T05:17:35.000Z" itemprop="datePublished">2016-01-18</time>
-        </a>
-    </div>
-
-
-                        
-                            <i class="fa fa-bar-chart"></i>
-                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
-                        
-                        
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/NLP/9-特征提取/0-文本特征提取算法总结.md'> Source </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/NLP/9-特征提取/0-文本特征提取算法总结.md'> Edit </a>
-                            </div>
-                            <div class="article-meta-button">
-                                <a href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/NLP/9-特征提取/0-文本特征提取算法总结.md'> History </a>
-                            </div>
-                        
-                    </div>
-                
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2016/01/18/NLP/9-特征提取/0-文本特征提取算法总结/">0-文本特征提取算法总结</a>
-        </h1>
-    
-
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-        
-            
-                
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        
-        
-            <p>为分类文本作处理的特征提取算法也对最终效果有巨大影响，而特征提取算法又分为特征选择和特征抽取两大类，其中特征选择算法有互信息，文档频率，信息增益，开方检验等等十数种</p>
-
-            </div>
-        
-        <footer class="article-footer">
-        </footer>
-    </div>
-</article>
-
-
-
-
-
-
-    
         <nav id="page-nav">
-        <a class="extend prev" rel="prev" href="/page/3/">&laquo; Anterior</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span>
+        <a class="extend prev" rel="prev" href="/page/3/">&laquo; Préc</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/5/">Suiv &raquo;</a>
         </nav>
     
 </section>
